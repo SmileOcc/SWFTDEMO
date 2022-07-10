@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WC_Application_Audio_BG</key>
+	<string>95EC69</string>
+	<key>WC_Application_Red</key>
+	<string>FF4F33</string>
+	<key>VC_Main_Bg_Color</key>
+	<string>000000</string>
+	<key>VC_White_To_Black</key>
+	<string>1A1A1C</string>
+	<key>WC_Title_DarkGray</key>
+	<string>999999</string>
+	<key>WC_Title_Black</key>
+	<string>AAAAAA</string>
+	<key>WC_Title_DarkLightGray</key>
+	<string>666666</string>
+	<key>WC_Title_LightGray</key>
+	<string>666666</string>
+	<key>WC_Title_PlaceholderGray</key>
+	<string>333333</string>
+	<key>WC_Main_Message_Bg</key>
+	<string>000000</string>
+	<key>WC_Main_Message_Line_Bg</key>
+	<string>333333</string>
+	<key>WC_Main_Header_Title1</key>
+	<string>666666</string>
+	<key>WC_Main_Header_Title2</key>
+	<string>666666</string>
+	<key>WC_Main_Header_Title3</key>
+	<string>666666</string>
+	<key>WC_Main_Header_Title4</key>
+	<string>666666</string>
+	<key>WC_Line_Bg</key>
+	<string>666666</string>
+	<key>WC_Search_Cancel_Title</key>
+	<string>999999</string>
+	<key>WC_Tabbar_Title_Normal</key>
+	<string>9093A0</string>
+	<key>WC_Tabbar_Title_Select</key>
+	<string>C6A14A</string>
+	<key>WC_Person_Header_Work</key>
+	<string>000000</string>
+	<key>WC_Disable_Button</key>
+	<string>BBBBBB</string>
+	<key>WC_BlueBG_Color</key>
+	<string>666666</string>
+	<key>WC_GreenBG_Color</key>
+	<string>51AC24</string>
+	<key>WC_YellowBG_Color</key>
+	<string>F4AB24</string>
+	<key>WC_ZaoBanBG_Color</key>
+	<string>63CBA2</string>
+	<key>WC_WanBanBG_Color</key>
+	<string>4070F6</string>
+</dict>
+</plist>
