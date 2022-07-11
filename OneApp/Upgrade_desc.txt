@@ -1,0 +1,36 @@
+1.xuebkang: 优化闪购功能 - Tue Nov 10 20:08:13 2020 +0800 -23290b3
+2.xuebkang: 代码合并 - Tue Nov 10 18:33:22 2020 +0800 -b1b01bf
+3.odd: 闪购折扣间距细节调整 - Tue Nov 10 10:07:29 2020 +0800 -84c1e7d
+4.xuebkang: 合并代码 - Mon Nov 9 19:51:31 2020 +0800 -4624fdb
+5.xuebkang: 修复购买数据的进度 - Mon Nov 9 19:49:46 2020 +0800 -b263b82
+6.odd: 加购提示 - Mon Nov 9 19:16:46 2020 +0800 -313f3d8
+7.odd: 闪购购物车数量 - Mon Nov 9 19:13:32 2020 +0800 -c91aa4a
+8.xuebkang: 修改收藏复用的问题 - Mon Nov 9 18:39:57 2020 +0800 -e2c2ea0
+9.xuebkang: 修改收藏和取消收藏的问题 - Mon Nov 9 17:28:45 2020 +0800 -24f961d
+10.odd: 闪购状态判断 - Mon Nov 9 16:48:21 2020 +0800 -36a6202
+11.odd: 购物车加购按钮处理 - Mon Nov 9 16:05:07 2020 +0800 -3683b56
+12.xuebkang: 修复阿语环境下，首页闪购头部不显示 - Mon Nov 9 14:20:25 2020 +0800 -b29d562
+13.xuebkang: 修复商详页闪购bug - Mon Nov 9 14:02:53 2020 +0800 -18b7737
+14.xuebkang: 代码合并 - Mon Nov 9 13:36:08 2020 +0800 -d174e4d
+15.xuebkang: 修复bug - Mon Nov 9 13:34:24 2020 +0800 -09cd7ee
+16.odd: 收藏折扣 及取值问题 - Mon Nov 9 10:26:02 2020 +0800 -41ef258
+17.xuebkang: 合并代码 - Mon Nov 9 10:18:23 2020 +0800 -e093229
+18.xuebkang: 修复bug - Mon Nov 9 10:16:26 2020 +0800 -8020ce4
+19.odd: 商品详情滑动 - Mon Nov 9 08:48:38 2020 +0800 -e436277
+20.xuebkang: 修复bug - Sun Nov 8 20:39:19 2020 +0800 -79d7fb0
+21.odd: 闪购 - Sun Nov 8 20:37:55 2020 +0800 -cd34cec
+22.odd: 闪购详情 - Sun Nov 8 20:21:25 2020 +0800 -e8e3ccc
+23.xuebkang: 修复UI细节 - Sun Nov 8 19:42:41 2020 +0800 -bb05ee0
+24.xuebkang: 修改闪购bug - Sun Nov 8 18:49:42 2020 +0800 -428d524
+25.xuebkang: 合并代码 - Sun Nov 8 17:50:06 2020 +0800 -760806f
+26.xuebkang: 修改闪购问题 - Sun Nov 8 17:49:06 2020 +0800 -939014c
+27.odd: 部分文案 - Sun Nov 8 17:47:00 2020 +0800 -14a2b1a
+28.xuebkang: 合并代码 - Sun Nov 8 15:48:42 2020 +0800 -ae68fdc
+29.xuebkang: 修复bug - Sun Nov 8 15:47:34 2020 +0800 -5c8b696
+30.odd: YNPAGE 缓存 - Sun Nov 8 15:45:01 2020 +0800 -c2fddd0
+31.xuebkang: 合并代码 - Sun Nov 8 13:56:06 2020 +0800 -73afceb
+32.odd: 购物车闪购折扣 - Sun Nov 8 13:52:26 2020 +0800 -9f87c8a
+33.odd: 折扣标 - Sun Nov 8 11:31:26 2020 +0800 -b27c09c
+34.odd: 闪购 去掉debug - Sun Nov 8 11:07:04 2020 +0800 -c8b0b44
+35.odd: tab图片 - Sun Nov 8 09:27:56 2020 +0800 -54020c4
+36.odd: 闪购弹窗 - Sat Nov 7 23:20:47 2020 +0800 -bcc277a

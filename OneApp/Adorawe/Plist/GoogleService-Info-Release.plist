@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>91125413472-92tckqg7bc8jdkm32pdprfvkoh2l7mua.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.91125413472-92tckqg7bc8jdkm32pdprfvkoh2l7mua</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>91125413472-531vom7v5qjchdl2ujqs6in1v5b1sbll.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA7T1SJnzBVnKzjG_dtcq1MnM-CEz94fwg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>91125413472</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.starlinke.vivaiaIOS</string>
+	<key>PROJECT_ID</key>
+	<string>vivaia-310705</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vivaia-310705.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:91125413472:ios:ffdd7db0859d36f6cd7505</string>
+</dict>
+</plist>

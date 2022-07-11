@@ -1,0 +1,195 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# AB test
+source 'https://github.com/volcengine/volcengine-specs.git'
+source 'https://github.com/bytedance/cocoapods_sdk_source_repo.git'
+
+#target 'Adorawe' do
+#platform :ios, "10.0"
+#use_frameworks!
+##屏蔽所有warning
+#inhibit_all_warnings!
+#
+#pod 'Bolts'
+#pod 'YYModel'
+#pod 'YYWebImage'
+#pod 'YYImage/WebP'
+#
+#pod 'TTRangeSlider'
+#
+#pod 'FBSDKCoreKit', '~> 9.0.0'
+#pod 'FBSDKLoginKit', '~> 9.0.0'
+#pod 'FBSDKShareKit', '~> 9.0.0'
+#
+#pod 'Firebase/Crashlytics'
+#pod 'Firebase/Analytics'
+#pod 'Firebase/Messaging'
+#
+##Firebase 动态链接库
+#pod 'Firebase/DynamicLinks'
+#
+##等于GA
+#pod 'Firebase/Core'
+##pod 'GoogleAnalytics'
+#
+#pod 'AppsFlyerFramework','~> 6.2.5'
+#pod 'AFNetworking', '~> 4.0'
+#
+#pod 'GoogleSignIn'
+#
+##pod 'GoogleConversionTracking'
+#
+#
+##pod 'AliyunSlsObjc', '~> 1.2.0'
+#
+#pod 'GoogleMaps', '~> 4.1.0'
+#pod 'GooglePlaces', '~> 4.1.0'
+#
+#pod 'FLEX', :configurations => ['Debug']
+#
+##debug 内存泄漏 有泄漏就断言  XCode 12.5 编译不通过 移除该库
+##pod 'MLeaksFinder', :configurations => ['Debug']
+#
+##神策埋点
+#pod 'SensorsAnalyticsSDK'
+#
+#pod 'JVFloatLabeledTextField'
+#pod "DXPopover"
+#
+##骨架图 -----不用了
+##pod 'TABAnimated'
+#
+##Branch
+#pod 'Branch'
+#
+##动画简化操作库
+#pod 'JHChainableAnimations', '~> 3.0.1'
+#
+##滚动轮播
+#pod 'iCarousel'
+#
+##挪到pod
+#pod 'MJRefresh'
+#
+#pod 'SnapKit', '~> 5.0.0'
+#pod 'SnapKitExtend', '~> 1.1.0'
+#
+#pod 'RxSwift', '6.2.0'
+#pod 'RxCocoa', '6.2.0'
+#pod 'RxDataSources'
+#pod 'ObjectMapper'
+#pod 'lottie-ios'
+#pod 'SwiftyJSON'
+#
+##svg图片展示修改库
+#pod 'SVGKit', '~> 3.0.0'
+#
+#pod 'SnapSDK', :subspecs => ['SCSDKCreativeKit']
+##
+##正则表达式
+#pod 'RegExCategories'
+#
+##collectionView 拆分
+#pod 'IGListKit'
+#
+##AB Test
+#pod 'RangersAppLog','6.2.0',:subspecs => ['Host/CN','Core','Unique','Log']
+#
+#end
+
+
+targetsArray = ['Adorawe','Vivaia','Soulmia']
+
+platform :ios, "10.0"
+use_frameworks!
+#屏蔽所有warning
+inhibit_all_warnings!
+## 循环
+targetsArray.each do |t|
+
+      target t do
+
+      pod 'Bolts'
+      pod 'YYModel'
+      pod 'YYWebImage'
+      pod 'YYImage/WebP'
+
+      pod 'TTRangeSlider'
+
+      pod 'FBSDKCoreKit', '~> 9.0.0'
+      pod 'FBSDKLoginKit', '~> 9.0.0'
+      pod 'FBSDKShareKit', '~> 9.0.0'
+
+      pod 'Firebase/Crashlytics'
+      pod 'Firebase/Analytics'
+      pod 'Firebase/Messaging'
+      pod 'Firebase/Performance'
+
+      #Firebase 动态链接库
+      pod 'Firebase/DynamicLinks'
+
+      #等于GA
+      pod 'Firebase/Core'
+      #pod 'GoogleAnalytics'
+
+      #pod 'AppsFlyerFramework','~> 6.2.5'
+      pod 'AFNetworking', '~> 4.0'
+
+      pod 'GoogleSignIn'
+
+      #pod 'GoogleConversionTracking'
+
+      pod 'GoogleMaps', '~> 4.1.0'   #不用了
+      pod 'GooglePlaces', '~> 4.1.0'
+
+      pod 'FLEX', :configurations => ['Debug']
+
+      #debug 内存泄漏 有泄漏就断言  XCode 12.5 编译不通过 移除该库
+      #pod 'MLeaksFinder', :configurations => ['Debug']
+
+      #神策埋点
+      pod 'SensorsAnalyticsSDK'
+
+      pod 'JVFloatLabeledTextField'
+      pod "DXPopover"
+
+      #Branch
+      pod 'Branch'
+
+      #动画简化操作库
+      pod 'JHChainableAnimations', '~> 3.0.1'
+
+      #滚动轮播
+      pod 'iCarousel'
+
+      #挪到pod
+      pod 'MJRefresh'
+
+      pod 'SnapKit', '~> 5.0.0'
+      pod 'SnapKitExtend', '~> 1.1.0'
+
+      pod 'RxSwift', '6.2.0'
+      pod 'RxCocoa', '6.2.0'
+      pod 'RxDataSources'
+      pod 'ObjectMapper'
+      pod 'lottie-ios'
+      pod 'SwiftyJSON'
+
+      #svg图片展示修改库
+      pod 'SVGKit', '~> 3.0.0'
+
+      pod 'SnapSDK', :subspecs => ['SCSDKCreativeKit']
+      #
+      #正则表达式
+      pod 'RegExCategories'
+
+      #collectionView 拆分
+      pod 'IGListKit'
+
+      #AB Test
+      pod 'RangersAppLog','6.2.0',:subspecs => ['Host/CN','Core','Unique','Log']
+      pod 'SSZipArchive'
+      
+      pod 'zhPopupController', '~> 2.0'
+    end
+end

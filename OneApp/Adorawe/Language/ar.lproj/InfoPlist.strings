@@ -1,0 +1,10 @@
+
+//CFBundleDisplayName             = "VIVAIA";
+NSCameraUsageDescription        = "يوشوب يرجو السماح منك لوصول إلى ألبوم الصور والكاميرات لتسهيل تحميل الصورة الرمزية وتحريرها ونشر مقالات المجتمع";
+NSContactsUsageDescription      = "يوشوب يرجو السماح منك لوصول  إلى قائمة الاتصالات لتسهيل مشاطرة المحتويات في المجتمع";
+NSPhotoLibraryUsageDescription  = "يوشوب يرجو السماح منك لوصول إلى ألبوم الصور والكاميرات لتسهيل تحميل الصورة الرمزية وتحريرها ونشر مقالات المجتمع";
+NSLocationWhenInUseUsageDescription = "هل تسمح بالحصول على موقعك لمساعدتنا في توصيل الشحنة الخاصة بك بشكل أكثر دقة؟";
+NSUserTrackingUsageDescription = "سيتم استخدام بياناتك لتزويدك بتجربة أفضل";
+
+NSCalendarsUsageDescription = "أدوراوي تريد الوصول إلى تقويمك";
+NSRemindersUsageDescription = "أدوراوي تريد الوصول إلى تقويمك";

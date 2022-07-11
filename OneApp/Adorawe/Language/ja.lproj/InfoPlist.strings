@@ -1,0 +1,10 @@
+
+//CFBundleDisplayName             = "VIVAIA";
+NSCameraUsageDescription        = "VIVAIAはカメラにアクセスしようとしています。写真をアップロードして、アイコンを編集し、コミュニティで記事を投稿しましょう！";
+NSContactsUsageDescription      = "VIVAIAは連絡先にアクセスし、コミュニティのコンテンツを友だちと共有しようとしています。";
+NSPhotoLibraryUsageDescription  = "VIVAIAはアルバムにアクセスしようとしています。写真をアップロードして、アイコンを編集し、コミュニティで記事を投稿しましょう！";
+NSLocationWhenInUseUsageDescription = "荷物をより正確にお届けするために、お客様の位置情報の取得を許可しますか？";
+NSUserTrackingUsageDescription = "お客様の情報はより良い体験を提供するために利用されます。.";
+
+NSCalendarsUsageDescription = "VIVAIAはカレンダーにアクセスしようとしています。";
+NSRemindersUsageDescription = "VIVAIAはカレンダーにアクセスしようとしています。";

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>958842051255-d3paeu0mp41j0v4rtvpd3hf23n6d3osn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.958842051255-d3paeu0mp41j0v4rtvpd3hf23n6d3osn</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>958842051255-3h6qelbofc3ggu5goloaobpamin1d4ar.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAVGQhIj2Nyxs6yHW0QytBc965K5Zbl94c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>958842051255</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.starlink.adorawe</string>
+	<key>PROJECT_ID</key>
+	<string>adorawe-debug</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adorawe-debug.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:958842051255:ios:d60d2bfefde71687350b32</string>
+	<key>DATABASE_URL</key>
+	<string>https://adorawe-debug.firebaseio.com</string>
+</dict>
+</plist>

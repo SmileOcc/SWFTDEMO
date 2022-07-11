@@ -1,0 +1,1291 @@
+// Localizable.strings
+//  VIVAIA
+//  
+//  Created by occ on 20/6/25.
+//  Copyright © 2020年 XStarlinkProject. All rights reserved.
+// 
+// 
+// DZNEmptyDataSet
+"EmptyCustomViewManager_titleLabel" = "فشل التحميل رجاء محاولة مرة أخرى في وقت لاحق";
+"EmptyCustomViewManager_refreshButton" = "إعادة المحاولة";
+"BlankPage_NetworkError_tipTitle" = "لا يوجد إتصال بالإنترنت، تفضل بتأكيد شبكتك.";
+"HomeTopBar_NetworkErrorTipTitle" = "الرجاء تحميل أو إعادة تسجيل الدخول لتحديث هذه الصفحة.";
+"EmptyCustomViewHasNoData_titleLabel" = "عفواً، لا يوجد أي بيانات";
+"AccountRecently_NoData_titleLabel" = "لم تتصفح أي شيء.";
+"Coupon_NoData_Available_titleLabel" = "عفوًا ، لا توجد كوبونات متاحة.";
+"Coupon_NoData_Expired_titleLabel" = "عفوًا ، لا توجد كوبونات منتهية الصلاحية.";
+"Coupon_NoData_Applied_titleLabel" = "عفوًا ، لا توجد كوبونات مستعمَلة.";
+"WishList_NoData_titleLabel" = "هي فارغة! يمكنك إضافة المنتجات إلى قائمة الأماني بضغط على ❤";
+"Coupon_NoData_Unavailable_titleLabel" = "عذرا ، ليس لديك كوبونات غير متاحة.";
+
+// *********
+//  * MAIN *
+//  ********
+"cancel" = "إلغاء";
+"done" = "تم";
+"add" = "إضافة";
+
+// "edit" = "تحرير";
+"edit" = "تعديل";
+"delete" = "حذف";
+"send" = "إرسال";
+"continue" = "مواصلة";
+"no" = "لا";
+"yes" = "نعم";
+"ok" = "موافق";
+"next" = "التالي";
+"buy" = "شراء";
+"refresh" = "تحديث";
+"submit" = "تقديم";
+"later" = " في وقت لاحق";
+"ago" = " قبل";
+"second" = "s";
+"seconds" = "s";
+"seconds_Even" = "s";
+"minute" = "m:";
+"minutes" = "m:";
+"minutes_Even" = "m:";
+"hour" = "h:";
+"hours" = "h:";
+"hours_Even" = "h:";
+"day" = "d:";
+"days" = "d:";
+"days_Even" = "d:";
+
+// "second" = "ثانية";
+// "seconds" =  "ثوان";
+// "seconds_Even" = "ثانيتان";
+// "minute" = "دقيقة";
+// "minutes" = "دقائق";
+// "minutes_Even" = "دقيقتان";
+// "hour" = "ساعة";
+// "hours" = "ساعات";
+// "hours_Even" = "ساعتان";
+// "day" = "يوم";
+// "days" = "أيام";
+// "days_Even" = "يومان";
+"month" = "شهر";
+"months" = "أشهر";
+"months_Even" = "شهران";
+"year" = "سنة";
+"years" = "سنوات";
+"years_Even" = "سنتان";
+"close" = "أغلق";
+"networkError" = "خطأ في الشبكة";
+"networkErrorMsg" = "معذرة! الشبكة غير متوفرة!";
+"open" = "فتح";
+"off" = "خصم";
+"Remove" = "حذف";
+"shareSucceess" = "نجحت المشاركة";
+"shareFail" = "فشلت المشاركة";
+"facebook" = "فيسبوك";
+"messenger" = "رسول";
+"copyLink" = "انسخ الرابط";
+"twitter" = "Twitter";
+"copiedSuccessfully" = "نسخ الرابط بنجاح";
+"shareTo" = "شاركْ إلى أصدقائك";
+"getFree" = "احصل عليه مجاناً";
+"instagram" = "انستغرام";
+"snapchat" = "سناب شات";
+
+// GuideView   2017/03/07 新增
+"shopNow" = "تسوق الآن";
+"signUp" = "التسجيل";
+"finishView" = "تم تقديم طلبك بشكل آمن، وشكراً على تسوّقك في أدوراوي!";
+"finishOrder" = "رقم الطلب";
+"checkMyOrder" = "تحقق طلبي";
+"cod" = "الدفع عند الاستلام";
+"codSuccessfulTip" = "نجح الطلب. وسوف نتصل بك لتأكيد طلبك في 48 ساعة. يرجى الإجابة على الهاتف في الوقت المناسب.";
+"codHour" = "ساعة.";
+"cancelPay" = "لم يتم الانتهاء من الدفع، هل أنت متأكد من أنك تريد العودة؟";
+
+// **********
+//  * HOME *
+//  *********
+// 
+// WMHomeViewController
+"homeTitle" = "الرئيسية";
+"homeBottom" = "homeBottom";
+
+// DiscoveryViewController
+"men" = "الرجال";
+"women" = "النساء";
+
+// SearchViewController
+"networkNotAvailable" = "الشبكة غير متوفرة!";
+"search" = "بحث ";
+
+// DiscoveryJustForYouView
+"justForYou" = "لك فقط";
+
+// DiscoveryItemCell
+"endsIn12d" = "ينتهي في 12 يوما";
+"endsIn" = "ينتهي في";
+"endIn" = "ينتهي خلال";
+
+// SearchHistoryHeaderView
+"searchHistory" = "تاريخ البحث";
+
+// HotSearchHeaderView
+"popularSearch" = "عمليات البحث الشائعة";
+
+// SeachResultViewModel
+"search_blank" = "عذراً، لم نتمكن من العثور على أي منتجات تطابق بحثك، يرجى محاولة كلمة بحث آخرى.";
+"search_result_recommend" = "المعذرة، لا يوجد منتجات لبحثك، انظر إلى منتجات أخرى";
+
+// ***********
+//  * DETAIL *
+//  ***********
+// 
+// GoodsDetailsViewController
+"payPointsReward" = "دفع في حدود 1 ساعة لدسمة 5X نقاط المكافأة (50 نقا";
+"addToCart" = "إضافة إلى العربة";
+"addToBag" = "إضافة إلى الحقيبة";
+"buyItNow" = "شراء الآن";
+"appOnly" = "التطبيق فقط";
+"saveExtra" = "حفظ إضافية ";
+"justApp" = " فقط لاستخدام التطبيق";
+"NotOnSale" = "نفدت كمية المنتج، يرجى تحديد منتجات أخرى";
+"SaleOut" = "نفدت كمية القطعة، يرجى تحديد لون أخر أو مقاس أخر";
+"addToCartUper" = "تمت الإضافة إلى عربة التسوق";
+"ContinueShopping" = "مواصلة التسوّق";
+"spuSaleOut" = "نفدت كمية المنتج، يرجى اختيار منتجات أخرى";
+"supNotOnSale" = "انتهى بيع هذا المنتج، يرجى اختيار منتجات أخرى";
+"selectSize" = "الرجاء تحديد المقاس";
+"size" = "مقاس";
+"hot" = "رائج";
+"checkTheSize" = "يرجى تحديد المقاس واللون والتحقق منه قبل إضافته إلى الحقيبة";
+"left" = "بقي";
+"Left" = "بقي";
+"switchFreeItem" = "يوجد منتج مجاني في عربة التسوق الخاصة بك، هل تريد التبديل؟";
+
+// GoodsReviewsViewController
+"reviews" = "ملاحظات";
+
+// GoodsStoreViewController
+"store" = "متجر";
+"storeProduct" = "المنتج";
+"storeService" = "الخدمات";
+"storeLogistics" = "الخدمات اللوجستية";
+
+// OSSVDetailsHeaderView
+"freeShipping" = "الشحن مجانا";
+"refundWithin45Days" = "رد في 45 أيام";
+"description" = "الوصف";
+"recommentions" = "التوصيات";
+"figure" = "اختر: كما هو مبين في الشكل!";
+"select" = "تحديد";
+
+// OSSVDetailsViewModel
+"removedWishlist" = "إزالتها من قائمة الملاحظة";
+"addedWishlist" = "إضافة إلى قائمة الملاحظة";
+"addedWishlist_flash" = "يرجى تقديم الطلبية من قائمة الأماني بعد بدء التخفيض المؤقت";
+
+// *******************
+//  * CATEGORIES *
+//  *******************
+"category" = "فئة";
+"featuredProduct" = "المنتجات المميزة";
+"dailyDeal" = "صفقة يومية!";
+
+// *********
+//  * CART *
+//  *********
+// 
+// CartViewController
+"FREE" = "مجاناً";
+"cart" = "عربة";
+"Bag" = "الحقيبة";
+"cart_title" = "حقيبة التسوق";
+"payQuickly" = "دفع بسرعة: الحصول على 5 X نقاط المكافأة";
+"Pick" = "اختيار";
+"TopSignIn" = "قم بتسجيل الدخول لعرض المنتجات المحفوظة في حقيبتك";
+"ClearAll" = "مسح الكل";
+
+// CartOrderInformationViewController
+"orderInformation" = "معلومات الطلب";
+"checkout" = "دفع بأمن";
+"selectShipMethod" = "إختيار طريقة الشحن";
+"shipInsurance" = "تأمين الشحن";
+"couponTitle" = "نقاط Y و الكوبون";
+"useCoupon" = "استخدام الكوبون";
+"couponFromAccount" = "كوبون في الحساب";
+
+// "paymentMethod" = "Payment Method";
+"paymentMethod" = "طريقة الدفع";
+"protudts_total" = "إجمالي البضائع";
+"shipCost" = "تكلفة الشحن";
+"tracking" = "تتبع رقم التكلفة";
+"insurance" = "تأمين الشحن";
+"codCost" = "رسوم الدفع عند الاستلام";
+"unSelectPayment" = "الرجاء تحديد طريقة الدفع";
+"disCountTitle" = "خصم الدفع عبر الانترنت";
+
+// 支付方式折扣信息改变的弹窗
+"payMentDiscountChange" = " تغير الخصم على الدفع ، يرجى إعادة تقديم الطلب";
+
+// 身份证信息弹窗啊
+"tip" = "التنويه";
+"titleContent" = "يرجى إدخال رقم الهوية الخاص بك لتخليص طلبك  في جمارك بلدك";
+"promptText" = "رجاء إدخال رقم الهوية*";
+"warningStringFor10" = "رجاء إدخال رقم الهوية الصحيح المتكون ب10 رقم";
+"warningStringFor11" = "رجاء إدخال رقم الهوية الصحيح المتكون ب11 رقم";
+
+// Y不应该在中间，同步安卓，去掉Y "نقاط Y = وفر"
+"pointsSave" = "نقا";
+
+// 保存
+"english_save" = "حفظ";
+
+// 省
+"save" = "وفر";
+"clearCoupon" = "كوبون واضح";
+"taxId" = "الرقم الضريبي:";
+"trackNumber" = "أرقام التتبع";
+"orderInfo_coupon" = "الكوبون";
+"orderInfo_point" = "ذ نقاط";
+"grandTotal" = "المجموع الكلي";
+"totalPayable" = "إجمالي المبلغ";
+"taxDescribe" = "سيتم إرسال طلبك إلى الأرجنتين. إذا اخترت الشحن المعجل، يرجى ملء المعرف الضريبي الخاص بك لتمكين التخليص والتسليم على نحو سلس";
+"payFailed" = "فشل الدفع، يرجى إعادة المحاولة!";
+"createFailed" = "فشل في إنشاء الطلب، يرجى إعادة المحاولة!";
+"myOrder" = "طلباتي";
+"placeOrder" = "تقديم الطلب";
+"validCouponCode" = "الرجاء إدخال رمز الكوبون صالحة";
+"insuranceDescribe" = "    ما هو التأمين على الشحن؟ ما هي الفوائد؟ يوشوب ضمان الشحن يضمن حماية وسلامة لمنتجاتك أثناء عملية الشحن الدولي. وسوف نقوم بإعادة إرسال الحزمة الخاصة بك في أي رسوم إضافية إذا كان تأكيد فقدت أو التالفة. لشراء التأمين خلال مرحلة الخروج يرجى وضع علامة على خيار 'إضافة الشحن التأمين' بجانب طريقة الشحن الخاصة بك. نحن نقترح بشدة كنت شراء التأمين على النحو الذي سوف نقدم حل سلس إذا كان هناك أي مشاكل مع التسليم";
+"insuranceDescribeNewContent" = "يضمن لك تأمين الشحن حماية وأمن منتجاتك القيمة خلال عملية الشحن الدولي. سنقوم بإعادة شحن طلبك تلقائيًا دون أي رسوم إضافية في حال ضياعه أو تلفه.";
+"VerificationCodePrompt" = "لأمن الطلبية، سوف نرسل لك رسالة قصيرة مع رمز إلى هاتفك المحمول، تفضل بملء في  الأدنى";
+"SendSMS" = "ارسال رسالة قصيرة";
+"InputValidationCode" = "تفضل بادخال رمز التحقق الصحيح";
+"verify" = "تحقق من";
+"ValidationMessagePrompt" = "نصيحة: إذا لم تتمكن من استقبال الرسائل القصيرة بعد التحقق بمرات متعددة، يرجى التحقق من صحة رقم الهاتف أو إدخال رقم الهاتف الآخر في سطر العنوان.";
+"resend" = "إعادة إرسال بعد";
+"VerificationCodeEmpty" = "رمز التحقق فارغا";
+"PaymentAmount" = "مبلغ الدفع";
+
+// OSSVCartShippingMethodVC
+"shipMethod" = "طريقة الشحن";
+
+// OSSVCartSelectCouponVC
+"selectCoupon" = "حدد الكوبون";
+"available" = "متاح";
+"unavailable" = "غير متوفر";
+"fullCutAndFlashsaleTip" = "لا يشتمل خصم الكوبون على منتجات عروض ومنتجات التخفيض المؤقت.";
+
+// OSSVCommendFooterView
+"mayLike" = "ربما يعجبك أيضا";
+"over" = "أكثر من";
+
+// OSSVCartViewModel
+"selectItem" = "يرجى تحديد عنصر واحد على الأقل";
+"addToWish" = "إضافة إلى قائمة الأماني";
+"cart_blank" = "حقيبة التسوق الخاصة بك فارغة.";
+"cart_blank_button_title" = "متابعة التسوق";
+
+// OSSVCartCouponItemViewModel
+"NoAvailable" = "عذرا، ليس لديك أي كوبونات متاحة";
+
+// ***************
+//  * COMMUNITY *
+//  ***************
+"community" = "المجتمع";
+"popular" = "شعبية";
+"faves" = "المفضلات";
+"Latest" = "أحدث";
+"havePoints" = "لديك نقاط";
+
+// CommunityDetailViewController
+"think" = "ما رأيك؟";
+"noPost" = "لا يمكنك التعليق على مشاركتك الخاصة";
+"re" = "Re";
+
+// MyStylePageViewController
+"shows" = "عروض";
+"likes" = "يحب";
+"styleTitle" = "Yo.Me";
+"userStyleTitle" = "Yo.Me";
+
+// FollowViewController
+"Theylikedyourstyle" = "كانوا يحبون أسلوب حياتك";
+"following" = "التالية";
+"followers" = "متابعون";
+
+// PostViewController
+"PostTitle" = "أكتب مراجعة";
+"shareSomething" = "قل شيئا عن هذه الصورة (0/2000)";
+"addItems" = "إضافة عناصر";
+"order" = "طلب";
+"bag" = "حقيبة";
+"postWishlist" = "قائمة الملاحظة";
+"recent" = "الأخيرة";
+"post" = "  ارسل";
+"endEditting" = "إلغاء الاستعراض الخاص بك؟";
+"photoMustSelect" = "لا تنسى أن تضيف بعض الصور!";
+"textViewMaxInput" = "يجب أن يكون أقل من 2000 حرف";
+"success" = "نجاح";
+"goodsMaxSelectedCount" = "يمكنك تحديد 6 عناصر فقط";
+"goodsSelected" = "لقد أضفت العنصر بالفعل";
+"selectImage" = "يمكنك فقط اختيار 6 صور في وقت واحد";
+"selectImageThree" = "يمكنك فقط اختيار 3 صور في وقت واحد";
+"tagsMaxSelectedCount" = "يمكنك فقط اختيار 6 علامات";
+"addTopics" = "إضافة المواضيع";
+"communityTop" = "أعلى";
+"communityViews" = "الآراء";
+"viewAll" = "عرض الكل";
+"ranking" = "تصنيف";
+"latest" = "أحدث";
+"seeAll" = "اظهار الكل";
+"topViewNoContent" = "كن أول من انضم في";
+"noOrderText" = "ليس لديك أي طلب حتى الآن!";
+"noRecentText" = "عذرا، لم نتمكن من العثور على أي شيء في العرض الأخير";
+"cartEmptyText" = "عربة التسوق فارغة";
+"wishlistEmptyText" = "عذرا، لم نتمكن من العثور على أي شيء في قائمة الملاحظة";
+
+// TopicListViewController
+"listOfTopic" = "قائمة الموضوع";
+"topicDetail" = "تفاصيل الموضوع";
+
+// StyleLikesCell
+"followed" = "يتبع";
+"follow" = "إتبع";
+
+// CommunityHeaderView
+"hotTopic" = "موضوع حر";
+"communityMore" = "المزيد";
+
+// PopularViewModel
+"noEnoughPoints" = "عذراً، ليس لديك ما يكفي من النقاط.";
+"sentPoints" = "تم إرسال Y النقطة";
+"noShareContent" = "عرض أسلوبي على يوشوب، هل ترغب في ذلك";
+"popular_blank" = "سوف تظهر المشاركات من شعبية الخاص بك هنا";
+
+// FavesViewModel
+"faves_blank" = "ستظهر المشاركات من المفضلات الخاصة بك هنا";
+
+// FollowViewModel
+"following_blank" = "اتبع الآخرين للاطلاع على تحديثاتهم العامة";
+
+// 看自己关注别人没有
+"following_notSelf_blank" = "لا تتبع أي شخص حتى الآن";
+
+// 看别人的关注
+"followers_blank" = "إضافة صور وجذب المتابعين";
+
+// 看自己有没有粉丝
+"followers_notSelf_blank" = "ليس لديهم أتباع بعد";
+
+// 看别人的粉丝
+// ADD More Friend
+"AddMoreFriends_VC_Title" = "إضافة المزيد من الأصدقاء";
+
+// ContactsViewController
+"Contacts_VC_Title" = "الاتصال";
+"Contacts_VC_Message" = "الانضمام إلى يوشوب، لي المجتمع الآن!الحصول على كوبونات ضخمة وهبات.مشاركة الخاص بك خبرات وأفكار الموضة وتسوق إلكتروني!";
+"Contacts_VC_Send" = "إرسال";
+"Message" = "رسالة";
+
+// FriendsCommendHeadView
+"AddMoreFriends_Contacts" = "الاتصال";
+"AddMoreFriends_FaceBook" = "أصدقاء الفيسبوك";
+"AddMoreFriends_Suggested" = "المستخدمون المقترحون";
+
+// ContactsViewModel
+"ContactsViewModel_AuthorizationFailure_Message" = "اسمحوا يوشوب للوصول إلى جهة الاتصال الخاصة بك عن طريق الذهاب إلى إعدادات> الخصوصية> اتصالات";
+"ContactsViewModel_Not_Authorization" = "لا يمكن الوصول إلى الاتصال";
+"ContactsViewModel_Go_Setting" = "انتقل إلى الإعداد";
+"Share_VC_Shared_Facebook_Success" = "المشتركة بنجاح على الفيسبوك";
+"Failed" = "فشل";
+"FriendsCommendViewModel_Share_Title" = "اتبعني على يوشوب";
+"FriendsCommendViewModel_Share_Content" = "الانضمام إلى يوشوب، لي المجتمع الآن!الحصول على كوبونات ضخمة وهبات.مشاركة الخاص بك خبرات وأفكار الموضة وتسوق إلكتروني!";
+
+// CommendUserCell
+"CommendUserCell_Posts" = "إرسال";
+"CommendUserCell_BeLiked" = "كن يحب";
+
+// ***************
+//  * ACCOUNT *
+//  ***************
+// 
+// OOSVAccountVC
+"accountTitle" = "أنا";
+"sureSignOut" = "هل أنت متأكد من تسجيل الخروج؟";
+"sure" = "بالتأكيد";
+
+// OSSVEditProfileVC
+"editSuccess" = "تم تعديل المعلومات بنجاح";
+"networkFailed" = "خطأ في الشبكة ، يرجى المحاولة لاحقاً";
+"editProfile" = "تعديل معلومات الحساب";
+"takePhoto" = "أخذ صورة";
+"chooseAlbums" = "ألبومات";
+"cameraUnavailable" = "آسف، لا الكاميرا أو الكاميرا غير متوفر";
+"cameraNotPermission" = "السماح بالوصول إلى يوشوب إلى الكاميرا. (في الإعدادات> الخصوصية> الكاميرا)";
+"photoNotPermission" = "السماح بالوصول إلى يوشوب إلى الكاميرا. (في الإعدادات> الخصوصية> الكاميرا)";
+"nickNameEmpty" = "الرجاء إدخال اسم نيك";
+"nickNameMaxLength" = "الرجاء عدم تجاوز 35 حرفا";
+"nickNameMinLenght" = "يجب أن يكون لقبك لا يقل عن 2 حرفا";
+"changePassword" = "تغيير كلمة المرور";
+"myPhotoTitle" = "صورتي";
+"nickNameTitle" = "اسم المستخدم";
+"birthDayTitle" = "تاريخ الميلاد";
+"sexTitleOfMale" = "ذكر";
+"sexTitleOfFemale" = "أنثى";
+"editConfirmEditButtonTitle" = "تأكيد تحرير";
+
+// OSSVChangePasswordVC
+"newPasswordHadChanged" = "تم إعادة تعيين كلمة المرور بنجاح";
+"loginNow" = "تسجيل الدخول الآن";
+"originalPasswordEmpty" = "يرجى تقديم كلمة المرور الأصلية";
+"passwordEmptyMsg" = "رجاء إدخال كلمة المرور";
+"passwordComfirmEmptyMsg" = "الرجاء تكرار كلمة المرور الخاصة بك";
+"passwordEqualToMsg" = "يرجى إدخال كلمة المرور نفسها على النحو الوارد أعلاه";
+"passwordNewEqualOld" = "كلمة المرور الجديدة هو نفسه مع كلمة المرور القديمة.";
+"passwordMinLengthMsg" = "عذرا، كلمة المرور أقل من 6 أحرف";
+"passwordMaxLengthMsg" = "يمكنك كتابة كحد أقصى من 30 حرفا";
+"originalPassword" = "كلمة المرور القديمة";
+"newPassword" = "كلمة المرور الجديدة";
+"confirmPassword" = "تأكيد كلمة المرور";
+
+// OSSVAccountsOrderDetailVC
+"orderDetail" = "تفاصيل الطلبية";
+"payNow" = "ادفع الآن";
+"view" = "عرض";
+"supportCenter" = "مركز الدعم";
+"messageUs" = "رسالة بنا";
+"messageUsSubtitle" = "وسيتم حل جميع المشاكل على واحد في علامة التبويب";
+"paymentCancel" = "تم إلغاء الدفع. المس  \"ادفع الآن \" للمحاولة مرة أخرى!";
+"payCancel" = "الدفع إلغاء";
+"paymentFailed" = "عملية الدفع فشلت. المس \"ادفع الآن \" للمحاولة مرة أخرى!";
+"failedPay" = "الدفع فشلت";
+"orderNo" = "رقم الطلب";
+"status" = "الحالة";
+"orderDate" = "تاريخ الطلب";
+"successCopy" = "نسخة النجاح";
+"supportSubtitle" = "التحقيق، ترتيب، اللوجستية، الخ";
+"feedbackSubtitle" = "فقط لعلة ومسألة تقنية";
+"PartialPayment" = "الدفع الجزئي";
+"AmountPaid" = "المبلغ المدفوع";
+"SHIPMENT" = "الشحن";
+
+// "trackingTitle" = "التفاصيل اللوجستية";
+"trackingCompany" = "شركة الخدمات اللوجستية";
+"package" = "حزمة";
+
+// OSSVWritesReviewsVC
+"writeReview" = "اكتب تعليقا";
+"shipExperience" = "أكتب تجربة التسوق الخاصة بك";
+"limitCharacters" = "الرجاء لا يتجاوز 3,000 حرفاً";
+"writeReviews" = "كتابة تجربة الشراء لتوفير مرجع للمشتري الآخر. الرجاء عدم تجاوز 3000 حرف";
+"imageSize" = "الحد الأدنى العرض والارتفاع للصور هو 500 بكسل";
+"chooseExisting" = "اختيار القائمة";
+
+// OSSVChecksReviewsVC
+"checkMyReview" = "مراجعة تعليقاتي";
+"myReview" = "استعراضي";
+
+// OSSVWMCouponVC
+"myCoupons" = "كوبوناتي";
+"unused" = "غير مستعملة";
+"expired" = "منتهية الصلاحية";
+"used" = "مستعملة";
+"new" = "الجديد";
+"expiredSoon" = "تنتهي قريبا";
+
+// OSSVAddressBooksVC
+"addressListAbove5" = "يصل دفتر العناوين إلى الحد الأقصى";
+"addressAddAdress" = "إضافة عنوان جديد";
+"ShippingAddress" = "عنوان الشحن";
+
+// OSSVFeedbackVC
+"FeedBackSelectIssue" = "الرجاء تحديد نوع المشكلة";
+"FeedbackEmptyMsg" = "الرجاء إدخال تعليقاتك";
+"FeedbackEmailMsg" = "رجاء قم بإدخال بريد الكتروني صحيح";
+"FeedbackMaxMsg" = "الرجاء لا يتجاوز 200 حرفا";
+"feedBackPlaceholderIssue" = "خلل أو مشكلة فنية";
+"feedBackPlaceholderTextView" = "الرجاء إدخال تعليقاتك";
+"feedBackPlaceholderEmail" = "عنوان البريد الإلكتروني الذي يمكننا الاتصال بك فيه";
+"bugOrTechnicalIssue" = "خلل أو مشكلة تقنية";
+"suggestion" = "اقتراح";
+"positiveFeedback" = "ملاحظة إيجابية";
+"otherIssue" = "مشكلة أخرى";
+
+// ModifyAddressViewController
+"modifyAddress" = "تعديل عنوان";
+"StateNoCountryMsg" = "يرجى إدخال الدولة / المقاطعة المرسل إليه";
+"StateNoProvinceMsg" = "يرجى إدخال الدولة / المقاطعة المرسل إليه";
+"FirstnameEmpytMsg" = "الرجاء إدخال الاسم الأول.";
+"FirstnameMaxLengthMsg" = "يجب ألا يزيد الاسم الأول عن 35 حرفا";
+"FirstnameMinLengthMsg" = "الاسم الأول ينبغي أن يكون حرفاً على الأقل 2";
+"LastnameEmptyMsg" = "الرجاء إدخال اسم العائلة.";
+"LastnameMaxLengthMsg" = "يجب ألا يزيد الاسم الأخير عن 35 حرفا";
+"LastnameMinLengthMsg" = "الاسم الأخير ينبغي أن يكون حرفاً على الأقل 2";
+"StreetEmptyMsg" = "الرجاء إدخال الشارع";
+"StreetMaxLengthMsg" = "يمكنك كتابة كحد أقصى من 35 حرفا";
+"StreetMoreEmptyMsg" = "الرجاء إدخال الشارع مفصل";
+"StreetMoreMaxLengthMsg" = "يمكنك كتابة كحد أقصى من 35 حرفا";
+"CountryEmptyMsg" = "يرجى تحديد البلد المتلقي";
+"StateEmptyMsg" = "الرجاء إدخال حالة صالحة";
+"CityEmptyMsg" = "الرجاء إدخال المدينة المرسل إليه";
+"VillageEmptyMsg" = "الرجاء إدخال المدينة المرسل إليه";
+"CityMaxLengthMsg" = "يمكنك كتابة كحد أقصى من 50 حرفا";
+"PhoneEmptyMsg" = "الرجاء إدخال رقم الهاتف.";
+"PhoneNumMsg" = "يرجى إدخال رقم الهاتف";
+"ZipEmptyMsg" = "الرجاء إدخال الرمز البريدي.";
+"ZipMaxLengthMsg" = "يجب أن يكون الرمز البريدي لا يزيد عن 10 أرقام";
+"ZipMinLengthMsg" = "يجب أن يكون الرمز البريدي / الرمز البريدي 2 رمز على الأقل";
+"StreetValidMsg" = "لأجل تسليم الطلب بسرعة، الرجاء إدخال العنوان الصحيح الكامل باللغة الإنجليزية، شكراً جزيلاً";
+"CityVaildMsg" = "يرجى إدخال عنوان مدينة ساري المفعول";
+"ZipValidMsg" = "يرجى إدخال الحروق اللاتينية / الأرقام / الفراغ / الواصلات فقظ";
+"FirstName" = "* الاسم الأول";
+"LastName" = "* اسم العائلة";
+"StreetAddress" = "*عنوان الشارع";
+"CountryRegion" = "* الدولة /البلد";
+"StateCounty" = "* المقاطعة/ المنطقة/ الولاية";
+"City" = "* المدينة";
+"city" = "المدينة";
+"State" = "* المقاطعة/ المنطقة/ الولاية";
+"District" = "*مدينة";
+"PhoneNumber" = "*رقم الهاتف";
+"Zip" = "الرمز البريدي";
+"Zip*" = "*الرمز البريدي";
+"SetDefaultAddress" = "تعيين كعنوان افتراضي";
+"placeholderStreetAddress" = "عنوان الشارع";
+"placeholderApartment" = "تفاصيل أخرى للعنوان";
+"placeholderSelectCountry" = "يرجى تحديد البلد";
+"placeholderRegion" = "الرجاء تحديد";
+"idNumber" = "*رقم الهوية";
+"fillIdNumber" = "رجاء إدخال رقم الهوية";
+
+// ProvinceSelectViewController
+"county" = "مقاطعة";
+
+// OSSVCountrySelectVC
+"country" = "البلد";
+
+// OSSVNotificationSettingsVC
+"enableNotifi" = "تشغيل أوتعطيل أدوراوي عبر إعداد مركز الإشعارات";
+"notifications" = "الإشعارات";
+"enable" = "مكن";
+"disable" = "تعطيل";
+"promotions" = "الترقيات والمبيعات";
+"orderMessages" = "ترتيب الرسائل";
+
+// AccountHeaderView
+"myPoints" = "نقاطي Y";
+"myWallet" = "حافظتي";
+
+// OSSVAccountsFootView
+"SignOut" = "تسجيل الخروج";
+
+// OSSVAccounteMyOrderseCell
+"total" = "الإجمالي";
+"codOrderStatePrompt" = "نجح الطلب. وسوف نتصل بك لتأكيد طلبك في 48 ساعة. يرجى الإجابة على الهاتف في الوقت المناسب.";
+
+// OSSVAccounteMyeOrderseHeadereView
+"checkRosegal" = "التحقق من طلبي السابق >>>";
+
+// OSSVAccountsdViewModel
+"My_WishList" = "قائمة الأماني";
+"AddressBook" = "دفتر العناوين";
+"Settings" = "إعدادات";
+"Help" = "مساعدة";
+"FeedBack" = "استعلامات";
+"cancelOreder" = "هل أنت متأكد أنك تريد إلغاء هذا الطلب؟";
+
+// OSSVAccounteMyOrderseDetailViewModel
+"request_out" = "انتهاء مهلة الطلب";
+
+// OSSVWishListsTableCell
+"outStock" = "نفد من المخازن ";
+
+// OSSVWishLitsViewModel
+"removeItems" = "هل أنت متأكد أنك تريد إزالة العناصر؟";
+"moveToCart" = "إضافة إلى العربة";
+"addToCartSuccess" = "تمت إضافته إلى العربة بنجاح";
+
+// OSSVAddresseBookeViewModel
+"deleteAddress" = "هل أنت متأكد من حذف هذا العنوان؟";
+"addressBook_blank" = "الرجاء إدخال عنوانك بالتفصيل، شكرا لك.";
+
+// OSSVSettisViewModel
+"Currency" = "عملة";
+"Clear_Cache" = "مسح ذاكرة التخزين المؤقت";
+"clearCache_Tip" = "تم مسح ذاكرة التخزين المؤقت التطبيق!";
+"RateUs" = "تقييم لنا";
+"Version" = "الإصدار";
+"updatesInformation" = "تحديثات المعلومات";
+"updateRemindMeLater" = "ذكرني لاحقا";
+"updateNow" = "التحديث الآن";
+"versionNotNeedUpdate" = "الإصدار الحالي هو الأحدث";
+"notification" = "إعدادات الإشعارات";
+"Setting_Cell_Languege" = "اللغة";
+
+// OSSVHelpsdViewModel
+"AboutUs" = "معلومات عنا";
+"Term" = "الشروط والأحكام";
+"PrivacyPolicy" = "سياسة الخصوصية";
+"SecurePaymentMethod" = "طرق الدفع الآمنة";
+"ShippingHandling" = "الشحن والتسليم";
+"ReturnPolicy" = "الضمان والاسترجاع";
+"ContactUs" = "اتصل بنا";
+
+// OSSVChangPasswordsViewModel
+"changing" = "متغير...";
+
+// OSSVEditsProfiledViewModel
+"uploading" = "تحميل...";
+
+// ProvinceViewModel
+"reback" = "الرجاء إعادة يعود اختيار مرة أخرى";
+
+// **********
+//  * LOGIN *
+//  **********
+// 
+// SignViewController
+"signForgotPasswordTitle" = "نسيت كلمة المرور؟";
+"signForgotPlaceholderEmail" = "رجاء إدخال عنوان البريد الإلكتروني";
+"forgotSendTitle" = "نسيت كلمة المرور";
+"forgotSendSuccessMsg" = "تم إرسال رسالة تتضمن رابط تأكيد إلى عنوان بريدك الإلكتروني. يرجى اتباع هذا الرابط لتغيير كلمة المرور";
+"confirmEmail" = "تأكيد البريد الإلكتروني";
+"inputEmail" = "الرجاء إدخال البريد الإلكتروني الخاص بك";
+"emailFormatMsg" = "رجاء إدخال عنوان بريد إلكتروني صحيح";
+"emailEmptyMsg" = "الرجاء إدخال عنوان بريد إلكتروني صالح";
+"sexNotSelectMsg" = "حقل الجنس مطلوب";
+"signUpOfLoginSelectTitle" = "تسجيل الدخول";
+"signUpOfSignUpSelectTitle" = "تسجيل";
+"signPlaceholderEmail" = "البريد الإلكتروني";
+"signPlaceholderPassword" = "كلمة المرور";
+"signPlaceholderComfirmPassword" = "اعادة كتابة كلمة المرور";
+"signForgotPassword" = "نسيت كلمة المرور؟";
+"signButtonTitle" = "تسجيل الدخول";
+"signFaceBookButtonTitle" = "قم بتسجيل الدخول باستخدام الفيسبوك";
+"signUpButtonOfTitle" = "توافق وخلق حسابي";
+"signInfoOfAnd" = "و";
+"signInfoOfPrivacyPolicy" = "سياسة الخصوصية";
+"signInfoOftermsOfProtection" = "الأحكام والشروط";
+"newUserExclusive" = "هل أنت جديد في يوشوب؟\nإنضم إلينا اليوم وستحصل على كوبونات بقيمة 100 دولار أمريكي";
+"loginBgImage" = "bg_ar";
+
+// *****************
+//  * MESSAGE *
+//  *****************
+"onlineCustomService" = "خدمة عبر الإنترنت";
+"messageOrder" = "خدمات الشحنة";
+"messageNotify" = "تنبيه";
+"messageCenter" = "مركز الرسائل";
+"viewOnlineCustomServiceMessage" = "عرض الرسالة في الدردشة الحية";
+"messagePromotion" = "تخفيضات";
+"messageNoMsgTip" = "لا توجد رسالة جديدة";
+"messageViewDetail" = "عرض التفاصيل";
+"messagePromotionUnstart" = "العرض قادم قريباً";
+"messagePromotionEnd" = "العرض منتهي";
+"messageViewMore" = "عرض المزيد";
+"messageDetail" = "التفاصيل";
+"messageCheckMyOrder" = "تحقق طلبي";
+"messageCheckMyCoupon" = "تحقق من الكوبون الخاصة بي";
+
+// *****************
+//  * EXTENSION *
+//  *****************
+"skip" = "تخطى";
+"noInventory" = "لا مزيد من المخزون!";
+"noGoods" = "لا مزيد من البضائع!";
+"quantity" = "الكمية";
+"Color" = "اللون";
+"Size" = "حجم / ميزة";
+
+// InputTextView
+"limit300" = "يجب أن يكون أقل من 300 حرفا";
+
+// *********************************
+//  * 空白页加载失败显示的标语 *
+//  *********************************
+"load_failed" = "فشل التحميل رجاء محاولة مرة أخرى في وقت لاحق";
+
+// *******************************
+//  * 空白页加载失败显示按钮 *
+//  ******************************
+"retry" = "إعادة المحاولة";
+
+// *************************
+//  * 评论为空显示的标语 *
+//  *************************
+"reviews_blank" = "هذا المنتج لديها لم يتم تقديم تعليقات حتى الان";
+
+// *************
+//  * LIBRARY *
+//  *************
+// 
+// MJRefresh -> MJRefreshStateHeader
+"MJRefreshHeaderIdleText" = "%100 استرداد خلال 10 أيام";
+"MJRefreshHeaderPullingText" = "%100 استرداد خلال 10 أيام";
+"MJRefreshHeaderRefreshingText" = "%100 استرداد خلال 10 أيام";
+
+// Tap or pull up to load more
+"MJRefreshAutoFooterRefreshingText" = "التحميل...";
+"MJRefreshAutoFooterNoMoreDataText" = "لا يوجد مزيد من البيانات";
+"MJRefreshBackFooterIdleText" = "سحب ما يصل إلى تحميل المزيد";
+"MJRefreshBackFooterPullingText" = "الإصدار لتحميل المزيد";
+"MJRefreshBackFooterRefreshingText" = "التحميل...";
+"MJRefreshBackFooterNoMoreDataText" = "لا يوجد مزيد من البيانات";
+"MJRefreshHeaderLastTimeText" = "%100 رضا الخدمة";
+"MJRefreshHeaderDateTodayText" = "اليوم";
+"MJRefreshHeaderNoneLastDateText" = "لا سجلات";
+
+// =================================================
+// Coupon &  Community 暂时都没用到
+"NULL" = "الرجاء إدخال رمز الكوبون صالحة";
+"Error" = "خطأ، هذه الشفرة الترويجية غير موجودة";
+"Overdue" = "خطأ، وقد انتهت هذه الرمز الترويجي";
+"Limit" = "خطأ، وهذا رمز الترويج له تردد من استخدام القيود";
+"Beyond" = "كنت قد استخدمت هذا الرمز بالفعل";
+"NoSpecified" = "خطأ، لا يمكنك استخدام هذا رمز الكوبون";
+"NoOrder" = "عذرا، هذه الكوبون غير متوفرة لهذا الطلب";
+"Exclusive" = "عذرا، يتم استخدام الكوبون لعناصر حصرية";
+"faves_touch_title" = "المس زر الكاميرا، إضافة الصور إلى مشاركتك";
+"shows_self_blank" = "ستظهر العروض الخاصة بك هنا";
+
+// 看自己的分享
+"like_self_blank" = "ستظهر تلقيت بك هنا";
+
+// 看自己的喜欢
+"showsOrLike_touch_title" = "المس الكاميرا، إضافة الصور أو المزاج الآن!";
+"shows_notSelf_blank" = "لا توجد عروض حتى الآن";
+
+// 看别人的分享
+"likes_notSelf_blank" = "لا أحب أي شيء حتى الآن";
+
+// 看别人的喜欢
+"photoMaxSelectedCount" = "يمكنك فقط اختيار 6 صور";
+
+// images
+"join_in" = "join_in_ar";
+"endImg" = "end_ar";
+"Alternative_phone_number" = "رقم الهاتف البديل لأجل توصيل الطلب بسرعة";
+"Optional" = "أختياري";
+"Phone_number_only_include_X_digits" = "رقم الهاتف يمكنه فقط أحتواء X أرقام";
+"OrderTotal" = "الإجمالي";
+"COD_discount" = "خصم COD";
+"Air_cargo_insurance" = "مبلغ لتأمين النقل الجوي على بضائع.";
+"Remaining_payment_time" = "الوقت المتبقي للدفع";
+"Remaining_confirm_time" = "الوقت المتبقي لتأكيد الطلب";
+"Copy_success" = "طبع للنجاح";
+
+// 客服弹窗
+"You_can_contact_us_by" = "إذا قمتم بالتوصل معنا عبر";
+"WhatsApp" = "واتسآب";
+"Our_support_center_will_reply_you_within_24_hours" = "سنقوم بالرد عليكم في خلال 24 ساعة";
+"24_hours" = "24 ساعة";
+
+// 订单过期弹窗
+"Order_remaining_payment_time_message" = "يرجى استكمال عملية الدفع كي لا يلغى الطلب تلقائيا";
+"Within_1.5_hours" = " في خلال 24ساعة ،";
+
+// 商品详情弹出上
+"Size_chart" = "دليل المقاسات";
+"Only_XX_left" = "بقي XX قطعة فقط";
+
+// 商品分类列表排序
+"Sort" = "تصنيف";
+"Most_popular" = "أكثر صيحات الموضة انتشاراً";
+"New_arrivals" = "أجدد صيحات الموضة ";
+"Price_low_to_high" = "السعر من انخفاض إلى ارتفاع";
+"Price_high_to_low" = "السعر من ارتفاع إلى انخفاض";
+"Cart_CheckOut" = "الدفع";
+"Other_Products" = "منتجاتك";
+"Invalid_items" = "المنتجات غير متاحة";
+"Clear" = "إزالة";
+"All" = "الجميع";
+"Promotions:" = "آخر العروض:";
+"Tip" = "انتبه";
+"sale" = "تخفيض";
+"SubTotal" = "االمبلغ الإجمالي";
+"Recommend" = "ترشيحات";
+"Continue_to_check_out" = "متابعة استكمال الطلب";
+"Are_you_sure_to_clear_all_invalid_products?" = "هل أنت متأكد أنك تريد مسح جميع المنتجات الغير صالحة؟";
+"This_area_doesn't_support_purchases_If_purchase_change_address" = "هذة المنطقة لا تدعم الطلب، إن كنت تريد الشراء، برجاء تغيير العنوان";
+"Sincerely_recommend_cod_which_orders_over_$XX-$YY" = "ننصح بشدة باختيار الدفع عند الإستلام، المتاح للطلبات من         $XX الى $YY";
+"category_filter" = "ترشيح";
+"category_filter_price_range" = "(%@ %@)مستوي السعر";
+"category_filter_price_min" = "الأدنى";
+"category_filter_price_max" = "الأعلى";
+"category_filter_reset" = "إعادة تعيين";
+"category_filter_apply" = "استخدام";
+"category_filter_limit_tip" = "أختر حتى 5 اختيارات";
+"category_filter_nodate_tip" = "يا خبر! لم نفلح في العثور على ما تبحث عنه.";
+"coupons_available" = "كوبون متاح";
+"nosupporAddress" = "هذة المنطقة لا تدعم الطلب، إن كنت تريد الشراء، برجاء تغيير العنوان";
+"nosupporSaudi" = "عفواً، المنتجات المتاحة في مخزننا بالمملكة العربية السعودية لا تدعم الطلب في هذة المنطقة. تم إزالة سعر المنتجات من إجمالي المبلغ";
+"nosupporGlobal" = "عفواً، المنتجات المتاحة في مخزننا بالخارج لا تدعم الطلب في هذة المنطقة. تم ازالة سعر المنتجات من إجمالي المبلغ";
+"twoPackagesToDelivery" = "سوف يتم تقسيم هذا الطلب إلى شحنتين عند التسليم";
+"productList" = "قائمة المنتجات";
+"checkOutItems" = "قطع";
+"checkOutItem" = "قطعة";
+"checkOutCoupon" = "كوبون";
+"ProductsTotal" = "إجمالي البضائع";
+"selectShippingOrPay" = "يرجى اختيار الدفع أو الشحن";
+"MorePackages" = "تم إصدار الطلب في X حزم.انقر على التفاصيل";
+"noPackages" = "عذرا ، لا يوجد معلومات التتبع حتى الآن.نحن نبذل قصارى جهدنا لمعالجة طلبك.";
+
+// 商品详情服务弹窗
+"AttributeSheetDetail" = "تفاصيل";
+"Service_Description" = "وصف الخدمة";
+"Secure_shopping" = "تسوق آمن";
+"Secure_shopping_desc_within_45days" = "يضمن يوشوب استرداد العناصر المشتراة (إلا الملابس الداخلية وملابس السباحة والجمال) في غضون 45 يومًا";
+"Payment_methods" = "طرق الدفع";
+"Payment_methods_Paypal_Worldpay_Cash_$30_$1000." = "نقبل وسائل الدفع التالية: pay pal وبطاقة الائتمان عبرpay pal ، الدفع عند الاستلام لطلبات 5$ - 500$.";
+"Fast_shipping" = "شحن سريع";
+"Expedited_shipping_3-7_business_days" = "الشحن مجانا لطلبات أكثر من 99$";
+"Flat_rate_shipping_10-20_business_days" = "الدفع عند الاستلام: من 15 – 20 يوم عمل";
+"Receiving_time=Processing_time+shipping_time" = "الشحن السريع: من 15 – 20 يوم عمل";
+"Fast_Shipping_Tips" = "نصائح الشحن ： قد يتأثر وقت الشحن بانتشار فيروس كورونا عالميًا ، شكرًا لتفهمك! إذا كان لديك أي أسئلة ، يرجى إرسال بريد إلكتروني إلى support@vivaiacollection.com.";
+"Easy_Returns" = "استرداد سهل";
+"Your_application_refund_processed_24hours_receive_your_package." = "ستتم معالجة طلبك برد الأموال في غضون 24 ساعة بعد استلامنا لباقتك.";
+"Returning_time=Processing_time_of_VIVAIA+your_card_bank/Paypal" = "وقت العودة = وقت المعالجة من VIVAIA + بنك بطاقتك / Paypal";
+
+
+"defaultCount" = "0/3000";
+"noTwitterAccount" = "No Twitter Accounts";
+"noTwitterAccountMessage" = "There are no Twitter accounts configured. You can add or create a Twitter account in Settings";
+"Iknow" = "I know";
+"inputdCouponCode" = "أدخل رمز الكوبون هنا";
+"copyEmail" = "sb-5orsz2831659@personal.example.com  (双击复制)";
+"copyPwd" = "7t2h+H2I  (双击复制)";
+
+// 更新提示
+"update" = "تحديث";
+"The_current_version_APP_updated_info" = "إصدارك الحالي من التطبيق قديم جدًا ويجب تحديثه قبل استخدامه";
+
+// 注册欧盟协议
+"I_agree_Term_Use_Privacy_Policy" = "أوافق على شروط الاستخدام وسياسة الخصوصية";
+"Term_of_Use" = "شروط الاستخدام";
+"submitting_confirm_information_understand_agree_App_Privacy_Policy" = "من خلال التقديم ، أؤكد أن جميع المعلومات المقدمة هي الخاصة بي ؛ أفهم وأوافق على أنه سيتم استخدامه وفقًا لسياسة خصوصية يوشوب. يمكنني سحب موافقتي المسبقة في أي وقت";
+"registration_agree_App_Terms_Use" = "لإكمال التسجيل ، يجب عليك الموافقة على شروط الاستخدام يوشوب";
+"registration_must_agree_consent_above" = "لإكمال التسجيل ، يجب أن توافق على موافقة فوق";
+
+// 客服
+"Reply" = "رد";
+"Repurchase" = "إعادة الشراء";
+"Repurchase_invalid_order_goods_moved_following_zone" = "نفدت بعض المنتجات، يرجى مراجعتها والدفع";
+"Order_Review" = "مراجعة الطلب";
+"My_Reviews" = "تعليقاتي";
+"Waiting_for_review" = "انتظار التعليق";
+"Reviewed" = "تعليقات";
+"Consult_reviews" = "شاهد التقييم";
+"Completed" = "تم التقييم";
+"Shipping_rating" = "تقييم الشحن";
+"Item_rating" = "تقييم البضاعة";
+"Payment_rating" = "تقييم الدفع";
+"Service_rating" = "تقييم الخدمة";
+"system_notification" = "إشعارات النظام";
+"Comments_have_chance_receiv_10_points" = "تتمتع بفرصة ربح 10 نقاط على الأقل بعد التعليقات.";
+
+// 定位
+"AppLocationSettingMsg" = "This APP requires location permission to enable the 'my location' layer. Please try again and grant access to use the location.If the permission has been permanently denied, it can be enabled from the System Settings > Apps > VIVAIA.";
+"Please_enter_English" = "برجاء الكتابة باللغة الانجليزية";
+"No_results_found" = "لا توجد نتائج";
+
+// COD取消统计原因
+"Sorry" = "معذرة";
+"COD_Please_help_improve_service_why." = "برجاء اخبارنا عن سبب الغاء طلبك، حيث سيساعدنا هذا على تحسين خدماتنا في المستقبل";
+"Information_entered_incorrectly" = "تم ادخال معلومات خاطئة";
+"Estimated_delivery_time_is_long" = "الوقت المتوقع للتسليم طويل";
+"Shipping_fee_is_expensive" = "رسوم الشحن باهظة";
+"Did_not_receive_the_verification_code" = "لم استلام كود التحقق";
+"Changed_their_mind_no_longer_want_it" = "غيرت رأيي، لم أعد أريده";
+"Other_reason" = "أسباب أخرى";
+"Please_fill_Shipping_address" = "تفضل بملأ عنوان التوصيل";
+"free_gift" = "هدية مجانية";
+"Free_gift_cannot_be_settled_solely" = "دفع الهدية المجانية وحدها ممنوع";
+"Checkout" = "مشاهدة";
+"Your Cart" = "سلة التسوق";
+"improve your information" = "تفضل بتحسين المعلومات الخاصة بك حتى نستطيع تقديم أفضل المنتجات لك.";
+"Gender" = "الجنس";
+"Recommendations" = "التوصيات";
+"FREE_DELIVERY" = "التوصيل المجاني";
+"1SecondAgo" = " قبل 1 ثانية.";
+"sign_in_with" = "تسجيل الدخول ب";
+"keyboard_Done" = "تم";
+"Address" = "عنوان";
+"Coupon" = "كوبون";
+"Viewed" = "شاهدت من قبل";
+"My_Size" = "مقاسي";
+"Size_tip" = " سنقوم بقياس جسمك ونوصيك بالمقاس المناسب، وفقًا لجنسك وطولك ووزنك.";
+
+// mySizeViewController
+"Save" = "حفظ";
+"SAVE" = "حفظ";
+"SaveNullTip" = "اكتب جنسك وطولك ووزنك. يمكننا أن نحاسب المقاس المناسب لك، لكنك لم تملأها بعد";
+"CM" = "سم";
+"INCH" = "إنش";
+"Male" = "ذكر";
+"Female" = "أنثى";
+"Height" = "طول القامة";
+"Weight" = "وزن";
+"Shap" = "شكل";
+"Choose" = "اختيار";
+"Choose_Height" = "تحديد الطول";
+"Choose_Weight" = "تحديد الوزن";
+"Shape" = "شكل";
+"kg" = "كغم";
+"lbs" = "رطل";
+"cm" = "سم";
+"inch" = "إنش";
+"Shipped" = "تم الشحن";
+"Processing" = "قيد التجهيز";
+"Unpaid" = "غير مدفوع";
+
+// 新增两个
+"allOrder" = "جميع الطلبات";
+"My_Orders" = "طلباتي";
+"Recently_viewed" = "شاهدت من قبل";
+"More_services" = "مزيد من الخدمات";
+"Login/Register" = "تسجيل الدخول/تسجيل";
+"Sorry_Not_history" = "عذرا ، لم نتمكن من العثور على أي شيء في تاريخك";
+"Account_Recommend" = "موصى به";
+"No_recommended_products" = "لا توجد منتجات موصى بها";
+"Tracking_Detail" = "تتبع التفاصيل";
+"goodsWritePlaceholderTextView" = "ترك تعليقك ، يجعلنا أفضل.";
+"Order_Address_Get_Error" = "support@vivaiacollection.com خطأ! يرجى الاتصال ب";
+"Address_Phone_Number_Tip" = "الرجاء إدخال الرقم العربي \”9-0\” هنا";
+"Rules>" = "قواعد>";
+"Add_Only_One_Item" = "يجوز لك اشتراء واحداً من المنتج النشاطى فقط";
+"Continue_To_Verify" = "مواصلة التحقق";
+"Continue_Cancel" = "مواصلة الإلغاء";
+"Login_No_Register_Tip" = "لم يتم التسجيل بهذا البريد الإلكتروني بعد، هل تريد التسجيل به وتسجيل الدخول؟";
+"Registered_To_Login_Tip" = "قد تم التسجيل بهذا البريد الإلكتروني من قبل، هل تريد تسجيل الدخول الآن؟";
+"Login_In_Now" = "تسجيل الدخول";
+"Cod_Cancel_OverTime_Tip" = "هل أنت متأكد أنك تريد إلغاء التحقق؟ إذا لم يتم التحقق من الطلب في غضون 24 ساعة ، فسيتم إلغاء";
+"Cod_Tip_24_hour" = "24 ساعة";
+"Are_want_remove_history" = "هل أنت متأكد من أنك تريد إزالة كافة محفوظات البحث؟";
+
+// "Order_code_seconds_confirm_tip"="To complete order confirmation，kindly double check your mobile phone number for delivery on time.";
+// Versoin 1.2.9 改动文案
+"Order_code_seconds_confirm_tip" = ".لإكمال تأكيد الطلب , يرجى التأكد من رقم الهاتف حتى تصلك الطلبية في اسرع وقت";
+"Please_select_size" = "رجاء تحديد المقاس";
+
+// 闪购-------FlashSaleController
+"Parts_Items_join_Flash_Sale" = "يشارك بعض البضائع في التخفيض المؤقت";
+"Item_not_join_flash_sale" = "هذه البضاعة لا تشارك في تخفيضات مؤقتة";
+"Flash_sale" = "التخفيض المؤقت";
+"sold" = "بيع";
+"flash_save" = "تخفيض";
+"salePrice" = "سعر التخفيض";
+"Max_Qty_allowed_limited_product_is_XXXX" = "الحد  الأقصى المسموح به لهذا المنتج المحدود هو XXXX";
+"Users_Want" = "مستخدم يريد";
+"only" = "منتج فقط";
+"oneSale" = "تخفيض على";
+"soldOut" = "نفدت الكمية";
+"soldOutDetail" = "آسف هذه البضاعة قد انتهت";
+"View_Product>" = "عرض المنتج>";
+"Flash_Finished" = "انتهى التخفيض";
+"Goods_cm" = "سنتيمتر";
+"Item_pre_join_FlashSale" = "لم يبدأ التخفيض المؤقت، اشتري بالسعر الأصلي";
+"Item_did_join_FlashSale" = "هذا المنتج في التخفيض المؤقت";
+
+// 物流--------STLNewTrackingListViewController
+"trackingTitle" = "تفاصيل خدمات الشحنة";
+"TrackingNo" = "رقم التتبع";
+"NoTrackingNumber" = "لا يوجد بوليصة شحن";
+"STLTransportSplitViewController.headerTitle" = "تم شحن الشحنة";
+"Clarification" = "التعليمات";
+"Clarification_tip" = "1. عروض خصومات هو عروض خاصة، لا تشارك منتجاتها في عروض أخرى أو تخفيضات أخرى. \n2. القواعد:\n2.1 سيكون المنتج المخصوم هو المنتج الأقل سعرًا المتضمن في هذا العرض عند الدفع .\n2.2 نظام الخصم في هذا العرض هو توزيع الخصومات على جميع المنتجات المشاركة في العرض حين الدفع حسب القاعدة كلما زاد إجمالي الطلب زاد الخصم.\n2.3 \"اشتر 5 قطع بسعر 4 قطع\" يعني إذا اشتريت 5 منتجات، فستحصل على التخفيض عند \"الدفع\" تلقائياً. \n3. يرجى الانتباه على مدة العرض، إذا انتهت مدة الصلاحية فلا تستطيع الاستمتاع بالخصومات.\n4. تحتفظ VIVAIA بالحق في التفسير النهائي لعروض خصومات وقواعدها.\n5. إذا كانت لديك أي مشكلة ، فلا تتردد في الاتصال بنا عبر support@vivaiacollection.com";
+
+// Help
+"help_FrequentlyQuestion" = "الأسئلة الشائعة";
+"help_ReturnPolicy" = "سياسة الاسترجاع";
+"help_HowLongReceiveOrder" = "كم وقت سيستغرق استلام الطلب؟";
+"help_QuestionCategories" = "فئات الأسئلة";
+"help_Shipping" = "الشحن";
+"help_Orders" = "طلبات";
+"help_AfterSale" = "خدمة بعد البيع";
+"help_Promotion" = "تخفيضات";
+"help_Products" = "منتجات";
+"help_ContactUs" = "اتصل بنا";
+"help_CanNotFindAnswer" = "لم تجد الإجابة؟";
+"help_feedback" = "استعلامات";
+"Goods_Find_Similar" = "اعثر على المنتجات المشابهة";
+"Goods_Unavailable" = "غير قابل للشحن";
+"Tips" = "التنبيهات";
+"Back_to_Homepage" = "رجوع إلى الصفحة الرئيسية";
+"Remove_Pay" = "إزالة ودفع";
+"Change_Shipping_Address" = "تغيير عنوان التوصيل";
+"Check_Product_List" = "عرض قائمة المنتجات";
+"XXX_items_no_shipped" = "(%@ منتج غير قابل للشحن، ولا يحسب ثمنه.)";
+"zero_View_All" = "عرض الكل";
+"Term_of_Usage" = "شروط الاستخدام";
+
+// 0元购
+"switch" = "تحويل";
+
+// 新的地址功能语言本地化
+"Default_Address" = "افتراضي";
+"Home" = "البيت";
+"School" = "المدرسة";
+"Company" = "الشركة";
+"Locate Me" = "تحديد موقعي";
+"Locate" = "تحديد الموقع";
+"Click" = "اضغط على";
+"helpFillAddress" = ",ليساعدك على ملء العنوان بسرعة.";
+"Address Type" = "نوع العنوان";
+"SaveAddress" = "حفظ العنوان";
+"TrySearching" = "حاول البحث";
+"FillAddressButtonTitle" = "املأ العنوان";
+"BeyoundArea" = "موقعك خارج منطقة خدمتنا";
+"confirmButtonTitle" = "تأكيد الموقع";
+"SearchTitle" = "ابحث عن موقعك";
+"LocateCity" = "حدد موقع المدينة";
+"SearchCity" = "ابحث عن المدينة";
+"Can'tFindAddress" = "يتعذر العثور على العنوان؟";
+"FindAddressContent" = "حاول ملء اسم الحي أو المبنى أو المدرسة. والعنوان التفصيلي يمكن إدخاله  لاحقًا";
+"LocationIsNotenabled" = "خدمة الموقع غير مشغّلة";
+"OpenLocationTitle" = "شغّل خدمة الموقع لمعرفة مكان تسليم طلبك.";
+"LocationInformation" = "معلومات الموقع";
+
+//OSSVCheckOutVC-----金币的语言本地化
+
+//金币说明
+"coinHeadline" = "1. 100 نقود ذهبية =1$
+2. يمكن خصم 15% من مبلغ البضاعة بالنقود الذهبية على الأكثر.
+3. عند إلغاء الطلب أو إرجاعه، يمكن استرجاع النقود الذهبية (بشكل الكوبون المتعادل في القيمة ) لكن لا نرجعها عندما رفضت استلام الطلب.
+4. ستنتهي صلاحية النقود الذهبية في الساعة 0:00 في 1 يناير من كل عام. يرجى استخدامها في أقرب وقت ممكن كي لا تخسر.";
+
+//返现说明
+"CashBackHeadline1" = "كيفية استخدام النقود الذهبية";
+"CashBackHeadDesc1" = "1.كمية النقود الذهبية التي يمكن استخدامها لكل طلب هي 15% من مبلغ البضاعة
+2. 100 نقود ذهبية = 1 دولار أمريكي = 3.75 ريال سعودي، سيتم تعديل سعر العملات الأخرى تلقائيًا وفقًا لطلبك.
+3. يمكن استبدال كوبون بالنقود الذهبية في صفحة تسجيل الحضور ويمكن استخدامها في لعب قرص الحظ لربح الطلب المجاني.
+";
+"CashBackHeadline2" = "كيفية الحصول على مزيد من النقود الذهبية";
+"CashBackHeadDesc2" = "1. تسجيل الحضور يوميا لتحصل على نقود ذهبية أكثر
+2. دعوة الأصدقاء: يمكنك الحصول على ما يصل إلى 1000 نقود ذهبية لكل مشاركة
+3. سوف نرسل لك 2% ~ 5% نقود ذهبية حسب مبلغ طلبك بعد استلامه، اشتر أكثر ووفّر أكثر.
+4.النقود الذهبية المحصولة بعد استلام الطلب بحاجة إلى جمعها يدوياً ، وإلا سيتم تصفيرها بعد إرسالها بأسبوع.
+";
+"CashBackHeadline3" = "الاسترجاع وانتهاء الصلاحية";
+"CashBackHeadDesc3" = "1. إذا ألغيتَ الطلب أو أرجعتَه، فسنعطيك كوبون بنفس القيمة كتعويض عن النقود الذهبية، ولكن لا يمكن إرجاعها إذا رفضت استلام الطلب.
+2. يمكن تجميع النقود الذهبية، لكنها ستنتهي صلاحيتها في الساعة 0:00 (بتوقيت السعودية) في 1 من يناير من كل عام.";
+
+
+"Coins"  = "النقود الذهبية";
+"NoCoin" = "لا يوجد النقود الذهبية المتاحة";
+"CoinsCost" = "رصيد النقود الذهبية";
+"ShippingFree" = "تكاليف الشحن ";
+"ClickForCoins" = "احضرواجمع النقود الذهبية >";
+"CoinsCenter" = "مركز النقود الذهبية >";
+"CoinsClaim" = "نقود ذهبية للجمع>";
+"Spent" = "استغرق";
+"CoinsAs" = "نقود ذهبية تساوي";
+"OpenPushTitle" = "يجب عليك أن تشغّل إشعار تذكير يومياً، اضغط على ” تشغيل“  ليتم الإعداد";
+
+// 临时定义
+"refresh_pull_down" = "Swipe down for exciting surprises!";
+"refresh_release" = "Release for exciting surprises!";
+"refresh_loading" = "Loading...";
+"pay_PAYMENT" = "دفع";
+"pay_CANCEL" = "إلغاء";
+"pay_want_cancel_payment" = "هل أنت متأكد من التخلي عن طريقة الشحن الأسرع هذه؟";
+"pay_canceld_order_24" = "سيتم إلغاؤ الطلب تلقائياً إن لم تتم عملية الدفع خلال 24 ساعة";
+"move_cart_goods_tip" = "هل أنت متأكد من إزالة هذا المنتج؟";
+"move_cart_goods_fail" = "فشل الإزالة";
+"move_to_wishlist" = "نقله إلى قائمة الأماني";
+"move_to_wishlist_lower" = "نقله إلى قائمة الأماني";
+"move_to_remove" = "إزالة";
+"move_to_wishlist_success" = "تم نقله إلى قائمة الأماني";
+"move_to_wishlist_fail" = "فشل نقله إلى قائمة الأماني";
+"cart_bottom_tip_CoinsCouponsDiscount" = "النقود الذهبية، كوبونات الخصم جميعها في الخطوة التالية";
+"pay_want_cancel_payment_messNew" = "الرجاء محاولة طريقة دفع أخرى أو الاتصال بنا على support@vivaiacollection.com في حالة وجود أي مشكلة";
+"theme_orders" = "طلبات";
+"theme_min_price" = "أقل سعر";
+"theme_max_price" = "أغلى سعر";
+"REPALY" = "الجواب";
+"receive" = "احصل عليه";
+"received" = "تم الاستلام";
+"receiveAll" = "اجمع كلها";
+
+// /new sign
+"sws_login" = "تسجيل الدخول";
+"sws_signup" = "تسجيل";
+"login_welcom" = "مرحباً إلى أدوراوي";
+"sign_up_create" = "إنشاء حساب جديد";
+"email_field" = "عنوان البريد الإلكتروني";
+"password_field" = "كلمة المرور";
+"reset_password" = "إعادة تعيين كلمة المرور";
+"reset_password_details" = "يرجى إدخال عنوان بريدك الإلكتروني وسنرسل رابط إعادة تعيين";
+"reset_send" = "إرسال";
+"send_success" = "تم التعديل بنجاح";
+"send_success_details" = "تم إرسال رسالة فيها رابط التأكيد إلى عنوان بريدك الإلكتروني %@. اضغط على هذا الرابط لتعديل كلمة المرور الخاصة بك.";
+"reset_return_to_signin" = "الرجوع إلى تسجيل الدخول";
+"reset_resent" = "إعادة إرسال";
+"reset_send_success" = "تم الإرسال";
+"reset_send_failed" = "فشل الإرسال";
+"skip_bind_cellphone" = "تخطي";
+"sign_success" = "ربط رقم الهاتف";
+"bind_phone_num" = "رقم الهاتف";
+"bind_confirm" = "تأكيد";
+"RegionNumMsg" = "حدّد رمز الاتصال  لبلدك";
+"bind_successfully" = "تم الربط بنجاح";
+"bind_seelct_country" = "تحديد البلد";
+"Login_cancel" = "إلغاء";
+
+// /1.3.8
+"Remind_Me" = "ذكّرني";
+"Users_Follow" = "متابعين";
+
+// /买了又买
+"alsoLike" = "قد يعجبك أيضاً";
+"oftenBought" = "ما يشترى دائماً";
+"canlendarAuth" = "لم تسمح للتطبيق بالوصول إلى تقويم الهاتف، يرجى الذهاب إلى الإعدادات لتسمح التطبيق بالوصول إلى تقويم الهاتف";
+"RemindAddSuccess" = "تم التذكير ";
+"RemindCancelSuccess" = "تم إلغاء التذكير";
+
+// 地址选择四级联动
+"text_select_country_title" = "حدّد بلدك/الدولة";
+"text_select_state_title" = "حدّد مقاطعتك/الولاية";
+"text_select_city_title" = "حدّد مدينتك";
+"text_select_district_title" = "حدد حيّك";
+"text_address_select_country" = "*البلد";
+"text_address_select_state" = "* البلد / المقاطعة";
+"text_address_select_city" = "* الدولة / المقاطعة / المدينة";
+"text_address_select_area" = "* البلد / المقاطعة / المدينة / المنطقة";
+"country_region" = "البلد / المنطقة";
+"select_default_state" = "المقاطعة/الولاية";
+"select_default_city" = "المدينة";
+"address_select_default_town" = "قرية";
+"user_address_street" = "* عنوان";
+
+// "Homepage" = "الصفحة الرئيسية";
+"Homepage" = "الرئيسية";
+"More" = "مزيد";
+"Learn_More" = "عرض المزيد";
+"Delivery" = "التوصيل";
+"Less" = "طيّ";
+
+// 新品频道
+"new_in_guide" = "الجديد في الدليل";
+"for_category" = "للفئة";
+"hotlist" = "القائمة الأكثر مبيعاً";
+"new_in" = "جديد في";
+"last7days" = "في آخر 7 أيام";
+"order_cancel_buy_msg" = "ستتم إضافة جميع المنتجات إلى عربة التسوق الخاصة بك، وسيتم إلغاؤ هذا الطلب لإرجاع كوبوناتك ونقودك الذهبية";
+"order_cancel_buy_btn" = "إلغاء وإعادة الشراء";
+"user_address_street_empty" = "يرجى إتمام معلومات العنوان لتوصيل البضاعة بسرعة";
+"flash_sale_noti" = "سعر التخفيض المؤقت محدود لـ %@ قطعة فقط";
+"address_option_info" = "معلومات اختيارية";
+"new_in_tab_title" = "جديد";
+
+// 新品标签
+"new_goods_mark" = "جديد";
+"user_address_country_empty" = "يرجى تحديد الدولة / المقاطعة / المدينة";
+
+// 会员
+"user_center_member" = "عضو";
+
+// /1.4.2
+"Coins_Center" = "النقود الذهبية";
+"following_us" = "تابعونا";
+
+// 1.4.2 以汉语来映射
+// 手机号绑定
+"enterVerification" = "الرجاء إدخال رمز التحقق";
+"sendedCode" = "تم إرسال الرمز إلى:";
+"enterFourCode" = "الرجاء إدخال رمز التحقق المكوّن من 4 أرقام";
+"didSent" = "تم الإرسال";
+"resendCode" = "إعادة إرسال رمز التحقق";
+"confirm" = "تأكيد";
+"reEnterCode" = "الرمز خطأ، الرجاء إدخاله مرة أخرى";
+"noCodeSkip" = "لم تتلقّ الرمز، تخطّي";
+"How_Use_Coupons" = "كيفية استخدام كوبون";
+"How_Use_Coupons_Content" = "1. انقر فوق الكوبون ثم \"متوفر\" عندما يكون مبلغ طلبك مؤهلاً لاستخدامه
+2. إذا حصلت على رمز الكوبون ، فيرجى إدخاله واضغط على \"استخدام\" للحفظ
+3.سيتم استخدام كوبونات رسوم الشحن وكوبون رسوم خدمة الدفع عند الاستلام تلقائيًا عند الدفع المسبق.
+* ملاحظة: التخفيض المؤقت ، حقيبة الحظ واشتر أكثر ووفّر أكثر مثل هذه الأنشطة لا يمكن استخدام كوبون فيها.
+";
+
+
+"How_Get_Coupons" = "كيفية الحصول على مزيد من الكوبون";
+"How_Get_Coupons_Content" = "1. للمستخدمين الجدد بعد التسجيل كوبونات تصل إلى 15% خصم
+2- يمكنك الحصول على كوبونات VIP يوم 25 من كل شهر
+3- كوبونات خاصة لكل مستوى VIP للترقية.
+4. تسجيل الحضور يومياً واستبدال الكوبونات
+5.المشاركة في السحب المحظوظ بسهولة لربح كوبونات إضافية
+ابحث وتابع حساب مكتب \"VIVAIA\" على وسائل التواصل الاجتماعي واحصل على رمز الكوبون";
+
+
+
+"CODE" = "رمز الكوبون";
+"Whats_App" = "واتسآب";
+"Email" = "البريد الإلكتروني";
+"help_emial_setting_tip" = "لم يتم إعداد البريد الإلكتروني للنظام بعد، يرجى الذهاب إلى النظام -> \”الإعدادات\” -> \”البريد\” لإضافة بريد إلكتروني";
+"Hi" = "أهلًا";
+"SaveNContinue" = "حفظ ومتابعة";
+"phoneFormatErr" = "تنسيق الهاتف غير صحيح";
+"idFormatErr" = "رجاء إدخال رقم الهوية الصحيح";
+"no_prod_to_reviews" = "ليس لديك منتجات كي تعلّق عليها";
+"no_reviews" = "عفوًا ، لا يوجد حتى تعليق واحد";
+
+// /1.4.6
+"go_shopping" = "اذهب للتسوق";
+"whatapp_Click_chat_us" = "اضغط وتحدث معنا";
+"cod_verify_title" = "تحقق من طلب الدفع عند الاستلام";
+"cod_payment_amount" = "مبلغ الدفع:";
+"cod_verify_info" = "للتحقق من صحة الطلب ، يرجى التحقق من صحة رقم الهاتف";
+"sms_code_has_send" = "تم إرسال رمز التحقق";
+"sms_verify_btn" = "تحقق";
+"sms_code_err" = "رمز التحقق غير صحيح. الرجاء إعادة الإدخال";
+"sms_code_resend" = "إعادة إرسال";
+"sms_code_skip" = "تخطي ، وانتظر اتصال خدمة العملاء للتأكيد";
+"sms_code_will_contact" = "يرجى إبقاء الهاتف مفتوحًا، وسيتصل بك خدمة العملاء في غضون 24 ساعة";
+"order_all_blank" = "ليس لديك طلب حاليا.";
+"order_unpaid_blank" = "ليس لديك طلب غير مدفوعة";
+"order_processing_blank" = "ليس لديك طلب قيد التجهيز";
+"order_shipped_blank" = "ليس لديك طلب تم شحنه";
+"order_reviewed_blank" = "ليس لديك طلب تم التعليق";
+
+// 订单列表中，whatsApp引流的文案
+"whatsAppTitle" = "تلقي إشعارات من واتسآب للحصول على كوبونات.";
+"SubscribeButtonTitle" = "الإشتراك";
+"Unsubscribe_toast" = "نجح إلغاؤ الاشتراك";
+"subscribe_toast" = "نجح الاشتراك";
+"phoneNumEmpty" = "الرجاء إدخال رقم الواتسآب الخاص بك";
+"changePhoneNumberSuccess" = "تم تغيير رقم الواتسآب وتم الاشتراك بنجاح";
+"GetMoreCoupons" = "اكسب كوبون أكثر";
+"WhatsAppNumber" = "رقم الواتسآب";
+"id_num_format_err" = "الرجاء إدخال صيغة الأحرف الصحيحة";
+"Are_you_clear_cache" = "هل أنت متأكد أنك تريد مسح ذاكرة التخزين المؤقت؟";
+
+// /隐私协议  欧盟弹窗，不需要翻译
+"agree" = "agree";
+"agree_text" = "We use cookies to improve your shopping experience. By continuing to use our site, we assume you agree to our privacy policy and use of cookies.";
+"aggree_privacy_action" = "privacy policy";
+"Languge_Setting_English" = "Englisth";
+
+// /ip切换
+"ip_alert_title" = "تذكير الطلب";
+"ip_alert_content" = "قد تغير عنوانك ولا يمكنك عرض الطلبات التاريخية. يمكنك الاتصال بخدمة العملاء";
+"ip_alert_ok" = "موافق";
+
+// /注册订阅选项
+"receive_adv_emails" = "اشتراك الآن و احصل علي $15.00 خصم الحصري";
+
+// "sign_up_for_email_get_exclusive" = "Sign up for emails & Get exclusive  $5.00 OFF";
+// /到货通知
+"Arrival_Notify" = "إخطار الوصول";
+"Arrival_Notify_Text_NotLogin" = "سجل معنا كي نتمكن من إخطارك عبر البريد الإلكتروني بمجرد توفر مقاسك";
+"Arrival_Notify_Email_Address"= "البريد الإلكتروني";
+"Arrival_Notify_Email_Err"="يرجى إدخال بريد إلكتروني صحيح";
+"Arrival_Notify_Done"="رائع";
+"Arrival_Notify_Done_Text"="سنرسل لك بريدًا إلكترونيًا على
+xxx@xx.com
+عند توفر المنتج مرة أخرى";
+"Arrival_Notify_Continue"="متابعة التسوق";
+"Arrival_Notify_Already"="لقد سجلت في هذا المنتج!";
+
+///支付流程优化
+"No account"="لا يوجد حساب شخصي";
+"Checkout as a Guest"="الدفع كضيف";
+"Buy With PayPal"="الشراء باستخدام PayPal";
+"enter address manually"="إدخال العنوان يدويًا";
+"Check Out"="ادفع الآن";
+"onlinePay" = "الدفع الالكتروني";
+"input_coupon" = "إدخال رمز قسيمة الخصم";

@@ -1,0 +1,1279 @@
+// Localizable.strings
+//  VIVAIA
+//  
+//  Created by occ on 20/6/25.
+//  Copyright © 2020年 XStarlinkProject. All rights reserved.
+// 
+// 
+// DZNEmptyDataSet
+"EmptyCustomViewManager_titleLabel" = "読み込みに失敗しました。後ほどもう一度お試しください";
+"EmptyCustomViewManager_refreshButton" = "再試行";
+"BlankPage_NetworkError_tipTitle" = "接続できません。インターネット環境をご確認ください。";
+"HomeTopBar_NetworkErrorTipTitle" = "画面をリフレッシューまたは再ログインしてください。";
+"EmptyCustomViewHasNoData_titleLabel" = "おっと！データが表示されません。";
+"AccountRecently_NoData_titleLabel" = "まだ何も見ていません。";
+"Coupon_NoData_Available_titleLabel" = "未使用れクーポンはございません";
+"Coupon_NoData_Expired_titleLabel" = "期限切れクーポンはございません";
+"Coupon_NoData_Applied_titleLabel" = "使用済れクーポンはございません";
+"WishList_NoData_titleLabel" = "❤をクリックすると、欲しいものリストにアイテムを追加することができます。";
+"Coupon_NoData_Unavailable_titleLabel" = "利用不可のクーポンはございません。";
+
+// *********
+//  * MAIN *
+//  ********
+"cancel" = "キャンセル";
+"done" = "完了";
+"add" = "追加する";
+
+// "edit" = "تحرير";
+"edit" = "編集";
+"delete" = "削除";
+"send" = "送信";
+"continue" = "を続ける";
+"confirm" = "確定";
+"no" = "いいえ";
+"yes" = "はい";
+"ok" = "はい";
+"next" = "次へ";
+"buy" = "買う";
+"refresh" = "リフレッシュする";
+"submit" = "確認";
+"later" = " 後で";
+"ago" = " 前";
+"second" = "秒";
+"seconds" = "秒";
+"seconds_Even" = "秒";
+"minute" = "分";
+"minutes" = "分:";
+"minutes_Even" = "分";
+"hour" = "時";
+"hours" = "時";
+"hours_Even" = "時";
+"day" = "日";
+"days" = "日";
+"days_Even" = "日";
+"month" = "月";
+"months" = "月";
+"months_Even" = "月";
+"year" = "年";
+"years" = "年";
+"years_Even" = "年";
+"close" = "閉じる";
+"networkError" = "ネットワークエラー";
+"networkErrorMsg" = "ネットワークに接続できません";
+"open" = "開く";
+"off" = "オフ";
+"Remove" = "无视";
+"shareSucceess" = "シェアできました。";
+"shareFail" = "シェアできませんでした。";
+"facebook" = "Facebook";
+"messenger" = "Messenger";
+"copyLink" = "リンクをコピーする";
+"instagram" = "Instagram";
+"snapchat" = "Snapchat";
+"twitter" = "Twitter";
+"copiedSuccessfully" = "リンクをコピーできました。";
+"shareTo" = "お友達にシェアします";
+
+// GuideView   2017/03/07 新增
+"shopNow" = "今すぐ購入する";
+"signUp" = "サインアップ";
+"finishView" = "ご注文は安全に完了しました。VIVAIAをご利用いただきありがとうございました！";
+"finishOrder" = "ご注文番号";
+"checkMyOrder" = "ご注文内容を確認";
+"cod" = "代金引換";
+"codSuccessfulTip" = "ご注文は成功です。ご注文については、48時間以内にご注文を確認するため、こちらからお電話いたします。";
+"codHour" = "時";
+"cancelPay" = "お支払いはまだ完了していません。本当にもどりますか？";
+
+// **********
+//  * HOME *
+//  *********
+// 
+// WMHomeViewController
+"homeTitle" = "ホーム";
+"homeBottom" = "ホームボトム";
+
+// DiscoveryViewController
+"men" = "メンズ";
+"women" = "レーディス";
+
+// SearchViewController
+"networkNotAvailable" = "the Network is not available!";
+"search" = "Search";
+
+// DiscoveryJustForYouView
+"justForYou" = "Just For You";
+
+// DiscoveryItemCell
+"endsIn12d" = "残り12日で終了いたします";
+"endsIn" = "で終了";
+"endIn" = "で終了";
+
+// SearchHistoryHeaderView
+"searchHistory" = "検索履歴";
+
+// HotSearchHeaderView
+"popularSearch" = "人気の検索ワード";
+
+// SeachResultViewModel
+"search_blank" = "申し訳ございませんが、ご希望の検索条件に合う商品が見つかりませんでしたので、別の検索条件をお試しください。";
+"search_result_recommend" = "お探しの商品が見つかりませんでした";
+
+/************
+ * DETAIL *
+ ************/
+
+//GoodsDetailsViewController
+"payPointsReward" = " 1時間以内にお支払いいただくと、5倍のポイント還元が受けられます。(50 ポイント = $1)";
+"addToCart" = "カートに入れる";
+"addToBag" = "バックに入れる";
+"buyItNow" = "今すぐ購入する";
+"appOnly" = "アプリ限定";
+"saveExtra" = "EXTRAを保存する";
+"justApp" = "アプリのみ利用可能";
+"NotOnSale" = "在庫切れのため、他の商品をお選びください。";
+"SaleOut" = "完売しました。他のサイズ/カラーをお選びください。";
+"addToCartUper" = "カートに入れました。";
+"ContinueShopping" = "お買い物を続ける";
+"spuSaleOut" = "こちらの商品は完売しましたので、他の商品に変更してください。";
+"supNotOnSale" = "こちらの商品は完売しましたので、他の商品に変更してください。";
+"selectSize" = "確認してください";
+"hot" = "ホット";
+"checkTheSize" = "カートに入れる前に、サイズとカラーを確認してください。";
+"left" = "残り";
+"Left" = "残り";
+"switchFreeItem" = "無料商品がカートに入っていますが、変更しますか？";
+
+// GoodsReviewsViewController
+"reviews" = "レビュー";
+
+// GoodsStoreViewController
+"store" = "店舗";
+"storeProduct" = "商品";
+"storeService" = "サービス";
+"storeLogistics" = "物流";
+
+// OSSVDetailsHeaderView
+"freeShipping" = "送料無料 ";
+"refundWithin45Days" = " 45日以内に返金する";
+"description" = "概要";
+"recommentions" = "おすすめ";
+"figure" = "選択：画像のように！";
+"select" = "選択";
+
+// OSSVDetailsViewModel
+"removedWishlist" = "欲しいものリストから削除する";
+"addedWishlist" = "欲しいものリストに追加する";
+"addedWishlist_flash" = "フラッシュセール期間中に欲しいものリストにてご注文ください。";
+
+// *******************
+//  * CATEGORIES *
+//  *******************
+"category" = "カテゴリー";
+"featuredProduct" = "人気商品";
+"dailyDeal" = "毎日のお得な情報!";
+
+// *********
+//  * CART *
+//  *********
+// 
+// CartViewController
+"FREE" = "無料";
+"cart" = "カート";
+"cart_title" = "ショッピングカート";
+"Bag" = "バック";
+"payQuickly" = "すぐにお支払う：5倍のポイント還元を受ける";
+"Pick" = "選ぶ";
+"TopSignIn" = "サインインすると、カートに保存されている商品を見ることができます。";
+"ClearAll" = "すべてをクリア";
+
+// CartOrderInformationViewController
+"orderInformation" = "ご注文情報";
+"checkout" = "安全にチェックアウト";
+"selectShipMethod" = "配送方法をお選びください。";
+"shipInsurance" = "配送保険";
+"couponTitle" = "Y ポイント& クーポン";
+"useCoupon" = "クーポンを利用する";
+"couponFromAccount" = "クーポンを発行する";
+
+// "paymentMethod" = "Payment Method";
+"paymentMethod" = "支払方法";
+"protudts_total" = "商品合計数";
+"shipCost" = "配送料";
+"tracking" = "追跡番号：";
+"insurance" = "配送保険";
+"codCost" = "COD コスト";
+
+// Y不应该在中间，同步安卓，去掉Y "نقاط Y = وفر"
+"pointsSave" = "Y ポイン";
+"unSelectPayment" = "お支払い方法をお選びください";
+"disCountTitle" = "オンライン支払い割引";
+
+// 支付方式折扣信息改变的弹窗
+"payMentDiscountChange" = "お支払い割引が変更されましたので、ご注文内容を再送信してください。";
+
+// 身份证信息弹窗啊
+"tip" = "ヒント";
+"titleContent" = "お客様の国での通関のために、ID番号を入力してください";
+"promptText" = "* ID番号を記入してください";
+"warningStringFor10" = "10桁の数字を正しく入力してください";
+"warningStringFor11" = "11桁の数字を正しく入力してください";
+
+// 保存
+"english_save" = "割引値額";
+
+// 省
+"save" = "割引値額";
+"clearCoupon" = "クーポンを削除する";
+"taxId" = "Tax ID:";
+"trackNumber" = "追跡番号";
+"orderInfo_coupon" = "クーポン";
+"orderInfo_point" = "Y ポイント";
+"grandTotal" = "総計";
+"totalPayable" = "合計金額";
+"taxDescribe" = "ご注文いただいた商品は、アルゼンチンに送られます。速達を選択された場合は、スムーズな通関と配送のためにTAX IDを記入してください。";
+"payFailed" = "決済失敗しました。もう一度お試しください。";
+"createFailed" = "注文の作成に失敗しました。もう一度やり直してください。";
+"myOrder" = "私の注文";
+"placeOrder" = "注文";
+"validCouponCode" = "有効なクーポンコードを入力してください。";
+"insuranceDescribe" = "配送保険とは\? どのようなメリットがあるのか？
+Vivaiaの配送保険は、国際配送中の商品の保護と安全性を保証するものでございます。
+万が一、紛失や破損が確認された場合は、追加料金なしで再送いたします。 
+チェックアウトの段階で保険を購入するには、配送方法の横にある「配送保険を追加する」オプションにチェックを入れてください。
+万が一、お届けした商品に問題があった場合、スムーズに解決するためにも、運送保険のご加入をお勧めします。";
+"insuranceDescribeNewContent" = "配送保険は、国際配送中のお客様の大切なお荷物を保障し、安全にお届けするためのものです。万が一、紛失や破損が報告された場合は、追加料金なしで直ちに再発送いたします。";
+"VerificationCodePrompt" = "ご注文のセキュリティのために、お客様の携帯電話のSMSにコードを記載したメッセージを送信しますので、以下のコードをご入力ください。.";
+"SendSMS" = " SMSを送信する";
+"InputValidationCode" = "正しい認証コードを入力してください。";
+"verify" = "Verify";
+"ValidationMessagePrompt" = "ヒント：何度検証してもSMSを受信できない場合は、電話番号が正しいかどうかを確認するか、他の電話番号をご利用ください。";
+"resend" = "Resend";
+"VerificationCodeEmpty" = "検証コード空欄";
+"PaymentAmount" = "お支払い金額";
+
+// OSSVCartShippingMethodVC
+"shipMethod" = "配送方法";
+"fullCutAndFlashsaleTip" = "フラッシュセールや \" Xを買うと xxx オフをゲットする\"などのキャンペーンとの併用はできません。";
+
+// OSSVCartSelectCouponVC
+"selectCoupon" = "クーポンを選択する";
+"available" = "利用可能";
+"unavailable" = "利用不可";
+
+// OSSVCommendFooterView
+"mayLike" = "こちらの商品はお好きでしょうか";
+"over" = "以上で";
+
+// OSSVCartViewModel
+"selectItem" = "商品を選択してください";
+"addToWish" = "欲しいものリストに追加する";
+"cart_blank" = "カートには何もございません。";
+"cart_blank_button_title" = "お買い物を続ける";
+
+// OSSVCartCouponItemViewModel
+"NoAvailable" = "申し訳ございませんが、利用可能なクーポンはございません。";
+
+// ***************
+//  * COMMUNITY *
+//  ***************
+"community" = "コミュニティ";
+"popular" = "人気";
+"faves" = "お気に入り";
+"Latest" = "最新な";
+"havePoints" = "保有しているポイント";
+
+// CommunityDetailViewController
+"think" = "どう思いますか？";
+"noPost" = "ご自身の投稿にコメントすることはできません。";
+"re" = "再";
+
+// MyStylePageViewController
+"shows" = "投稿";
+"likes" = "お気に入り";
+"styleTitle" = "Yo.Me";
+"userStyleTitle" = "Yo.Me";
+
+// FollowViewController
+"Theylikedyourstyle" = "あなたのスタイルを気に入ってくれました。";
+"following" = "フォロー中";
+"followers" = "フォロワー";
+
+// PostViewController
+"PostTitle" = "レビューを書く";
+"shareSomething" = "こちらの写真について一言 (0/2000)";
+"addItems" = "アイテムを追加する";
+"order" = "その他";
+"bag" = "カート";
+"postWishlist" = "欲しいものリスト";
+"recent" = "最近";
+"post" = " 投稿";
+"endEditting" = "レビューをキャンセルしますか？";
+"photoMustSelect" = "写真を入れましょう！";
+"textViewMaxInput" = " 2000文字以内にしてください。";
+"success" = "成功";
+"goodsMaxSelectedCount" = "アイテムは6個までお選びできます。";
+"goodsSelected" = "こちらの商品は既に追加しています";
+"selectImage" = "一度に最大6枚までお選びできます。";
+"selectImageThree" = "写真は一度に最大３枚までお選びできます。";
+"tagsMaxSelectedCount" = "タグは一度に最大３枚までお選びできます。";
+"addTopics" = "トピックスを追加する";
+"communityTop" = "トップ";
+"communityViews" = "見る";
+"viewAll" = "すべて表示";
+"ranking" = "ランキング";
+"latest" = "最新な";
+"seeAll" = "すべて表示";
+"topViewNoContent" = "参加する初めの者として";
+"noOrderText" = "ご注文はまだございません。";
+"noRecentText" = "最近の閲覧履歴は何も見つかりませんでした。";
+"cartEmptyText" = "ショッピングカートには何もございません。";
+"wishlistEmptyText" = "欲しいものリストには何もございません。";
+
+// TopicListViewController
+"listOfTopic" = "トピック一覧";
+"topicDetail" = "トピック詳細";
+
+// StyleLikesCell
+"followed" = "フォローされた";
+"follow" = "フォローする";
+
+// CommunityHeaderView
+"hotTopic" = "人気トピック";
+"communityMore" = "もっと見る";
+
+// PopularViewModel
+"noEnoughPoints" = "ポイントが足りませんでした。";
+"sentPoints" = "Y ポイント送信";
+"noShareContent" = " これは私のVIVAIAでのスタイル投稿です。お好きですか？";
+"popular_blank" = "あなたの人気投稿はこちらに表示されます";
+
+// FavesViewModel
+"faves_blank" = "あなたのお気に入りの投稿はこちらに表示されます";
+
+// FollowViewModel
+"following_blank" = "他人をフォローすると、その人の公開投稿を見ることができます。";
+
+// 看自己关注别人没有
+"following_notSelf_blank" = "まだ誰もフォローしてません。";
+
+// 看别人的关注
+"followers_blank" = "写真を追加することで、フォロワーを集めましょう！";
+
+// 看自己有没有粉丝
+"followers_notSelf_blank" = "この人にはまだフォロワーがいません";
+
+// 看别人的粉丝
+// ADD More Friend
+"AddMoreFriends_VC_Title" = "お友だちを追加";
+
+// ContactsViewController
+"Contacts_VC_Title" = "連絡先";
+"Contacts_VC_Message" = " Yo.Meコミュニティに今すぐ参加しましょう！大量のクーポンやプレゼントを手に入れることが可能。また、あなたの経験やファッションのアイデアを皆さんと共有して、賢い買い物をしましょう！";
+"Contacts_VC_Send" = "送信";
+"Message" = "メッセージ";
+
+// FriendsCommendHeadView
+"AddMoreFriends_Contacts" = "連絡先";
+"AddMoreFriends_FaceBook" = "Facebook お友だち";
+"AddMoreFriends_Suggested" = "推奨ユーザー";
+
+// ContactsViewModel
+"ContactsViewModel_AuthorizationFailure_Message" = " VIVAIAが連絡先へのアクセスを求めています。「設定」→「プライバシー」→「連絡先」で設定できます。";
+"ContactsViewModel_Not_Authorization" = "連絡先にアクセスできませんでした";
+"ContactsViewModel_Go_Setting" = "設定画面へ";
+"Share_VC_Shared_Facebook_Success" = " Facebookでシェアできました。";
+"Failed" = "Failed";
+"FriendsCommendViewModel_Share_Title" = " VIVAIAで私をフォローしましょう！";
+"FriendsCommendViewModel_Share_Content" = " Yo.Meコミュニティに今すぐ参加しましょう！大量のクーポンやプレゼントを手に入れましょう。あなたの経験やファッションのアイデアを皆さんと共有して、賢い買い物をしましょう！";
+
+// CommendUserCell
+"CommendUserCell_Posts" = "投稿";
+"CommendUserCell_BeLiked" = "気に入られる";
+
+// ***************
+//  * ACCOUNT *
+//  ***************
+// 
+// OOSVAccountVC
+"accountTitle" = "マイページ";
+"sureSignOut" = "本当にサインアウトしますか？";
+"sure" = "確認";
+
+// OSSVEditProfileVC
+"editSuccess" = "情報の変更が完了しました。";
+"networkFailed" = "ネットワークに接続できません。後ほどお試しください。";
+"editProfile" = "プロフィール編集";
+"takePhoto" = "写真を撮る";
+"chooseAlbums" = "アルバム";
+"cameraUnavailable" = "カメラにアクセスできません。no camera or camera is unavailable.";
+"cameraNotPermission" = " VIVAIAにカメラへのアクセスを許可します。（設定>プライバシー>カメラ）";
+"photoNotPermission" = " VIVAIAに写真へのアクセスを許可します。（設定>プライバシー>写真）";
+"nickNameEmpty" = "ニックネームを入力してください。";
+"nickNameMaxLength" = "35文字以内でご記入ください。";
+"nickNameMinLenght" = "ニックネームは2文字以上で入力してください。";
+"changePassword" = "パスワード変更";
+"myPhotoTitle" = "アイコン";
+"nickNameTitle" = "ニックネーム";
+"birthDayTitle" = "生年月日";
+"sexTitleOfMale" = "男性";
+"sexTitleOfFemale" = "女性";
+"editConfirmEditButtonTitle" = "確認";
+
+// OSSVChangePasswordVC
+"newPasswordHadChanged" = "パスワードが変更されました！";
+"loginNow" = "今すぐログイン";
+"originalPasswordEmpty" = "元のパスワードを入力してください。";
+"passwordEmptyMsg" = "パスワードを入力してください。";
+"passwordComfirmEmptyMsg" = "パスワードを再入力してください。";
+"passwordEqualToMsg" = "新パスワード(確認)欄に新パスワードと同じように入力してください。";
+"passwordNewEqualOld" = "このパスワードは旧パスワードと同じです。別のパスワードを指定してください。";
+"passwordMinLengthMsg" = "パスワードを6文字以上で入力してください。";
+"passwordMaxLengthMsg" = " 最大30文字まで入力できます。";
+"originalPassword" = "旧パスワード";
+"newPassword" = "新パスワード";
+"confirmPassword" = "新パスワード(確認)";
+
+// OSSVAccountsOrderDetailVC
+"orderDetail" = "ご注文内容";
+"payNow" = "今すぐお支払う";
+"view" = "見る";
+"supportCenter" = "サポートセンター";
+"messageUs" = "お問い合わせ";
+"messageUsSubtitle" = "すべての問題をオンザタブon-a-tabで解決する";
+"paymentCancel" = "お支払いがキャンセルされました。 「今すぐ支払う」を押してもう一度お試しください。";
+"payCancel" = "お支払いをキャンセルする";
+"paymentFailed" = "Payment Failed. Touch \"Pay Now\" to try again!";
+"failedPay" = "決済が失敗しました。";
+"orderNo" = "ご注文番号";
+"status" = "状態";
+"orderDate" = "ご注文日";
+"successCopy" = "コピーできました！";
+"supportSubtitle" = "お問い合わせ、ご注文、物流など";
+"feedbackSubtitle" = "バグや技術的な問題のみ";
+"PartialPayment" = "一部のみお支払う";
+"AmountPaid" = "お支払い金額";
+
+// OSSVWritesReviewsVC
+"writeReview" = "レビューを書く";
+"shipExperience" = "あなたのご購入経験をお書きください。";
+"limitCharacters" = "文字数は3,000文字以内でお願いします。";
+"writeReviews" = "他のお客様のご参考になるように、あなたのご購入経験をお書きください。文字数は3000文字以内でお願いします。";
+"imageSize" = "画像の幅と高さの最小値は500ピクセルとなります。";
+"chooseExisting" = "既存商品を選択";
+
+// OSSVChecksReviewsVC
+"checkMyReview" = "マイレビューを見るw";
+"myReview" = "マイレビュー";
+
+// OSSVWMCouponVC
+"myCoupons" = "マイクーポン";
+"unused" = "未使用";
+"expired" = "期限切れ";
+"used" = "使用済";
+"new" = "ニュー";
+"expiredSoon" = "間もなく期限切れとなります";
+
+// OSSVAddressBooksVC
+"addressListAbove5" = "お届け先の数が限界に達しました";
+"addressAddAdress" = "新しいお届け先住所を追加する";
+
+// OSSVFeedbackVC
+"FeedBackSelectIssue" = "問題の種類をお選びください";
+"FeedbackEmptyMsg" = "フィードバックをご記入ください。";
+"FeedbackEmailMsg" = "有効なメールアドレスを入力してください。";
+"FeedbackMaxMsg" = "200字以内でご記入ください。";
+"feedBackPlaceholderIssue" = "不具合や技術的な問題";
+"feedBackPlaceholderTextView" = "フィードバックをご記入ください。";
+"feedBackPlaceholderEmail" = "ご連絡可能なメールアドレス";
+"bugOrTechnicalIssue" = "不具合や技術的な問題";
+"suggestion" = "ご提案内容";
+"positiveFeedback" = "ポジティブなご感想";
+"otherIssue" = "他の問題";
+
+// ModifyAddressViewController
+"modifyAddress" = "お届け先を変更";
+"StateNoCountryMsg" = ">荷受人の国をご入力ください。";
+"StateNoProvinceMsg" = "荷受人の都道府県をご入力ください。";
+"FirstnameEmpytMsg" = "苗字を入力してくださ";
+"FirstnameMaxLengthMsg" = "お名前を35文字以内でご入力ください。";
+"FirstnameMinLengthMsg" = "２文字以上で入力してください";
+"LastnameEmptyMsg" = "名前を入力してくださ";
+"LastnameMaxLengthMsg" = "姓は35文字以内で入力してください。";
+"LastnameMinLengthMsg" = "２文字以上で入力してください";
+"StreetEmptyMsg" = "番地をご入力ください。.";
+"StreetMaxLengthMsg" = "35文字以内で入力してください。";
+"StreetMoreEmptyMsg" = "詳細を入力してください。.";
+"StreetMoreMaxLengthMsg" = "35文字以内で入力してください。";
+"CountryEmptyMsg" = "お届け先の国をお選びください";
+"StateEmptyMsg" = "有効な都道府県を入力してください。";
+"CityEmptyMsg" = "お届け先の市区町村をご入力ください";
+"VillageEmptyMsg" = "お届け先の地区をご入力ください";
+"CityMaxLengthMsg" = "50文字以内で入力してください。";
+"PhoneEmptyMsg" = "お電話番号をご入力ください。";
+"PhoneNumMsg" = "お電話番号をご入力ください。";
+"ZipEmptyMsg" = "郵便番号をご入力ください。";
+"ZipEmptyMsgJp" = "７桁の郵便番号を入力してください";
+"ZipMaxLengthMsg" = "郵便番号は正しくありません";
+"ZipMinLengthMsg" = "郵便番号は正しくありません";
+"StreetValidMsg" = "有効なお届け先住所を入力してください";
+"CityVaildMsg" = "有効な市区町村名を入力してください。";
+"ZipValidMsg" = "ラテン文字/数字/スペース/ハイフンのみご入力しください。";
+"FirstName" = "苗字*";
+"LastName" = "名前*";
+"StreetAddress" = "*番地";
+"CountryRegion" = "*国";
+"StateCounty" = "*都道府県";
+"State" = "*都道府県";
+"City" = "*市区町村";
+"city" = "市区町村";
+"District" = "*地区";
+"PhoneNumber" = "*電話番号";
+"Zip" = "郵便番号";
+"Zip*" = "*郵便番号";
+"SetDefaultAddress" = "この住所をデフォルトとして設定";
+"placeholderStreetAddress" = "アパート、マンション名Street Address ";
+"placeholderApartment" = "詳しい住所を入力してください";
+"placeholderSelectCountry" = "国を選択してください。";
+"placeholderRegion" = "選択してください";
+"idNumber" = "*ID番号";
+"fillIdNumber" = " ID番号をご記入ください。";
+
+// OSSVCountrySelectVC
+"country" = "国";
+
+// ProvinceSelectViewController
+"county" = "国";
+
+// OSSVNotificationSettingsVC
+"enableNotifi" = "でVIVAIAを有効にするか無効にするか。\"設置\"->\n\"通知\"";
+"notifications" = "お知らせ";
+"enable" = "有効";
+"disable" = "無効";
+"promotions" = "プロモーション＆セールス";
+"orderMessages" = "ご注文メッセージ";
+
+// AccountHeaderView
+"myPoints" = "Y ポイント";
+"myWallet" = "ウォレット";
+
+// OSSVAccountsFootView
+"SignOut" = "サインアウト";
+
+// OSSVAccounteMyOrderseCell
+"total" = "合計";
+"codOrderStatePrompt" = "ご注文できました。ご注文の際には、ご注文内容を確認するためにご連絡させていただきます。48 時間以内にご対応ください。";
+
+// OSSVAccounteMyeOrderseHeadereView
+"checkRosegal" = "前回の注文内容を確認する>>>";
+
+// OSSVAccountsdViewModel
+"My_WishList" = "欲しいものリスト";
+"AddressBook" = "お届け先住所一覧";
+"Settings" = "設置";
+"Help" = "ヘルプ";
+"FeedBack" = "お問い合わせ";
+
+//OSSVAccounteMyeOrderseViewModel
+"order_blank" = "今のところご注文はございません。";
+"cancelOreder" = "本当に注文をキャンセルしますか？";
+
+// OSSVAccounteMyOrderseDetailViewModel
+"request_out" = "ネットワークが時間切れとなりました。リクエストがタイムアウトしました。";
+
+// OSSVWishListsTableCell
+"outStock" = "在庫切れ";
+
+// OSSVWishLitsViewModel
+"removeItems" = "本当にこちらの商品を削除しますか？";
+"moveToCart" = "カートに入れる";
+"addToCartSuccess" = "カートに入れました";
+
+// OSSVAddresseBookeViewModel
+"deleteAddress" = "こちらのお届け先情報を削除しますか？";
+"addressBook_blank" = "お届け先住所を追加してください";
+"ShippingAddress" = "お届け先住所";
+
+// OSSVSettisViewModel
+"Currency" = "通貨";
+"Clear_Cache" = "キャッシュ消去";
+"clearCache_Tip" = "アプリのキャッシュが消去されました！";
+"RateUs" = "私たちを評価してください";
+"Version" = "バージョン";
+"updatesInformation" = "情報を更新する";
+"updateRemindMeLater" = "後で私をリマインド";
+"updateNow" = "今すぐアップデートする";
+"versionNotNeedUpdate" = "現在は最新のバージョンでございます。";
+"notification" = "お知らせ設定";
+"Setting_Cell_Languege" = "言語";
+
+// OSSVHelpsdViewModel
+"AboutUs" = "会社概要";
+"Term" = "利用規約";
+"PrivacyPolicy" = "プライバシーポリシー";
+"SecurePaymentMethod" = "安全な決済方法";
+"ShippingHandling" = "配送と取り扱いについて";
+"ReturnPolicy" = "保証及び返品";
+"ContactUs" = "お問い合わせ";
+
+// OSSVChangPasswordsViewModel
+"changing" = "変更中...";
+
+// OSSVEditsProfiledViewModel
+"uploading" = "アップロード中...";
+
+// ProvinceViewModel
+"reback" = "Please reback select again再度選択してください。";
+
+// mySizeViewController
+"Save" = "保存";
+"SAVE" = "保存";
+"SaveNullTip" = "性別、身長、体重をご記入ください。お客様に合ったサイズを計算することができます。";
+"CM" = "センチ";
+"INCH" = "インチ";
+"Height" = "身長";
+"Weight" = "体重";
+"Shap" = "体系";
+"Choose" = "選択";
+"Choose_Height" = "身長を選択する";
+"Choose_Weight" = "体重を選択する";
+"kg" = "kg";
+"lbs" = "lbs";
+"cm" = "cm";
+"inch" = "inch";
+
+// **********
+//  * LOGIN *
+//  **********
+// 
+// SignViewController
+"signForgotPasswordTitle" = "パスワードはお忘れですか";
+"signForgotPlaceholderEmail" = "メールアドレスをご入力ください。";
+"forgotSendTitle" = "パスワードを忘れた";
+"forgotSendSuccessMsg" = "お客様のメールアドレスに確認用リンク付きのメールが送信されました。リンクをクリックし、パスワードを変更してください。";
+"confirmEmail" = "メールアドレスを確認";
+"inputEmail" = "メールをご入力ください。";
+"emailFormatMsg" = "メールの形式を確認して、再度お試しください。";
+"emailEmptyMsg" = "有効なメールアドレスを入力してください。";
+"sexNotSelectMsg" = "性別欄は必須項目です。";
+"signUpOfLoginSelectTitle" = "ログイン";
+"signUpOfSignUpSelectTitle" = "新規登録";
+"signPlaceholderEmail" = "メール";
+"signPlaceholderPassword" = "パスワード";
+"signPlaceholderComfirmPassword" = "パスワードを再入力";
+"signForgotPassword" = "パスワードはお忘れですか";
+"signButtonTitle" = "ログイン";
+"signFaceBookButtonTitle" = "Facebookでサインイン";
+"signUpButtonOfTitle" = "同意&マイアカウントを作成";
+"signInfoOfAnd" = "と";
+"signInfoOfPrivacyPolicy" = "プライバシーポリシー";
+"signInfoOftermsOfProtection" = "利用規約";
+"newUserExclusive" = " VIVAIAに初めて参加される方には、100ドルのクーポンを差し上げております。";
+"loginBgImage" = "bg_en";
+
+// *****************
+//  * MESSAGE *
+//  *****************
+"onlineCustomService" = "オンラインサービス";
+"viewOnlineCustomServiceMessage" = "ライブチャットでのメッセージを表示";
+"messageCenter" = "メッセージセンター";
+"messageOrder" = "物流";
+"messageNotify" = "お知らせ";
+"messagePromotion" = "お得な情報。お買い得情報";
+"messageNoMsgTip" = "新規メッセージはございません。";
+"messageViewDetail" = "詳細はこちら";
+"messagePromotionUnstart" = "もうすぐでプロモーションが来ますn";
+"messagePromotionEnd" = "こちらのプロモーションは終了しました。";
+"messageViewMore" = "もっと見る";
+"messageDetail" = "詳細";
+"messageCheckMyOrder" = "ご注文内容を確認";
+"messageCheckMyCoupon" = "マイクーポンを確認";
+
+// *****************
+//  * EXTENSION *
+//  *****************
+"skip" = "スキップ";
+"noInventory" = "もう在庫はありません。No more inventory!";
+"noGoods" = "これ以上商品はございません。";
+"quantity" = "数量：";
+"Color" = "カラー";
+"Size" = "サイズ／特徴";
+"getFree" = "無料";
+
+// InputTextView
+"limit300" = "300文字以内にしてください。";
+
+// *********************************
+//  * 空白页加载失败显示的标语 *
+//  *********************************
+"load_failed" = "読み込みに失敗しました、後でもう一度お試しください。";
+
+// *******************************
+//  * 空白页加载失败显示按钮 *
+//  ******************************
+"retry" = "再試行";
+
+// *************************
+//  * 评论为空显示的标语 *
+//  *************************
+"reviews_blank" = "こちら商品にはまだレビューがございません。";
+
+// *************
+//  * LIBRARY *
+//  *************
+// 
+// MJRefresh -> MJRefreshStateHeader
+"MJRefreshHeaderIdleText" = "10日以内に100％返金します。";
+"MJRefreshHeaderPullingText" = "10日以内に100％返金します。";
+"MJRefreshHeaderRefreshingText" = "10日以内に100％返金します。";
+
+// Tap or pull up to load more
+"MJRefreshAutoFooterRefreshingText" = "読み込み中...";
+"MJRefreshAutoFooterNoMoreDataText" = "これ以上データはございません。";
+"MJRefreshBackFooterIdleText" = "プルアップすることで、さらに読み込みます";
+"MJRefreshBackFooterPullingText" = "解除してさらに読み込みます。";
+"MJRefreshBackFooterRefreshingText" = "読み込み中...";
+"MJRefreshBackFooterNoMoreDataText" = "これ以上データはございません。";
+"MJRefreshHeaderLastTimeText" = "100%のサービス満足度";
+"MJRefreshHeaderDateTodayText" = "今日";
+"MJRefreshHeaderNoneLastDateText" = "記録はございません。";
+
+// =================================================
+// Coupon &  Community 暂时都没用到
+"NULL" = "有効なクーポンコードを入力してください。";
+"Error" = "エラー！こちらのプロモーションコードは存在しません。.";
+"Overdue" = "エラー！こちらのプロモーションコードは期限切れです。";
+"Limit" = "エラー！このプロモーションコードには利用回数の制限がございます。";
+"Beyond" = "こちらのコードは使用済みでございます。";
+"NoSpecified" = "エラー！こちらのクーポンコードはご利用できません。";
+"NoOrder" = "申し訳ございませんが、こちらのクーポンはこのご注文にご利用できません。";
+"Exclusive" = "申し訳ございませんが、こちらのクーポンは限定商品に適用されます。";
+"faves_touch_title" = "カメラボタンをタッチして、写真を投稿に追加する。";
+"shows_self_blank" = "あなたの投稿がここに表示されます。";
+
+// 看自己的分享
+"like_self_blank" = "「お気に入り」の投稿がここに表示されます。";
+
+// 看自己的喜欢
+"showsOrLike_touch_title" = "カメラをタッチして、写真を追加したり、気分を盛り上げましょう";
+"shows_notSelf_blank" = "投稿はまだございません。";
+
+// 看别人的分享
+"likes_notSelf_blank" = "お気に入りはまだございません。";
+
+// 看别人的喜欢
+"photoMaxSelectedCount" = "写真は6枚まで選択できます 。";
+
+// images
+"join_in" = "join_in";
+"endImg" = "end";
+"Alternative_phone_number" = "電話番号";
+"Optional" = "オプション";
+"Phone_number_only_include_X_digits" = "電話番号はX桁までしか入力できません。";
+"OrderTotal" = "合計";
+"COD_discount" = "COD割引";
+"Air_cargo_insurance" = "航空貨物保険";
+"Remaining_payment_time" = "残りのお支払い時間：";
+"Remaining_confirm_time" = "残りの確認時間：";
+"Copy_success" = "コピーできました";
+
+// 客服弹窗
+"You_can_contact_us_by" = "お問い合わせ先はこちら";
+"WhatsApp" = "WhatsApp";
+"Our_support_center_will_reply_you_within_24_hours" = "サポートセンターは24時間以内に返信いたします。";
+"24_hours" = "24時間";
+
+// 订单过期弹窗
+"Order_remaining_payment_time_message" = "ご注文内容をご確認ください。24 時間以内に、ご注文が確認できない場合は自動的にキャンセルされます。";
+"Within_1.5_hours" = "24時間以内、";
+
+// 商品详情弹出上
+"Size_chart" = "サイズ表";
+"Only_XX_left" = "残りXX件";
+
+// 商品分类列表排序
+"Sort" = "並べ替え";
+"Most_popular" = "人気順";
+"New_arrivals" = "新しい順";
+"Price_low_to_high" = "値段の低い順";
+"Price_high_to_low" = "値段の高い順";
+"Cart_CheckOut" = "チャックアウト";
+"Other_Products" = "あなたの商品";
+"Invalid_items" = "無効なアイテム";
+"Clear" = "削除";
+"All" = "すべて";
+"Promotions:" = "プロモーション：";
+"Tip" = "ヒント";
+"sale" = "セール";
+"SubTotal" = "小計";
+"Recommend" = "おすすめ";
+"Continue_to_check_out" = "チェックアウトを続ける";
+"Are_you_sure_to_clear_all_invalid_products?" = "無効な商品はすべて消去しますか？";
+"This_area_doesn't_support_purchases_If_purchase_change_address" = "こちらのエリアはご利用できません。購入をご希望の方は、お届け先住所の変更をお願いします。";
+"Sincerely_recommend_cod_which_orders_over_$XX-$YY" = "代金引換のご利用をお勧めいたします。代金引換のご注文金額は\n $XX-$YYの範囲内でなければなりません。";
+"category_filter" = "絞り込み";
+"category_filter_price_range" = "価格帯(%@ %@)";
+"category_filter_price_min" = "最安";
+"category_filter_price_max" = "最高";
+"category_filter_reset" = "リセット";
+"category_filter_apply" = "確定";
+"category_filter_limit_tip" = "オプションは最大5つまで選択できます。";
+"category_filter_nodate_tip" = "お探しのものが見つかりませんでした。";
+"coupons_available" = "利用可能なクーポン";
+"nosupporAddress" = "こちらのエリアはご利用できません。購入をご希望の方は、お届け先住所の変更をお願いします。";
+"nosupporSaudi" = ">申し訳ございませんが、サウジアラビアの倉庫からの商品は、こちらの地域での購入には対応しておりませんので、該当商品を削除してください。";
+"nosupporGlobal" = "申し訳ございませんが、グローバル倉庫からの商品は、こちらの地域での購入には対応しておりませんので、該当商品を削除してください。";
+"twoPackagesToDelivery" = "今回のご注文は、2つのパッケージに分けてお届けします。";
+"productList" = "商品一覧";
+"checkOutItems" = "商品";
+"checkOutItem" = "アイテム";
+"checkOutCoupon" = "クーポン";
+"ProductsTotal" = "商品合計数";
+"selectShippingOrPay" = "お支払い方法と配送方法をお選びください。";
+"MorePackages" = "ご注文された商品はXつのパッケージに分けております。詳細はこちら。";
+"noPackages" = "申し訳ございませんが、追跡情報はまだございません。ご注文を処理するために最善を尽くします。.";
+
+// 商品详情服务弹窗
+"AttributeSheetDetail" = "詳細";
+"Service_Description" = "サービス概要";
+"Secure_shopping" = "14日以内の返品は無料";
+"Secure_shopping_desc_within_45days" = " VIVAIAでご購入いただいた商品（下着、水着、美容品を除く）は45日以内に返金すると保証いたします。";
+"Payment_methods" = " $49以上で送料無料";
+"Payment_methods_Paypal_Worldpay_Cash_$30_$1000." = "ご利用可能なお支払い方法はこちら：Paypal、Paypal経由のクレジットカード、代金引換（5ドルから500ドルまでのご注文のみ）。.";
+"Fast_shipping" = "代金引換";
+"Expedited_shipping_3-7_business_days" = "ご注文金額が$99以上で送料無料";
+"Flat_rate_shipping_10-20_business_days" = "代金引換：15～20営業日";
+"Receiving_time=Processing_time+shipping_time" = "速達：15～20営業日";
+"Fast_Shipping_Tips" = "配送についてのお知らせ：配送期間は、世界的なコロナウイルスの蔓延により影響を受ける可能性がございますので予めご了承ください。ご不明な点がございましたら、support@vivaiacollection.com までご連絡ください。";
+"Easy_Returns" = "オンライン支払い割引";
+"Your_application_refund_processed_24hours_receive_your_package." = "ご返金申請はお客様の荷物を受け取ってから24時間以内に処理されます。";
+"Returning_time=Processing_time_of_VIVAIA+your_card_bank/Paypal" = "返金時間= VIVAIAの処理時間+お客様のカード発行会社やペイパルの処理時間";
+
+
+"defaultCount" = "0/3000";
+"noTwitterAccount" = "Twitterアカウントはございません。";
+"noTwitterAccountMessage" = " Twitterアカウントが設定されていません。「設定」でTwitterアカウントの追加または作成ができます";
+"Iknow" = "了解しました";
+"inputdCouponCode" = "クーポンコードをここに入力してください";
+"copyEmail" = "sb-5orsz2831659@personal.example.com  (ダブルクリックでコピー)";
+"copyPwd" = "7t2h+H2I  (ダブルクリックでコピー)";
+
+// 更新提示
+"update" = "アップデート";
+"The_current_version_APP_updated_info" = ">現在のAPPバージョンは古いので、ご利用するためにアップデートする必要がございます。";
+
+// 注册欧盟协议
+"I_agree_Term_Use_Privacy_Policy" = "利用規約とプライバシーポリシーに同意します";
+"Term_of_Use" = "利用規約";
+"submitting_confirm_information_understand_agree_App_Privacy_Policy" = "送信することにより、提供されたすべての情報が私自身のものであることを確認し、VIVAIAのプライバシーポリシーに従って使用されることを理解し、これに同意します。いつでも事前の同意を撤回することができます。";
+"registration_agree_App_Terms_Use" = "登録を完了するには、VIVAIAの利用規約に同意する必要がございます。";
+"registration_must_agree_consent_above" = "登録を完了するには、上記の同意事項に同意していただく必要がございます。";
+
+// 客服
+"Reply" = "返信する";
+"Repurchase" = "買い戻し";
+"Repurchase_invalid_order_goods_moved_following_zone" = ">完売している商品がございますので、ご確認の上、ご注文ください。";
+"Order_Review" = "注文レビュー";
+"My_Reviews" = "私のレビュー";
+"Waiting_for_review" = "レビューをお待ちしております。";
+"Reviewed" = "レビュー済";
+"Consult_reviews" = "レビューを見る";
+"Completed" = "完了";
+"Shipping_rating" = "配送評価";
+"Item_rating" = "商品評価";
+"Payment_rating" = "決済評価";
+"Service_rating" = "サービス評価";
+"system_notification" = "システム通知";
+"Comments_have_chance_receiv_10_points" = "コメントを書くと、10ポイント以上の獲得チャンスがございます！";
+
+// 定位
+"AppLocationSettingMsg" = "こちらのアプリでは、\"my location\"レイヤーを有効にするために位置情報の許可が必要でございます。位置情報の使用を許可してから再度お試しください。許可が拒否されている場合は、システム設定 > アプリ＞ VIVAIA  から有効にすることができます。";
+"Please_enter_English" = "英語で入力してください";
+"No_results_found" = "該当する結果はございません。";
+
+// COD取消统计原因
+"Sorry" = "申し訳ございません";
+"COD_Please_help_improve_service_why." = "今後のサービスをより良く改善するため、ご注文をキャンセルされる理由をお教えください。";
+"Information_entered_incorrectly" = "入力された情報が間違っています";
+"Estimated_delivery_time_is_long" = "お届けまでの時間が長い";
+"Shipping_fee_is_expensive" = "配送料が高い";
+"Did_not_receive_the_verification_code" = "認証コードが届いていない";
+"Changed_their_mind_no_longer_want_it" = "気が変わった、欲しくなくなった";
+"Other_reason" = "その他";
+"Please_fill_Shipping_address" = "お届け先住所をご入力ください";
+"free_gift" = "無料ギフト";
+"Free_gift_cannot_be_settled_solely" = "無料ギフトのみのご注文いたしかねます";
+"Checkout" = "チャックアウト";
+"Your Cart" = "カート";
+"Male" = "男性";
+"Female" = "女性";
+"improve your information" = "より良い商品をお客様にお勧めできるように、お客様の情報を更新してください。";
+"Gender" = "性別";
+"Recommendations" = "おすすめ";
+"FREE_DELIVERY" = "送料無料";
+"1SecondAgo" = "1秒前";
+"sign_in_with" = "でサインイン";
+"keyboard_Done" = "完了";
+"Address" = "住所";
+"Coupon" = "クーポン";
+"Viewed" = "表示された";
+"My_Size" = "マイサイズ";
+"Size_tip" = "お客様の性別、身長、体重、体型に応じて、適切なサイズをお勧めすることができます";
+"Shipped" = "発送済";
+"Processing" = "処理中";
+"Shape" = "体型";
+
+// 新增两个
+"allOrder" = "すべて";
+"Unpaid" = "未払い";
+"My_Orders" = "私の注文";
+"Recently_viewed" = "閲覧履歴";
+"More_services" = "より充実サービス";
+"Login/Register" = "ログイン";
+"Sorry_Not_history" = "申し訳ございませんが、お客様の履歴には何も見つかりませんでした。";
+"Account_Recommend" = "おすすめ";
+"No_recommended_products" = "おすすめ商品はございません。";
+"Tracking_Detail" = "トラッキング詳細";
+"goodsWritePlaceholderTextView" = "弊社がより良くなるため、お客様がコメントを残していただければ幸いです";
+"Order_Address_Get_Error" = "エラー！support@vivaiacollection.comまでご連絡ください。";
+"Address_Phone_Number_Tip" = "算用数字の \"0-9 \"を入力してください。";
+"Rules>" = "結果>";
+"Add_Only_One_Item" = "こちらのイベントではアイテムを1点のみご購入することができます。";
+"Continue_To_Verify" = "認証を続ける";
+"Continue_Cancel" = "キャンセルを続ける";
+"Login_No_Register_Tip" = "こちらのメールアカウントはまだ登録されていませんが、登録してサインインしますか？";
+"Registered_To_Login_Tip" = "こちらのメールアカウントは登録されています。サインインしますか？";
+"Cod_Cancel_OverTime_Tip" = "本当に認証をキャンセルしますか？24時間以内にご注文をご確認できない場合、ご注文は自動的にキャンセルされます。";
+"Cod_Tip_24_hour" = "24時間";
+"Are_want_remove_history" = "すべての検索履歴を削除しますか？";
+
+// "Order_code_seconds_confirm_tip"="To complete order confirmation，kindly double check your mobile phone number for delivery on time.";
+// Versoin 1.2.9 改动文案
+"Order_code_seconds_confirm_tip" = "ご注文確認を完了するために、また配送が遅れないように電話番号を再確認してください。";
+"Please_select_size" = "サイズを選択してください";
+"size" = "サイズ";
+
+// 闪购-------FlashSaleController
+"Parts_Items_join_Flash_Sale" = "一部の商品はフラッシュセールに参加することになります！";
+"Item_not_join_flash_sale" = "こちらの商品はフラッシュセールに参加しません";
+"Flash_sale" = "フラッシュセール";
+"sold" = "販売された";
+"flash_save" = "節約";
+"salePrice" = "セール価格";
+"Max_Qty_allowed_limited_product_is_XXXX" = "この限定商品の最大数量はXXXXでございます。";
+"Users_Want" = "Users Wantsユーザーの要望";
+"only" = "のみ";
+"oneSale" = "セール中";
+"soldOut" = "完売";
+"soldOutDetail" = "申し訳ございませんが、こちらの商品は完売しました。";
+"View_Product>" = "商品を見る>";
+"Flash_Finished" = "完了しました。";
+"Goods_cm" = "cm";
+"Item_pre_join_FlashSale" = "フラッシュセールはまだ始まっていませんので、通常価格で購入することになります。";
+"Item_did_join_FlashSale" = "こちらの商品はフラッシュセール中でございます。";
+
+// 物流--------STLNewTrackingListViewController
+"trackingTitle" = "トラッキング詳細";
+
+// "trackingTitle" = "التفاصيل اللوجستية";
+"trackingCompany" = "物流会社";
+"package" = "パッケージ";
+"TrackingNo" = "追跡番号";
+"NoTrackingNumber" = "貨物運送状はございません。";
+"STLTransportSplitViewController.headerTitle" = "小包を発送いたしました";
+"SHIPMENT" = "配送";
+"Clarification" = "説明";
+
+// Help
+"help_FrequentlyQuestion" = "よくあるご質問";
+"help_ReturnPolicy" = "返品について";
+"help_HowLongReceiveOrder" = "お届け予定日について";
+"help_QuestionCategories" = "カテゴリー";
+"help_Shipping" = "運送";
+"help_Orders" = "注文";
+"help_AfterSale" = "返品返金";
+"help_Promotion" = "クーポン";
+"help_Products" = "商品";
+"help_ContactUs" = "会社情報";
+"help_CanNotFindAnswer" = "「お答えが見つからない場合、お気軽いにお問い合わせください」";
+"help_feedback" = "お問い合わせ";
+
+"Goods_Find_Similar" = "似たようなアイテムを探す";
+"Goods_Unavailable" = "利用不可";
+"Tips" = "ヒント";
+"Back_to_Homepage" = "ホームページに戻る";
+"Remove_Pay" = "削除&お支払い";
+"Change_Shipping_Address" = "お届け先住所を変更";
+"Check_Product_List" = "商品一覧を確認する";
+"XXX_items_no_shipped" = "(%@ のアイテムは金額に含まれません)";
+"zero_View_All" = "すべて表示";
+"Term_of_Usage" = "利用期間について";
+
+// 0元购
+"switch" = "切り替え";
+
+// 新的地址功能语言本地化
+"Default_Address" = "初期設定";
+"Home" = "ホーム";
+"School" = "学校";
+"Company" = "会社";
+"Locate Me" = "私の位置情報";
+"Locate" = "位置情報";
+"Click" = "クリック";
+"helpFillAddress" = "を利用すると、ご住所を素早く記入することができます。";
+"Address Type" = "お届け先の種類";
+"SaveAddress" = "お届け先住所を保存";
+"TrySearching" = "検索してみる";
+"FillAddressButtonTitle" = "住所を記入";
+"confirmButtonTitle" = "位置確認";
+"BeyoundArea" = "お客様の所在地は当社のサービスエリア外でございます";
+"SearchTitle" = "現在地を検索する";
+"LocateCity" = "都市を検索する";
+"SearchCity" = "都市を検索";
+"Can'tFindAddress" = "住所が見つかりません";
+"FindAddressContent" = "地区、建物名、学校名などを入力してください。ご住所は後から入力できます。";
+"LocationIsNotenabled" = "位置情報が有効になっていません";
+"OpenLocationTitle" = "位置情報を有効にすると、ご注文される場所を知ることができます。";
+"LocationInformation" = "位置情報";
+
+//OSSVCheckOutVC-----金币的语言本地化
+
+//金币说明
+"coinHeadline" = "1.100コイン＝1USドル
+2.1回のご注文で、商品代金の15％までご利用いただけます。
+3.返品・キャンセルの場合、補償として同額のクーポンをお渡ししますが、「商品到着後のサイン」を拒否した場合の返金はございません。
+4.コインの有効期限は毎年1月1日0:00（サウジアラビア時間）となります。損失を避けるため、お早めにお使いください。";
+//返现说明
+"CashBackHeadline1" = "コインの利用方法";
+"CashBackHeadDesc1" = "1.1回のご注文で、商品代金の15％までご利用いただけます。
+2.100コイン＝1米ドル＝3.75SAR、その他の通貨のレートはご注文に応じて自動的に調整されます。
+3.コインは、チェックインページでのクーポンや、無料注文時の抽選に使用することができます。";
+"CashBackHeadline2" = "もっとのポイントを獲得する方法";
+"CashBackHeadDesc2" = "1. 毎日チェックインしてコインをもらいます。
+2.お友だちを紹介すると、1回の紹介で最大1000枚のコインがもらえます。
+3.ご注文後、ご注文金額に応じて2%～5%のコインをお送りします。
+4.コインはお客様ご自身でお受け取りする必要があり、７日経ってもお受け取りされない場合は無効となります。";
+"CashBackHeadline3" = "返品&期限";
+"CashBackHeadDesc3" = "1.ご注文を返品・キャンセルされた場合、補償として同等のクーポンをお渡ししますが、ご注文をお断りした場合の返金はございません。
+2.コインは貯めることができますが、毎年1月1日0:00(サウジアラビア時間)に失効します。";
+
+"Coins"  = "コイン";
+"NoCoin" = "ご利用可能なコインはございません";
+"CoinsCost" = "コインコスト";
+"ShippingFree" = "配送料";
+"ClickForCoins" = "コインをクリック >";
+"CoinsCenter" = "コインセンター >";
+"CoinsClaim" = "コインを請求する >";
+"Spent" = "使用済み";
+"CoinsAs" = "にコインを使う ";
+"OpenPushTitle" = "デイリーリマインダーの通知が必要な場合は、\"有効にする \"をクリックしてください。";
+
+// 临时定义
+"refresh_pull_down" = "下にスクロールしてください。サプライズをご用意しております！Swipe down for exciting surprises!";
+"refresh_release" = "サプライズをゲットするためにリフレッシュしましょう！ ";
+"refresh_loading" = "読み込み中...";
+"pay_PAYMENT" = "支払い";
+"pay_CANCEL" = "キャンセル";
+"pay_want_cancel_payment" = "本当に速達をやめますか？";
+"pay_canceld_order_24" = "The order will be canceled if your order is not paid within 24 hours";
+"move_cart_goods_tip" = "この商品を削除しますか";
+"move_cart_goods_fail" = "削除できませんでした";
+"move_to_wishlist" = "欲しいものリストへ移動";
+"move_to_wishlist_lower" = "欲しいものリストへ移動";
+"move_to_remove" = "削除";
+"move_to_wishlist_success" = "欲しいものリストへ移動";
+"move_to_wishlist_fail" = "欲しいものリストへ移動できませんでした。";
+"pay_want_cancel_payment_messNew" = "他のお支払い方法を試すか、support@vivaiacollection.com までご連絡ください。";
+"cart_bottom_tip_CoinsCouponsDiscount" = "コインやクーポン割引は次のステップになります。";
+"theme_orders" = "ご注文";
+"theme_min_price" = "最低価格";
+"theme_max_price" = "最高価格";
+"REPALY" = "返信";
+"receive" = "受け取る";
+"received" = "受け取った";
+"receiveAll" = "すべてを受け取る";
+
+// /new sign
+"sws_login" = "ログイン";
+"sws_signup" = "登録";
+"login_welcom" = "VIVAIAへようこそ";
+"sign_up_create" = "新規アカウント作成";
+"email_field" = "メールアドレス";
+"password_field" = "パスワード";
+"reset_password" = "パスワードをリセット";
+"reset_password_details" = "メールアドレスを入力してください。パスワードリセット用のリンクを送信します。";
+"reset_send" = "送信";
+"send_success" = "送信しました！";
+"send_success_details" = "%@にリセット用のリンクをお送りました。リンクをクリックしてパスワードを再設定してください。";
+"reset_return_to_signin" = "ログイン";
+"reset_resent" = "再送信";
+"reset_send_success" = "送信できました！";
+"reset_send_failed" = "送信できませんでした";
+"skip_bind_cellphone" = "スキップ";
+"sign_success" = "バインドされる電話番号";
+"bind_phone_num" = "電話番号";
+"bind_confirm" = "確認";
+"RegionNumMsg" = "国番号を選択してください";
+"bind_seelct_country" = "国を選択してください";
+"bind_successfully" = "バインドできました";
+"Login_In_Now" = "今すぐログインする";
+"Login_cancel" = "キャンセル";
+
+// /买了又买
+"alsoLike" = "おすすめ";
+"oftenBought" = "人気商品";
+
+// /1.3.8
+"Remind_Me" = "リマインド";
+"Users_Follow" = "フォロー中のユーザー";
+"canlendarAuth" = "カレンダーへのアクセスが失敗しました。設定でカレンダーへのアクセスを許可してください。";
+"RemindAddSuccess" = "リマインドが成功";
+"RemindCancelSuccess" = "キャンセルが成功";
+
+// 地址选择四级联动
+"text_select_country_title" = "国を選択してください";
+"text_select_state_title" = "都道府県を選択してください";
+"text_select_city_title" = "市区町村を選択してください";
+"text_select_district_title" = "地区を選択してください ";
+"text_address_select_country" = "* 国";
+"text_address_select_state" = "* 国";
+"text_address_select_city" = "* 都道府県";
+"text_address_select_area" = "*国/都道府県/市区町村/地区";
+"country_region" = "国";
+"select_default_state" = "都道府県";
+"select_default_city" = "市区町村";
+"address_select_default_town" = "地区";
+"user_address_street" = "* お届け先住所";
+"user_address_street_empty" = "お届け先住所を入力してください";
+"user_address_country_empty" = "選択してください";
+
+// "Homepage" = "الصفحة الرئيسية";
+"Homepage" = "ホームページ";
+"More" = "もっと";
+"Learn_More" = "詳細はこちら";
+"Delivery" = "配送";
+"Less" = "省略";
+
+// 新品频道
+"new_in_guide" = "新着のお知らせ";
+"for_category" = "カテゴリー別";
+"hotlist" = "ホットリスト";
+"new_in" = "新入荷";
+"last7days" = "過去7日間で";
+"order_cancel_buy_msg" = "すべての商品がショッピングカートに追加されています。クーポンやコインを返却するとこちらのご注文はキャンセルされます。";
+"order_cancel_buy_btn" = "キャンセル&買い戻し";
+"flash_sale_noti" = "フレッシュサール価格は %@ pcsに限定します";
+"address_option_info" = "オプション";
+"new_in_tab_title" = "ニュー";
+
+// 新品标签
+"new_goods_mark" = "ニュー";
+
+// 会员
+"user_center_member" = "メンバー";
+"SaveNContinue" = "保存& 続ける";
+
+// /1.4.2
+"Coins_Center" = "ポイント";
+"following_us" = "お問い合わせ";
+
+// 1.4.2 以汉语来映射
+// 手机号绑定
+"enterVerification" = "認証コードを入力してください";
+"sendedCode" = "コードが送信されました：";
+"enterFourCode" = "4桁のコードを入力してください";
+"didSent" = "送信されました";
+"resendCode" = "コードを再送信";
+"confirm" = "確認";
+"reEnterCode" = "コードが間違っています。ご確認の上再入力してください。";
+"noCodeSkip" = "コードが届いていません。スキップ";
+"How_Use_Coupons" = "クーポンの利用方法";
+"How_Use_Coupons_Content" = "1.ご注文金額に応じて「ご利用可能」に表示されるクーポンをクリックしてご利用ください。
+2.クーポンコードを取得した場合は、入力して「適用」をクリックしてください。
+3.代引き手数料と配送料のクーポンは、チェックアウトの際に自動的に使用されます。
+注：フラッシュセール、福袋、より多くの商品を購入して節約するとき、クーポンをご利用することができません。";
+
+
+"How_Get_Coupons" = "クーポンの獲得方法";
+"How_Get_Coupons_Content" = "1.新規登録時には、最大15％オフのクーポンをご用意しております。
+2.毎月25日にVIPクーポンが発行されます。
+3.VIPレベルのアップグレードには特別なクーポンがございます。
+4.毎日チェックして、お得なクーポンにご交換ください。
+5. Lucky Drawに参加することで追加クーポンを獲得することができます。";
+
+"CODE" = "コード";
+"Whats_App" = "WhatsApp";
+"Email" = "メール";
+"help_emial_setting_tip" = " メールはまだ登録されていません。「システム」→「設定」→「メール」でメールを登録してください。";
+"Hi" = "こんにちは";
+"phoneFormatErr" = "電話番号の形式が正しくありません。";
+"idFormatErr" = "正しいID番号を入力してください";
+"no_prod_to_reviews" = "レビューする商品はございません。";
+"no_reviews" = "おっと! コメントはございません。";
+
+// /1.4.6
+"go_shopping" = "お買い物する";
+"whatapp_Click_chat_us" = "クリックしてチャットしましょう。";
+"cod_verify_title" = "COD 認証";
+"cod_payment_amount" = "お支払い金額：";
+"cod_verify_info" = "ご注文を確認するために、電話番号を確認してください。";
+"sms_code_has_send" = "認証コードが送信されました";
+"sms_verify_btn" = "認証する";
+"sms_code_err" = "コードが間違っています。もう一度入力してください。";
+"sms_code_resend" = "再送信";
+"sms_code_skip" = "スキップして、カスタマーサービスからの連絡を待ちます。";
+"sms_code_will_contact" = " 24時間以内にお電話いたしますので、ご対応できるようにお待ちください。";
+"order_all_blank" = "ご注文はございません";
+"order_unpaid_blank" = "未払いのご注文はございません";
+"order_processing_blank" = "処理中のご注文はございません.";
+"order_shipped_blank" = "発送済みのご注文はございません";
+"order_reviewed_blank" = "レビュー済みのご注文はございません。";
+
+// 订单列表中，whatsApp引流的文案
+"whatsAppTitle" = " WhatsAppからの通知を受けて、クーポンをゲットしましょう！";
+"SubscribeButtonTitle" = "登録";
+"Unsubscribe_toast" = "配信停止";
+"subscribe_toast" = "登録できました";
+"phoneNumEmpty" = "WhatsAppのIDを入力してください。";
+"changePhoneNumberSuccess" = "WhatsApp IDは変更されました。チャンネルを登録できました";
+"GetMoreCoupons" = "クーポンを獲得する";
+"WhatsAppNumber" = "WhatsApp ID";
+"id_num_format_err" = "正しい文字書式で記入してください。";
+"Are_you_clear_cache" = "本当にキャッシュを消去しますか？";
+
+// /隐私协议  欧盟弹窗，不需要翻译
+"agree" = "同意";
+"agree_text" = "お客様のショッピング体験を向上させるためにクッキーを使用しております。引き続き当サイトをご利用いただくと、お客様が当社の以下の項目に同意したものとみなされます。";
+"aggree_privacy_action" = "プライバシーポリシー";
+"Languge_Setting_English" = "Englisth";
+
+// /ip切换
+"ip_alert_title" = "ご注文の流れ";
+"ip_alert_content" = "お客様のIPアドレスが変更されたため、過去の注文履歴を見ることができません。";
+"ip_alert_ok" = "はい";
+
+// /注册订阅选项
+"receive_adv_emails" = "メールアドレスを登録して、1,500円分割引を獲得！";
+
+// "sign_up_for_email_get_exclusive" = "Sign up for emails & Get exclusive  $5.00 OFF";
+// /到货通知
+"Arrival_Notify" = "お届け通知";
+"Arrival_Notify_Text_NotLogin" = "ご登録頂ければ、ご希望のサイズが入荷した際にメールでお知らせします。";
+"Arrival_Notify_Email_Address"= "Eメールアドレス";
+"Arrival_Notify_Email_Err"="有効なEメールアドレスを入力してください";
+"Arrival_Notify_Done"="完了";
+"Arrival_Notify_Done_Text"="商品が再入荷しましたら、
+xxx@xx.com
+にメールでご連絡します。";
+"Arrival_Notify_Continue"="お買い物を続ける";
+"Arrival_Notify_Already"="この商品は登録済みです！";
+
+///支付流程优化
+"No account"="アカウントなし";
+"Checkout as a Guest"="ゲスト購入";
+"Buy With PayPal"="PayPalで支払う";
+"enter address manually"="手動でアドレスを入力";
+"Check Out"="チェックアウト";
+"onlinePay" = "オンライン支払い";
+"input_coupon" = "クーポンコードを入力";
