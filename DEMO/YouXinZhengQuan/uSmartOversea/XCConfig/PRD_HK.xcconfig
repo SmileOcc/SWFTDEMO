@@ -1,0 +1,46 @@
+//
+//  PRD_HK.xcconfig
+//  uSmartOversea
+//
+//  Created by 胡华翔 on 2019/5/31.
+//  Copyright © 2019 RenRenDai. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-uSmartOversea/Pods-uSmartOversea.prd_hk.xcconfig"
+
+YX_PRODUCT_NAME = uSMART SG
+
+YX_PRODUCT_BUNDLE_IDENTIFIER = com.usmart.global.stock
+
+YX_VERSION = 2.4.0
+
+VALID_ARCHS = arm64 arm64e armv7
+
+//:configuration = PRD_HK
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*] = MGFaceIDBaseKit.framework MGFaceIDIDCardKernelKit.framework MGFaceIDIDCardKit.framework MGFaceIDLiveDetect.framework
+
+GCC_PREPROCESSOR_DEFINITIONS = PRD_HK $(inherited)
+
+// MARK: - OBFUSCATION
+// 原PRD模式下 ENABLE_BITCODE = YES
+//ENABLE_BITCODE = NO
+//COMPILER_INDEX_STORE_ENABLE = NO
+ENABLE_BITCODE = YES
+
+// MARK: -手动打包PRD时可打开如下注释，将会提升编译速度和允许调试
+// comment begin
+ONLY_ACTIVE_ARCH = YES
+ENABLE_BITCODE = NO
+ENABLE_TESTABILITY = YES
+VALIDATE_PRODUCT = NO
+GCC_OPTIMIZATION_LEVEL = 0
+ENABLE_NS_ASSERTIONS = YES
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+MTL_ENABLE_DEBUG_INFO = YES
+// comment end
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRD_HK
+//:completeSettings = none

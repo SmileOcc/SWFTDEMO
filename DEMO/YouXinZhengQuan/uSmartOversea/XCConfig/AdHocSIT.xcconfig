@@ -1,0 +1,43 @@
+//
+//  AdHocSIT.xcconfig
+//  uSmartOversea
+//
+//  Created by 胡华翔 on 2020/3/10.
+//  Copyright © 2020 RenRenDai. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-uSmartOversea/Pods-uSmartOversea.adhocsit.xcconfig"
+
+YX_PRODUCT_NAME = uSMART SG[AdHocSIT]
+
+YX_PRODUCT_BUNDLE_IDENTIFIER = com.usmart.global.sg.stock
+
+// 修改完后，记得需要clean一下才会生效；因为如果没有修改Info.plist文件，xcode是会有缓存的
+
+YX_VERSION = 2.0.0
+
+VALID_ARCHS = arm64 armv7s
+
+//:configuration = SIT
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*] = MGFaceIDBaseKit.framework MGFaceIDIDCardKernelKit.framework MGFaceIDIDCardKit.framework MGFaceIDLiveDetect.framework
+
+GCC_PREPROCESSOR_DEFINITIONS = SIT AD_HOC_SIT YXZQ_ENV_MODE_SET YXZQ_AUTOFILL_CAPTCHA $(inherited)
+
+// MARK: - OBFUSCATION
+// 原PRD模式下 ENABLE_BITCODE = YES
+//ENABLE_BITCODE = NO
+//COMPILER_INDEX_STORE_ENABLE = NO
+ONLY_ACTIVE_ARCH = YES
+ENABLE_BITCODE = NO
+ENABLE_TESTABILITY = YES
+VALIDATE_PRODUCT = NO
+GCC_OPTIMIZATION_LEVEL = 0
+ENABLE_NS_ASSERTIONS = YES
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+MTL_ENABLE_DEBUG_INFO = YES
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = SIT AD_HOC_SIT YXZQ_ENV_MODE_SET YXZQ_AUTOFILL_CAPTCHA
+//:completeSettings = none

@@ -1,0 +1,34 @@
+//
+//  MOCK.xcconfig
+//  uSmartOversea
+//
+//  Created by 胡华翔 on 2019/1/29.
+//  Copyright © 2019 RenRenDai. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-uSmartOversea/Pods-uSmartOversea.mock.xcconfig"
+
+YX_PRODUCT_NAME = Dolphin[MOCK]
+
+YX_PRODUCT_BUNDLE_IDENTIFIER = com.usmart.globalsg.enterprise.stock
+
+YX_VERSION = 1.1.0
+
+//:configuration = MOCK
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*] = MGFaceIDBaseKit.framework MGFaceIDIDCardKernelKit.framework MGFaceIDIDCardKit.framework MGFaceIDLiveDetect.framework
+
+GCC_PREPROCESSOR_DEFINITIONS = MOCK $(inherited)
+
+VALID_ARCHS = arm64 armv7s
+
+// MARK: - OBFUSCATION
+// 原PRD模式下 ENABLE_BITCODE = YES
+//ENABLE_BITCODE = NO
+//COMPILER_INDEX_STORE_ENABLE = NO
+ENABLE_BITCODE = NO
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = MOCK
+//:completeSettings = none

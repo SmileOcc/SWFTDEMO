@@ -1,0 +1,30 @@
+//
+//  uSmartOversea-Prefix.pch
+//  uSmartOversea
+//
+//  Created by 胡华翔 on 2021/4/7.
+//  Copyright © 2021 RenRenDai. All rights reserved.
+//
+
+#ifndef uSmartOversea_Prefix_pch
+#define uSmartOversea_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+// 设置是否开启NSArray和NSDictionary的保护
+#if defined(DEV) || defined(SIT) || defined(UAT) || defined(MOCK)
+#define _SEQUENCE_SAFE_ENABLED 0
+#else
+#define _SEQUENCE_SAFE_ENABLED 1
+#endif
+
+#import <QMUIKit/QMUIKit.h>
+
+#import "QDCommonUI.h"
+//#import "QDUIHelper.h"
+
+#endif
+
+#endif /* uSmartOversea_Prefix_pch */

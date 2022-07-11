@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commonCountry</key>
+	<array>
+		<dict>
+			<key>cn</key>
+			<string>美国</string>
+			<key>en</key>
+			<string>USA</string>
+			<key>hk</key>
+			<string>美國</string>
+			<key>area</key>
+			<string>+1</string>
+			<key>cnPinyin</key>
+			<string>mei guo</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>中国香港</string>
+			<key>en</key>
+			<string>Hong Kong</string>
+			<key>hk</key>
+			<string>香港</string>
+			<key>area</key>
+			<string>+852</string>
+			<key>cnPinyin</key>
+			<string>zhong guo xiang gang</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>中国</string>
+			<key>en</key>
+			<string>Mainland China</string>
+			<key>hk</key>
+			<string>中國</string>
+			<key>area</key>
+			<string>+86</string>
+			<key>cnPinyin</key>
+			<string>zhong guo</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>中国澳门</string>
+			<key>en</key>
+			<string>Macau</string>
+			<key>hk</key>
+			<string>澳門</string>
+			<key>area</key>
+			<string>+853</string>
+			<key>cnPinyin</key>
+			<string>zhong guo ao men</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>中国台湾</string>
+			<key>en</key>
+			<string>Taiwan</string>
+			<key>hk</key>
+			<string>台灣</string>
+			<key>area</key>
+			<string>+886</string>
+			<key>cnPinyin</key>
+			<string>zhong guo tai wan</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>新加坡</string>
+			<key>en</key>
+			<string>Singapore</string>
+			<key>hk</key>
+			<string>新加坡</string>
+			<key>area</key>
+			<string>+65</string>
+			<key>cnPinyin</key>
+			<string>xin jia po</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>加拿大</string>
+			<key>en</key>
+			<string>Canada</string>
+			<key>hk</key>
+			<string>加拿大</string>
+			<key>area</key>
+			<string>+1</string>
+			<key>cnPinyin</key>
+			<string>jia na da</string>
+		</dict>
+	</array>
+	<key>othersCountry</key>
+	<array>
+		<dict>
+			<key>cn</key>
+			<string>爱尔兰</string>
+			<key>en</key>
+			<string>Ireland</string>
+			<key>hk</key>
+			<string>愛爾蘭</string>
+			<key>area</key>
+			<string>+353</string>
+			<key>cnPinyin</key>
+			<string>ai er lan</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>澳大利亚</string>
+			<key>en</key>
+			<string>Australia</string>
+			<key>hk</key>
+			<string>澳大利亞</string>
+			<key>area</key>
+			<string>+61</string>
+			<key>cnPinyin</key>
+			<string>ao da li ya</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>奥地利</string>
+			<key>en</key>
+			<string>Austria</string>
+			<key>hk</key>
+			<string>奧地利</string>
+			<key>area</key>
+			<string>+43</string>
+			<key>cnPinyin</key>
+			<string>ao di li</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>比利时</string>
+			<key>en</key>
+			<string>Belgium</string>
+			<key>hk</key>
+			<string>比利時</string>
+			<key>area</key>
+			<string>+32</string>
+			<key>cnPinyin</key>
+			<string>bi li shi</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>马来西亚</string>
+			<key>en</key>
+			<string>Malaysia</string>
+			<key>hk</key>
+			<string>馬來西亞</string>
+			<key>area</key>
+			<string>+60</string>
+			<key>cnPinyin</key>
+			<string>ma lai xi ya</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>挪威</string>
+			<key>en</key>
+			<string>Norway</string>
+			<key>hk</key>
+			<string>挪威</string>
+			<key>area</key>
+			<string>+47</string>
+			<key>cnPinyin</key>
+			<string>nuo wei</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>葡萄牙</string>
+			<key>en</key>
+			<string>Portugal</string>
+			<key>hk</key>
+			<string>葡萄牙</string>
+			<key>area</key>
+			<string>+351</string>
+			<key>cnPinyin</key>
+			<string>pu tao ya</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>瑞典</string>
+			<key>en</key>
+			<string>Sweden</string>
+			<key>hk</key>
+			<string>瑞典</string>
+			<key>area</key>
+			<string>+46</string>
+			<key>cnPinyin</key>
+			<string>rui dian</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>瑞士</string>
+			<key>en</key>
+			<string>Switzerland</string>
+			<key>hk</key>
+			<string>瑞士</string>
+			<key>area</key>
+			<string>+41</string>
+			<key>cnPinyin</key>
+			<string>rui shi</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>西班牙</string>
+			<key>en</key>
+			<string>Spain</string>
+			<key>hk</key>
+			<string>西班牙</string>
+			<key>area</key>
+			<string>+34</string>
+			<key>cnPinyin</key>
+			<string>xi ban ya</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>意大利</string>
+			<key>en</key>
+			<string>Italy</string>
+			<key>hk</key>
+			<string>意大利</string>
+			<key>area</key>
+			<string>+39</string>
+			<key>cnPinyin</key>
+			<string>yi da li</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>英国</string>
+			<key>en</key>
+			<string>United Kingdom</string>
+			<key>hk</key>
+			<string>英國</string>
+			<key>area</key>
+			<string>+44</string>
+			<key>cnPinyin</key>
+			<string>ying guo</string>
+		</dict>
+		<dict>
+			<key>cn</key>
+			<string>以色列</string>
+			<key>en</key>
+			<string>Israel</string>
+			<key>hk</key>
+			<string>以色列</string>
+			<key>area</key>
+			<string>+972</string>
+			<key>cnPinyin</key>
+			<string>yi se lie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

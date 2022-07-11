@@ -1,0 +1,10 @@
+[submodule "YouXinZhengQuan/uSmartOversea/Submodules/yx_common"]
+	path = YouXinZhengQuan/uSmartOversea/Submodules/yx_common
+	url = ssh://git@git.yxzq.com:222/YXCommon/yx_common.git
+[submodule "YouXinZhengQuan/uSmartOversea/Submodules/YXKit"]
+	path = YouXinZhengQuan/uSmartOversea/Submodules/YXKit
+	url = ssh://git@git.yxzq.com:222/YXPods/YXKit.git
+[submodule "YXKit"]
+	branch = Dev
+[submodule "yx_common"]
+	branch = Dev
