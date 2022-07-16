@@ -76,6 +76,11 @@ public struct HCNavigationMap {
             return navController
         }
         
+        navigator.register(HCModulePaths.market.url) { (url, values, context) -> UIViewController? in
+            let searchViewModel = HCMarketViewModel()
+            let viewController = HCMarketViewController.instantiate(withViewModel: searchViewModel, andServices: services, andNavigator: navigator)
+            return viewController
+        }
         
         
         // 网页浏览

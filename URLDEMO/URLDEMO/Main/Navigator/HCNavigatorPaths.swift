@@ -49,6 +49,8 @@ public protocol HCModuleType {
     
     // 关于
     case userCenterAbout
+    
+    case market
 
 }
 
@@ -79,6 +81,8 @@ extension HCModulePaths: HCModuleType {
             return "userCenter/about/"
         case .userCenterUserAccount:
             return "userCenter/account/"
+        case .market:
+            return "market/"
         }
     }
     

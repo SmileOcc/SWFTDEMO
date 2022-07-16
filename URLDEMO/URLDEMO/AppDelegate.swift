@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
                 
+        
+        HCNetworkReachabilityManager.instance.netWorkReachability { (status) in
+            print("网络===== status: \(status)")
+        }
         HCNavigationMap.initialize(navigator: navigator, services: appServices)
 
         self.window = UIWindow(frame: UIScreen.main.bounds)

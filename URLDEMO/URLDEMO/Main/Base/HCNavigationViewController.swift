@@ -13,7 +13,7 @@ class HCNavigationViewController: UINavigationController, UINavigationController
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = UIColor.white
         
         self.modalPresentationStyle = .fullScreen
         self.navigationBar.isTranslucent = false
@@ -23,10 +23,13 @@ class HCNavigationViewController: UINavigationController, UINavigationController
             let barApp = UINavigationBarAppearance()
             barApp.configureWithOpaqueBackground()
             barApp.backgroundColor = UIColor.white
-//            barApp.shadowImage = UIImage.
+            barApp.shadowImage = UIImage()
+            barApp.shadowColor = UIColor.clear
             self.navigationBar.scrollEdgeAppearance = barApp
             self.navigationBar.standardAppearance = barApp
         }
+        
+        
     }
     
 

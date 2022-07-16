@@ -16,6 +16,17 @@
 		62287AB52872AA1100FCAE6C /* HCMarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62287AB42872AA1100FCAE6C /* HCMarketViewModel.swift */; };
 		62287AB72872AA6000FCAE6C /* HCHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62287AB62872AA6000FCAE6C /* HCHomeViewModel.swift */; };
 		62287AB928730CD700FCAE6C /* HCLoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62287AB828730CD700FCAE6C /* HCLoginUser.swift */; };
+		6259CC5D287EEA86008CE761 /* HCRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC5C287EEA86008CE761 /* HCRefreshHeader.swift */; };
+		6259CC5F287EF5AF008CE761 /* HCHomeCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC5E287EF5AF008CE761 /* HCHomeCCell.swift */; };
+		6259CC61287EF5ED008CE761 /* HCHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC60287EF5ED008CE761 /* HCHomeHeaderView.swift */; };
+		6259CC65287EF754008CE761 /* HCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC64287EF754008CE761 /* HCTest.m */; };
+		6259CC682882445B008CE761 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC672882445B008CE761 /* UIColor+Extend.m */; };
+		6259CC6C2882472C008CE761 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */; };
+		6259CC702882474D008CE761 /* EmptyCustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */; };
+		6259CC7628824A6A008CE761 /* STLBlankPageTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7228824A65008CE761 /* STLBlankPageTipView.m */; };
+		6259CC7728824A6A008CE761 /* UIScrollView+STLBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */; };
+		6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */; };
+		6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */; };
 		62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5628718A33008FDD47 /* HCBaseViewController.swift */; };
 		62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */; };
 		62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5A28718A67008FDD47 /* HCTabBarController.swift */; };
@@ -81,8 +92,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		278DE2F45BA4E8BBE85D0F2C /* Pods-URLDEMO.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLDEMO.dev.xcconfig"; path = "Target Support Files/Pods-URLDEMO/Pods-URLDEMO.dev.xcconfig"; sourceTree = "<group>"; };
 		3FF950F333E2709FE9BCA764 /* Pods_URLDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4150859F4E593D9463EAABE0 /* Pods-URLDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLDEMO.release.xcconfig"; path = "Target Support Files/Pods-URLDEMO/Pods-URLDEMO.release.xcconfig"; sourceTree = "<group>"; };
+		51D5DBE5287EE5BA9CB29EF4 /* Pods-URLDEMO.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLDEMO.uat.xcconfig"; path = "Target Support Files/Pods-URLDEMO/Pods-URLDEMO.uat.xcconfig"; sourceTree = "<group>"; };
 		62287AA728728A2200FCAE6C /* HCViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCViewModelBased.swift; sourceTree = "<group>"; };
 		62287AA928728AC400FCAE6C /* HCSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCSearchViewController.swift; sourceTree = "<group>"; };
 		62287AAB2872978600FCAE6C /* HCSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCSearchViewModel.swift; sourceTree = "<group>"; };
@@ -92,6 +105,24 @@
 		62287AB42872AA1100FCAE6C /* HCMarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCMarketViewModel.swift; sourceTree = "<group>"; };
 		62287AB62872AA6000FCAE6C /* HCHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCHomeViewModel.swift; sourceTree = "<group>"; };
 		62287AB828730CD700FCAE6C /* HCLoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCLoginUser.swift; sourceTree = "<group>"; };
+		6259CC5C287EEA86008CE761 /* HCRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRefreshHeader.swift; sourceTree = "<group>"; };
+		6259CC5E287EF5AF008CE761 /* HCHomeCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCHomeCCell.swift; sourceTree = "<group>"; };
+		6259CC60287EF5ED008CE761 /* HCHomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCHomeHeaderView.swift; sourceTree = "<group>"; };
+		6259CC62287EF754008CE761 /* URLDEMO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLDEMO-Bridging-Header.h"; sourceTree = "<group>"; };
+		6259CC63287EF754008CE761 /* HCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCTest.h; sourceTree = "<group>"; };
+		6259CC64287EF754008CE761 /* HCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTest.m; sourceTree = "<group>"; };
+		6259CC662882445B008CE761 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		6259CC672882445B008CE761 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		6259CC6A2882472B008CE761 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		6259CC6E2882474B008CE761 /* EmptyCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCustomViewManager.h; sourceTree = "<group>"; };
+		6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCustomViewManager.m; sourceTree = "<group>"; };
+		6259CC7228824A65008CE761 /* STLBlankPageTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLBlankPageTipView.m; sourceTree = "<group>"; };
+		6259CC7328824A66008CE761 /* UIScrollView+STLBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+STLBlankPageView.h"; sourceTree = "<group>"; };
+		6259CC7428824A67008CE761 /* STLBlankPageTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLBlankPageTipView.h; sourceTree = "<group>"; };
+		6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STLBlankPageView.m"; sourceTree = "<group>"; };
+		6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRefreshAuotNormalFooter.swift; sourceTree = "<group>"; };
+		6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		62908A5628718A33008FDD47 /* HCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCBaseViewController.swift; sourceTree = "<group>"; };
 		62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNavigationViewController.swift; sourceTree = "<group>"; };
 		62908A5A28718A67008FDD47 /* HCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCTabBarController.swift; sourceTree = "<group>"; };
@@ -132,6 +163,7 @@
 		62D79B662871443B0041347A /* URLNavigator-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "URLNavigator-master"; path = "URLDEMO/URLNavigator-master"; sourceTree = "<group>"; };
 		62D79B6C287160C90041347A /* RxSwift-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "RxSwift-main"; path = "URLDEMO/RxSwift-main"; sourceTree = "<group>"; };
 		D06495919B64C75FE42ED025 /* Pods-URLDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLDEMO.debug.xcconfig"; path = "Target Support Files/Pods-URLDEMO/Pods-URLDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		E5EC3301B980A9DA8DEA5A79 /* Pods-URLDEMO.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLDEMO.sit.xcconfig"; path = "Target Support Files/Pods-URLDEMO/Pods-URLDEMO.sit.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +197,9 @@
 			children = (
 				D06495919B64C75FE42ED025 /* Pods-URLDEMO.debug.xcconfig */,
 				4150859F4E593D9463EAABE0 /* Pods-URLDEMO.release.xcconfig */,
+				51D5DBE5287EE5BA9CB29EF4 /* Pods-URLDEMO.uat.xcconfig */,
+				E5EC3301B980A9DA8DEA5A79 /* Pods-URLDEMO.sit.xcconfig */,
+				278DE2F45BA4E8BBE85D0F2C /* Pods-URLDEMO.dev.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -188,9 +223,42 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		6259CC6928824708008CE761 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				6259CC6D28824736008CE761 /* EmptyCustomView */,
+				6259CC6A2882472B008CE761 /* UIScrollView+EmptyDataSet.h */,
+				6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */,
+				6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		6259CC6D28824736008CE761 /* EmptyCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				6259CC6E2882474B008CE761 /* EmptyCustomViewManager.h */,
+				6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */,
+			);
+			path = EmptyCustomView;
+			sourceTree = "<group>";
+		};
+		6259CC7128824A51008CE761 /* EmptyPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				6259CC7428824A67008CE761 /* STLBlankPageTipView.h */,
+				6259CC7228824A65008CE761 /* STLBlankPageTipView.m */,
+				6259CC7328824A66008CE761 /* UIScrollView+STLBlankPageView.h */,
+				6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */,
+			);
+			path = EmptyPlaceHolder;
+			sourceTree = "<group>";
+		};
 		62908A52287189D8008FDD47 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6259CC7128824A51008CE761 /* EmptyPlaceHolder */,
+				6259CC6928824708008CE761 /* DZNEmptyDataSet */,
 				62287AAD287298A100FCAE6C /* Login */,
 				62287AA62872898A00FCAE6C /* Search */,
 				62908A8328727442008FDD47 /* Navigator */,
@@ -201,6 +269,10 @@
 				62908A55287189FC008FDD47 /* Market */,
 				62908A54287189F4008FDD47 /* Base */,
 				62908A53287189E9008FDD47 /* Home */,
+				6259CC5C287EEA86008CE761 /* HCRefreshHeader.swift */,
+				6259CC63287EF754008CE761 /* HCTest.h */,
+				6259CC64287EF754008CE761 /* HCTest.m */,
+				6259CC62287EF754008CE761 /* URLDEMO-Bridging-Header.h */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -210,6 +282,9 @@
 			children = (
 				62908A5C28718B1B008FDD47 /* HCHomeViewController.swift */,
 				62287AB62872AA6000FCAE6C /* HCHomeViewModel.swift */,
+				6259CC5E287EF5AF008CE761 /* HCHomeCCell.swift */,
+				6259CC60287EF5ED008CE761 /* HCHomeHeaderView.swift */,
+				6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -217,6 +292,8 @@
 		62908A54287189F4008FDD47 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				6259CC662882445B008CE761 /* UIColor+Extend.h */,
+				6259CC672882445B008CE761 /* UIColor+Extend.m */,
 				62908A5628718A33008FDD47 /* HCBaseViewController.swift */,
 				62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */,
 				62908A5A28718A67008FDD47 /* HCTabBarController.swift */,
@@ -432,6 +509,7 @@
 				TargetAttributes = {
 					62B283172871216300702A7C = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					62B2832D2871216500702A7C = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -541,6 +619,7 @@
 				62908A802871DCA4008FDD47 /* HCNetworkLoggerPlugin.swift in Sources */,
 				62908A5D28718B1B008FDD47 /* HCHomeViewController.swift in Sources */,
 				62908A822871E14E008FDD47 /* HCUserAPI.swift in Sources */,
+				6259CC7628824A6A008CE761 /* STLBlankPageTipView.m in Sources */,
 				62287AAF287298D400FCAE6C /* HCLoginViewController.swift in Sources */,
 				62287AB928730CD700FCAE6C /* HCLoginUser.swift in Sources */,
 				62908A652871C957008FDD47 /* HCResult.swift in Sources */,
@@ -551,25 +630,35 @@
 				62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */,
 				62908A8928727F98008FDD47 /* HCNavigatorMap.swift in Sources */,
 				62908A6B2871CC6C008FDD47 /* HCUrlRouterConstant.swift in Sources */,
+				6259CC6C2882472C008CE761 /* UIScrollView+EmptyDataSet.m in Sources */,
 				62287AB52872AA1100FCAE6C /* HCMarketViewModel.swift in Sources */,
 				62B283202871216300702A7C /* ViewController.swift in Sources */,
+				6259CC702882474D008CE761 /* EmptyCustomViewManager.m in Sources */,
 				62908A8528727468008FDD47 /* HCNavigatorServices.swift in Sources */,
 				62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */,
 				62908A752871D86A008FDD47 /* HCUserService.swift in Sources */,
 				62908A7C2871D98B008FDD47 /* HCMoyaConfig.swift in Sources */,
 				62908A732871D2F3008FDD47 /* HCKeyChainUtil.swift in Sources */,
 				62287AB72872AA6000FCAE6C /* HCHomeViewModel.swift in Sources */,
+				6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */,
+				6259CC65287EF754008CE761 /* HCTest.m in Sources */,
+				6259CC7728824A6A008CE761 /* UIScrollView+STLBlankPageView.m in Sources */,
 				62908A8728727E76008FDD47 /* HCNavigatorPaths.swift in Sources */,
+				6259CC5F287EF5AF008CE761 /* HCHomeCCell.swift in Sources */,
+				6259CC682882445B008CE761 /* UIColor+Extend.m in Sources */,
 				62908A692871C9F0008FDD47 /* HCTargetType.swift in Sources */,
 				62287AAC2872978600FCAE6C /* HCSearchViewModel.swift in Sources */,
 				62287AB1287298EE00FCAE6C /* HCLoginViewModel.swift in Sources */,
 				62908A632871C918008FDD47 /* HCRequestable.swift in Sources */,
 				62908A7E2871DA9A008FDD47 /* HCRetryConfigAPI.swift in Sources */,
 				62908A672871C9A2008FDD47 /* HCResponseCode.swift in Sources */,
+				6259CC61287EF5ED008CE761 /* HCHomeHeaderView.swift in Sources */,
 				62908A6E2871CE82008FDD47 /* HCConstant+Device.swift in Sources */,
+				6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */,
 				62908A7A2871D909008FDD47 /* HCLoginAPI.swift in Sources */,
 				62287AAA28728AC400FCAE6C /* HCSearchViewController.swift in Sources */,
 				62B2831C2871216300702A7C /* AppDelegate.swift in Sources */,
+				6259CC5D287EEA86008CE761 /* HCRefreshHeader.swift in Sources */,
 				62908A772871D87C008FDD47 /* HCLoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,10 +778,11 @@
 		};
 		62287AF728731A8700FCAE6C /* Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D06495919B64C75FE42ED025 /* Pods-URLDEMO.debug.xcconfig */;
+			baseConfigurationReference = 278DE2F45BA4E8BBE85D0F2C /* Pods-URLDEMO.dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6255RGX8;
@@ -711,6 +801,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.URLDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "URLDEMO/Main/URLDEMO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -817,10 +909,11 @@
 		};
 		62287AFB28731A8D00FCAE6C /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D06495919B64C75FE42ED025 /* Pods-URLDEMO.debug.xcconfig */;
+			baseConfigurationReference = E5EC3301B980A9DA8DEA5A79 /* Pods-URLDEMO.sit.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6255RGX8;
@@ -839,6 +932,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.URLDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "URLDEMO/Main/URLDEMO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -945,10 +1040,11 @@
 		};
 		62287AFF2873250C00FCAE6C /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D06495919B64C75FE42ED025 /* Pods-URLDEMO.debug.xcconfig */;
+			baseConfigurationReference = 51D5DBE5287EE5BA9CB29EF4 /* Pods-URLDEMO.uat.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6255RGX8;
@@ -967,6 +1063,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.URLDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "URLDEMO/Main/URLDEMO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1132,6 +1230,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6255RGX8;
@@ -1150,6 +1249,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.URLDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "URLDEMO/Main/URLDEMO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1161,6 +1262,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LU6255RGX8;
@@ -1179,6 +1281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cc.URLDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "URLDEMO/Main/URLDEMO-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
