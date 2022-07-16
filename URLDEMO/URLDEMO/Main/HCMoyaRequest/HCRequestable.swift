@@ -25,21 +25,32 @@ public protocol HCRequestable {
 public let TokenFailureNotification = "TokenFailureNotification"
 
 public extension HCRequestable {
+    
+//    func requesttttt<T: Codable>(_ target: API, response: HCResultResponse<T>?) {
+//        networking.request(target, completion: { result in
+//            print("restul: ====ccccc \(result)")
+//
+//            
+//        })
+//
+//    }
     func request<T: Codable>(_ target: API, response: HCResultResponse<T>?) -> Disposable {
+        
         
         return networking.rx.request(target).map(HCResult<T>.self).subscribe(onSuccess: { (result) in
             
-            if HCResponseCode(rawValue: result.code) == .accountTokenFailure {
+            print("restul: ====ccccc \(result)")
+            if HCResponseCode(rawValue: result.statusCode) == .accountTokenFailure {
                 NotificationCenter.default.post(name: NSNotification.Name(rawValue: TokenFailureNotification), object: nil)
             } else {
-                response?(.success(result, HCResponseCode(rawValue: result.code)))
+                response?(.success(result, HCResponseCode(rawValue: result.statusCode)))
             }
             
-            if result.code != 0 {
-                if result.code != 806901, result.code != 806916, result.code != 800002 && result.code != 800000 {
-                    let url = target.baseURL.appendingPathComponent(target.path).absoluteString
-                    //YXRealLogger.shareInstance.realLog(type: "ApiError", name: "接口Error", url: url, code: "\(result.code)", desc: result.msg, extend_msg: nil)
-                }
+            if result.statusCode != 0 {
+//                if result.statusCode != 806901, result.code != 806916, result.code != 800002 && result.code != 800000 {
+//                    let url = target.baseURL.appendingPathComponent(target.path).absoluteString
+//                    //YXRealLogger.shareInstance.realLog(type: "ApiError", name: "接口Error", url: url, code: "\(result.code)", desc: result.msg, extend_msg: nil)
+//                }
             }
             
         }, onFailure: { (error) in

@@ -12,15 +12,15 @@ import UIKit
     #if PRD || PRD_HK
     static public let SCHEME = "https://"
     #else
-    static public let SCHEME = "http://"
+    static public let SCHEME = "https://"
     #endif
     
     static public var ipAddressStatus : [String : Bool] = [:]
 
     
-    // 校验证书时用
+    // 校验证书时用//https://api.vivaiacollection.com/v1_20/banner/list?is_debug=1
     class public func appHttpsEvaluatorsKey() -> String {
-        return "*.cs.com"
+        return "*.vivaiacollection.com"
     }
     
     /// 资讯BaseUrl
@@ -30,13 +30,13 @@ import UIKit
     class public func zxBaseUrlWithoutScheme() -> String {
         switch HCConstant.targetMode() {
         case .dev:
-            return "zx-dev.yxzq.com"
+            return "api.vivaiacollection.com"
 
         case .sit:
-            return "zx-dev.yxzq.com"
+            return "api.vivaiacollection.com"
 
         case .uat, .prd:
-            return "zx-dev.yxzq.com"
+            return "api.vivaiacollection.com"
 
         }
     }

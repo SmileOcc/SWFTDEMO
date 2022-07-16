@@ -31,6 +31,7 @@ public enum HCLoginAPI {
      type 验证码类型 101注册 102重置密码 103更换手机号 104绑定手机号 105新设备登录校验 106短信登录
      send-phone-captcha/v1 */
     case sendUserInputCaptcha(_ areaCode: String, _ phoneNumber: String, _ type: HCSendCaptchaType)
+    case testRequest(_ is_debug: String)
     
 }
 
@@ -46,6 +47,8 @@ extension HCLoginAPI: HCTargetType {
             
         case .sendUserInputCaptcha:
             return servicePath + "send-phone-captcha/v1"
+        case .testRequest:
+            return "/v1_20/banner/list"
         }
     }
     
@@ -66,7 +69,36 @@ extension HCLoginAPI: HCTargetType {
             params["phoneNumber"] = phoneNumber
             params["type"] = NSNumber(integerLiteral: type.rawValue)
             return .requestParameters(parameters: params, encoding: JSONEncoding.default)
-            
+        case .testRequest(let is_debug):
+           /**
+            参数:{
+                adgroup = "";
+                "channel_id" = 1;
+                commparam = "ver=2.0.0";
+                currency = USD;
+                "is_debug" = true;
+                lang = en;
+                page = 1;
+                "page_size" = 20;
+                sex = 1;
+            }
+            */
+        
+            params["is_debug"] = "true"
+            params["adgroup"] = ""
+            params["channel_id"] = "1"
+            params["commparam"] = "ver=2.0.0"
+            params["currency"] = "USD"
+            params["lang"] = "en"
+            params["page"] = "1"
+            params["page_size"] = "20"
+            params["sex"] = "1"
+
+//            var headers: [String: String] = ["Accept-Language":"en;q=1","User-Agent":"Vivaia/2.0.0 (iPhone; iOS 15.2; Scale/3.00)","onesite":"true","adw-pf":"ios","adw-deviceid":HCConstant.deviceUUID]
+
+//            return .requestParameters(parameters: params, encoding: JSONEncoding.default)
+            return .requestParameters(parameters: params, encoding: JSONEncoding.default)
+
         default:
             return .requestPlain
         }
@@ -108,7 +140,7 @@ extension HCLoginAPI: HCTargetType {
         switch self {
         case .checkPhone :
             return "application/x-www-form-urlencoded"
-        case .sendUserInputCaptcha:
+        case .sendUserInputCaptcha, .testRequest:
             return "application/json"
         default:
             return nil

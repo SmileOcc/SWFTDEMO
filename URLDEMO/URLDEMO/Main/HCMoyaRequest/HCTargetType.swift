@@ -27,7 +27,7 @@ public extension HCTargetType {
         
         switch self.requestType {
         case .hzRequest:
-            headers["Host"] = ""
+            headers["Host"] = "api.vivaiacollection.com"
 
 //        case .jyRequest:
 //            if YXGlobalConfigManager.configURL(type: .jyCenter) != self.baseURL.absoluteString {
@@ -120,8 +120,9 @@ public protocol HCTargetType: TargetType {
 //                headers["X-Challenge"] = "Cancel"
 //            }
 //        }
-    
-        var headers: [String: String] = ["Authorization": ""]
+//        "Accept-Language" = "en;q=1";
+//        "User-Agent" = "Vivaia/2.0.0 (iPhone; iOS 15.2; Scale/3.00)";
+        var headers: [String: String] = ["Accept-Language":"en;q=1","User-Agent":"Vivaia/2.0.0 (iPhone; iOS 15.2; Scale/3.00)","onesite":"true","adw-pf":"ios","adw-deviceid":HCConstant.deviceUUID]
         return headers
     }
 }

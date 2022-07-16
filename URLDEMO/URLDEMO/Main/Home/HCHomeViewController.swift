@@ -55,16 +55,17 @@ class HCHomeViewController: HCBaseViewController , HCViewModelBased{
         
         refreshHeader.refreshingBlock = { [weak self, weak refreshHeader] in
             print("刷新")
-
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
+            
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
                 print("刷新222")
 
                 // 这种，如果有尾部加载更多的话，会隐藏
                 self?.homeCollectView.showRequestTip([:])
+                self?.viewModel.testRequest()
                 
 //                self?.homeCollectView.showRequestTip([kTotalPageKey:"2", kCurrentPageKey: "1"])
 
-            })
+//            })
         }
         homeCollectView.mj_header = refreshHeader
         

@@ -38,6 +38,7 @@ public final class HCNetworkLoggerPlugin: PluginType {
             output(separator, terminator, true, request.debugDescription)
             return
         }
+        print("requtest====== \n  \(request.request)")
         outputItems(logNetworkRequest(request.request as URLRequest?))
     }
     
@@ -131,8 +132,10 @@ fileprivate extension HCNetworkLoggerPlugin {
         for item in items {
             if success {
                 //log(.debug, tag: kNetwork, content: "\(item)\n")
+                print("loggerPlugin: success ======= \(item)")
             } else {
                 //log(.warning, tag: kNetwork, content: "\(item)\n")
+                print("loggerPlugin: warning xxxxx ======= \(item)")
             }
         }
     }

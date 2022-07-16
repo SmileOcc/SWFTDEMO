@@ -17,9 +17,40 @@ class HCHomeViewModel: ServicesViewModel, HasDisposeBag {
     
     var navigator: NavigatorServicesType!
     
+    var loginResponse: HCResultResponse<JSONAny>?
+    let disposebag = DisposeBag()
+
     var services: Services! {
         didSet {
-            // we can do some data refactoring in order to display things exactly the way we want (this is the aim of a ViewModel)
+            loginResponse = {[weak self] (response) in
+                guard let `self` = self else {return}
+                switch response {
+                    case .success(let result, let code):
+                    switch code {
+                    case .success?:
+                        func setUserInfo(){
+                        }
+                    default:
+                        if let msg = result.message {
+                            //self.hudSubject.onNext(.error(msg, false))
+                            
+                        }
+                    }
+                case .failed(_):
+                    print("error")
+                    //YXProgressHUD.showSuccess(YXLanguageUtility.kLang(key: "common_net_error"))
+                   // self.hudSubject.onNext(.error(YXLanguageUtility.kLang(key: "common_net_error"), false))
+                }
+            
+                
+            }
         }
+    }
+    
+    func testRequest() {
+        
+//        self.services.loginService.requesttttt(.testRequest("1"), response: loginResponse)
+
+        self.services.loginService.request(.testRequest("1"), response: loginResponse).disposed(by: disposebag)
     }
 }

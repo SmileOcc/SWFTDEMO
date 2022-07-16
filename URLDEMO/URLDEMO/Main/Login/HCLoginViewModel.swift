@@ -33,10 +33,11 @@ class HCLoginViewModel: ServicesViewModel {
                             self.loginSuccessSubject.onNext(true)
                         }
                     default:
-                        if let msg = result.msg {
-                            //self.hudSubject.onNext(.error(msg, false))
-                            
-                        }
+//                        if let msg = result.msg {
+//                            //self.hudSubject.onNext(.error(msg, false))
+//
+//                        }
+                        print("")
                     }
                 case .failed(_):
                     print("error")

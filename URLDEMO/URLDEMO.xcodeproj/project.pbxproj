@@ -27,6 +27,7 @@
 		6259CC7728824A6A008CE761 /* UIScrollView+STLBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */; };
 		6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */; };
 		6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */; };
+		6259CC8028828BAB008CE761 /* JSONAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7F28828BAA008CE761 /* JSONAny.swift */; };
 		62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5628718A33008FDD47 /* HCBaseViewController.swift */; };
 		62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */; };
 		62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5A28718A67008FDD47 /* HCTabBarController.swift */; };
@@ -123,6 +124,7 @@
 		6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STLBlankPageView.m"; sourceTree = "<group>"; };
 		6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRefreshAuotNormalFooter.swift; sourceTree = "<group>"; };
 		6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		6259CC7F28828BAA008CE761 /* JSONAny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAny.swift; sourceTree = "<group>"; };
 		62908A5628718A33008FDD47 /* HCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCBaseViewController.swift; sourceTree = "<group>"; };
 		62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNavigationViewController.swift; sourceTree = "<group>"; };
 		62908A5A28718A67008FDD47 /* HCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCTabBarController.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 		62908A612871C8D8008FDD47 /* HCMoyaRequest */ = {
 			isa = PBXGroup;
 			children = (
+				6259CC7F28828BAA008CE761 /* JSONAny.swift */,
 				62908A622871C918008FDD47 /* HCRequestable.swift */,
 				62908A642871C957008FDD47 /* HCResult.swift */,
 				62908A662871C9A2008FDD47 /* HCResponseCode.swift */,
@@ -625,6 +628,7 @@
 				62908A652871C957008FDD47 /* HCResult.swift in Sources */,
 				62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */,
 				62287AB328729A3300FCAE6C /* HCNavigatable.swift in Sources */,
+				6259CC8028828BAB008CE761 /* JSONAny.swift in Sources */,
 				62908A5F28718B2B008FDD47 /* HCMarketViewController.swift in Sources */,
 				62908A702871CEFB008FDD47 /* HCConstant.swift in Sources */,
 				62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */,
