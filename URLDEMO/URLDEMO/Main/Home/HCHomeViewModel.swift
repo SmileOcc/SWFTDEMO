@@ -17,7 +17,9 @@ class HCHomeViewModel: ServicesViewModel, HasDisposeBag {
     
     var navigator: NavigatorServicesType!
     
-    var loginResponse: HCResultResponse<JSONAny>?
+//    var loginResponse: HCResultResponse<JSONAny>?
+    var loginResponse: HCResultResponse<HCHomeModel>?
+
     let disposebag = DisposeBag()
 
     var services: Services! {
@@ -28,8 +30,20 @@ class HCHomeViewModel: ServicesViewModel, HasDisposeBag {
                     case .success(let result, let code):
                     switch code {
                     case .success?:
+                        
+                        let userInfo = result.result
+
                         func setUserInfo(){
+                            if let ccc = userInfo {
+                                print("name: \(ccc.banner)")
+                            }
+                            print("=================")
+
+                            print("=================")
                         }
+                        
+                        setUserInfo()
+                        
                     default:
                         if let msg = result.message {
                             //self.hudSubject.onNext(.error(msg, false))

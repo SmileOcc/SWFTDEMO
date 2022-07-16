@@ -28,6 +28,7 @@
 		6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */; };
 		6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */; };
 		6259CC8028828BAB008CE761 /* JSONAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7F28828BAA008CE761 /* JSONAny.swift */; };
+		6259CC822882C139008CE761 /* HCHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC812882C138008CE761 /* HCHomeModel.swift */; };
 		62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5628718A33008FDD47 /* HCBaseViewController.swift */; };
 		62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */; };
 		62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5A28718A67008FDD47 /* HCTabBarController.swift */; };
@@ -125,6 +126,7 @@
 		6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRefreshAuotNormalFooter.swift; sourceTree = "<group>"; };
 		6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6259CC7F28828BAA008CE761 /* JSONAny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAny.swift; sourceTree = "<group>"; };
+		6259CC812882C138008CE761 /* HCHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCHomeModel.swift; sourceTree = "<group>"; };
 		62908A5628718A33008FDD47 /* HCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCBaseViewController.swift; sourceTree = "<group>"; };
 		62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNavigationViewController.swift; sourceTree = "<group>"; };
 		62908A5A28718A67008FDD47 /* HCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCTabBarController.swift; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 				6259CC5E287EF5AF008CE761 /* HCHomeCCell.swift */,
 				6259CC60287EF5ED008CE761 /* HCHomeHeaderView.swift */,
 				6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */,
+				6259CC812882C138008CE761 /* HCHomeModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -643,6 +646,7 @@
 				62908A752871D86A008FDD47 /* HCUserService.swift in Sources */,
 				62908A7C2871D98B008FDD47 /* HCMoyaConfig.swift in Sources */,
 				62908A732871D2F3008FDD47 /* HCKeyChainUtil.swift in Sources */,
+				6259CC822882C139008CE761 /* HCHomeModel.swift in Sources */,
 				62287AB72872AA6000FCAE6C /* HCHomeViewModel.swift in Sources */,
 				6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */,
 				6259CC65287EF754008CE761 /* HCTest.m in Sources */,
