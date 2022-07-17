@@ -1,10 +1,3 @@
-//
-//  STLBlankPageTipView.m
-// XStarlinkProject
-//
-//  Created by odd on 2020/9/24.
-//  Copyright © 2020 starlink. All rights reserved.
-//
 
 #import "STLBlankPageTipView.h"
 //#import "UIButton+STLCategory.h"
@@ -133,9 +126,9 @@
             _subTitleLabel.preferredMaxLayoutWidth = maxWidth;
             [contenView addSubview:_subTitleLabel];
             
-            if ([title isKindOfClass:[NSString class]]) {
+            if ([subTitle isKindOfClass:[NSString class]]) {
                 _subTitleLabel.text = subTitle;
-            } else if ([title isKindOfClass:[NSAttributedString class]]) {
+            } else if ([subTitle isKindOfClass:[NSAttributedString class]]) {
                 _subTitleLabel.attributedText = subTitle;
             }
             [_subTitleLabel sizeToFit];

@@ -1,10 +1,3 @@
-//
-//  STLBlankPageTipView.h
-// XStarlinkProject
-//
-//  Created by odd on 2020/9/24.
-//  Copyright © 2020 starlink. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 

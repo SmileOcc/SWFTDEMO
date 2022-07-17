@@ -122,7 +122,7 @@ public protocol HCTargetType: TargetType {
 //        }
 //        "Accept-Language" = "en;q=1";
 //        "User-Agent" = "Vivaia/2.0.0 (iPhone; iOS 15.2; Scale/3.00)";
-        var headers: [String: String] = ["Accept-Language":"en;q=1","User-Agent":"Vivaia/2.0.0 (iPhone; iOS 15.2; Scale/3.00)","onesite":"true","adw-pf":"ios","adw-deviceid":HCConstant.deviceUUID]
+        var headers: [String: String] = ["onesite":"true","adw-pf":"ios","adw-deviceid":HCConstant.deviceUUID]
         return headers
     }
 }

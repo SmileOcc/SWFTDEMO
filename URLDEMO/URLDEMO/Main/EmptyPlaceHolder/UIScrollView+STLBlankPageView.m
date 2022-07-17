@@ -1,10 +1,4 @@
-//
-//  UIScrollView+STLBlankPageView.m
-// XStarlinkProject
-//
-//  Created by odd on 2020/9/24.
-//  Copyright © 2020 starlink. All rights reserved.
-//
+
 
 #import "UIScrollView+STLBlankPageView.h"
 #import "HCTest.h"

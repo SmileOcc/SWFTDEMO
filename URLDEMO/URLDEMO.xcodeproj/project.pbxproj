@@ -21,14 +21,14 @@
 		6259CC61287EF5ED008CE761 /* HCHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC60287EF5ED008CE761 /* HCHomeHeaderView.swift */; };
 		6259CC65287EF754008CE761 /* HCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC64287EF754008CE761 /* HCTest.m */; };
 		6259CC682882445B008CE761 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC672882445B008CE761 /* UIColor+Extend.m */; };
-		6259CC6C2882472C008CE761 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */; };
-		6259CC702882474D008CE761 /* EmptyCustomViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */; };
 		6259CC7628824A6A008CE761 /* STLBlankPageTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7228824A65008CE761 /* STLBlankPageTipView.m */; };
 		6259CC7728824A6A008CE761 /* UIScrollView+STLBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */; };
 		6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */; };
-		6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */; };
 		6259CC8028828BAB008CE761 /* JSONAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC7F28828BAA008CE761 /* JSONAny.swift */; };
 		6259CC822882C139008CE761 /* HCHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC812882C138008CE761 /* HCHomeModel.swift */; };
+		6259CC842882F62F008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC832882F62F008CE761 /* HCNetworkReachabilityManager.swift */; };
+		6259CC862882F710008CE761 /* ODBlankPageTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC852882F710008CE761 /* ODBlankPageTipView.swift */; };
+		6259CC88288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC87288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift */; };
 		62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5628718A33008FDD47 /* HCBaseViewController.swift */; };
 		62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */; };
 		62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5A28718A67008FDD47 /* HCTabBarController.swift */; };
@@ -115,18 +115,16 @@
 		6259CC64287EF754008CE761 /* HCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCTest.m; sourceTree = "<group>"; };
 		6259CC662882445B008CE761 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
 		6259CC672882445B008CE761 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
-		6259CC6A2882472B008CE761 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
-		6259CC6E2882474B008CE761 /* EmptyCustomViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyCustomViewManager.h; sourceTree = "<group>"; };
-		6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyCustomViewManager.m; sourceTree = "<group>"; };
 		6259CC7228824A65008CE761 /* STLBlankPageTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLBlankPageTipView.m; sourceTree = "<group>"; };
 		6259CC7328824A66008CE761 /* UIScrollView+STLBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+STLBlankPageView.h"; sourceTree = "<group>"; };
 		6259CC7428824A67008CE761 /* STLBlankPageTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLBlankPageTipView.h; sourceTree = "<group>"; };
 		6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STLBlankPageView.m"; sourceTree = "<group>"; };
 		6259CC7B28824C93008CE761 /* HCRefreshAuotNormalFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRefreshAuotNormalFooter.swift; sourceTree = "<group>"; };
-		6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6259CC7F28828BAA008CE761 /* JSONAny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAny.swift; sourceTree = "<group>"; };
 		6259CC812882C138008CE761 /* HCHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCHomeModel.swift; sourceTree = "<group>"; };
+		6259CC832882F62F008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		6259CC852882F710008CE761 /* ODBlankPageTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODBlankPageTipView.swift; sourceTree = "<group>"; };
+		6259CC87288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ODBlankPageTipView.swift"; sourceTree = "<group>"; };
 		62908A5628718A33008FDD47 /* HCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCBaseViewController.swift; sourceTree = "<group>"; };
 		62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNavigationViewController.swift; sourceTree = "<group>"; };
 		62908A5A28718A67008FDD47 /* HCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCTabBarController.swift; sourceTree = "<group>"; };
@@ -227,33 +225,16 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		6259CC6928824708008CE761 /* DZNEmptyDataSet */ = {
-			isa = PBXGroup;
-			children = (
-				6259CC6D28824736008CE761 /* EmptyCustomView */,
-				6259CC6A2882472B008CE761 /* UIScrollView+EmptyDataSet.h */,
-				6259CC6B2882472C008CE761 /* UIScrollView+EmptyDataSet.m */,
-				6259CC7D288271A6008CE761 /* HCNetworkReachabilityManager.swift */,
-			);
-			path = DZNEmptyDataSet;
-			sourceTree = "<group>";
-		};
-		6259CC6D28824736008CE761 /* EmptyCustomView */ = {
-			isa = PBXGroup;
-			children = (
-				6259CC6E2882474B008CE761 /* EmptyCustomViewManager.h */,
-				6259CC6F2882474C008CE761 /* EmptyCustomViewManager.m */,
-			);
-			path = EmptyCustomView;
-			sourceTree = "<group>";
-		};
 		6259CC7128824A51008CE761 /* EmptyPlaceHolder */ = {
 			isa = PBXGroup;
 			children = (
+				6259CC832882F62F008CE761 /* HCNetworkReachabilityManager.swift */,
 				6259CC7428824A67008CE761 /* STLBlankPageTipView.h */,
 				6259CC7228824A65008CE761 /* STLBlankPageTipView.m */,
 				6259CC7328824A66008CE761 /* UIScrollView+STLBlankPageView.h */,
 				6259CC7528824A6A008CE761 /* UIScrollView+STLBlankPageView.m */,
+				6259CC852882F710008CE761 /* ODBlankPageTipView.swift */,
+				6259CC87288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift */,
 			);
 			path = EmptyPlaceHolder;
 			sourceTree = "<group>";
@@ -262,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				6259CC7128824A51008CE761 /* EmptyPlaceHolder */,
-				6259CC6928824708008CE761 /* DZNEmptyDataSet */,
 				62287AAD287298A100FCAE6C /* Login */,
 				62287AA62872898A00FCAE6C /* Search */,
 				62908A8328727442008FDD47 /* Navigator */,
@@ -637,10 +617,8 @@
 				62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */,
 				62908A8928727F98008FDD47 /* HCNavigatorMap.swift in Sources */,
 				62908A6B2871CC6C008FDD47 /* HCUrlRouterConstant.swift in Sources */,
-				6259CC6C2882472C008CE761 /* UIScrollView+EmptyDataSet.m in Sources */,
 				62287AB52872AA1100FCAE6C /* HCMarketViewModel.swift in Sources */,
 				62B283202871216300702A7C /* ViewController.swift in Sources */,
-				6259CC702882474D008CE761 /* EmptyCustomViewManager.m in Sources */,
 				62908A8528727468008FDD47 /* HCNavigatorServices.swift in Sources */,
 				62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */,
 				62908A752871D86A008FDD47 /* HCUserService.swift in Sources */,
@@ -656,13 +634,15 @@
 				6259CC682882445B008CE761 /* UIColor+Extend.m in Sources */,
 				62908A692871C9F0008FDD47 /* HCTargetType.swift in Sources */,
 				62287AAC2872978600FCAE6C /* HCSearchViewModel.swift in Sources */,
+				6259CC862882F710008CE761 /* ODBlankPageTipView.swift in Sources */,
 				62287AB1287298EE00FCAE6C /* HCLoginViewModel.swift in Sources */,
 				62908A632871C918008FDD47 /* HCRequestable.swift in Sources */,
 				62908A7E2871DA9A008FDD47 /* HCRetryConfigAPI.swift in Sources */,
 				62908A672871C9A2008FDD47 /* HCResponseCode.swift in Sources */,
 				6259CC61287EF5ED008CE761 /* HCHomeHeaderView.swift in Sources */,
 				62908A6E2871CE82008FDD47 /* HCConstant+Device.swift in Sources */,
-				6259CC7E288271A6008CE761 /* HCNetworkReachabilityManager.swift in Sources */,
+				6259CC842882F62F008CE761 /* HCNetworkReachabilityManager.swift in Sources */,
+				6259CC88288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift in Sources */,
 				62908A7A2871D909008FDD47 /* HCLoginAPI.swift in Sources */,
 				62287AAA28728AC400FCAE6C /* HCSearchViewController.swift in Sources */,
 				62B2831C2871216300702A7C /* AppDelegate.swift in Sources */,
