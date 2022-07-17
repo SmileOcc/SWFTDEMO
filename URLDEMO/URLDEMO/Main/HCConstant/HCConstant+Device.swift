@@ -15,6 +15,12 @@ private var SELECTED_MODE_PROPERTY = 0
 
 extension HCConstant {
 
+    @objc public static let screenWidth = UIScreen.main.bounds.size.width
+    /**
+     屏幕高度
+     */
+    @objc public static let screenHeight = UIScreen.main.bounds.size.height
+    
     /**
      系统名称
      e.g. @"iOS"

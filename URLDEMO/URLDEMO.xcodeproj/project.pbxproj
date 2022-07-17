@@ -29,6 +29,9 @@
 		6259CC842882F62F008CE761 /* HCNetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC832882F62F008CE761 /* HCNetworkReachabilityManager.swift */; };
 		6259CC862882F710008CE761 /* ODBlankPageTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC852882F710008CE761 /* ODBlankPageTipView.swift */; };
 		6259CC88288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC87288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift */; };
+		6259CC8A2883DC2B008CE761 /* HCProductPKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC892883DC2B008CE761 /* HCProductPKView.swift */; };
+		6259CC8C2883DEC6008CE761 /* HCProductPKCategloryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC8B2883DEC6008CE761 /* HCProductPKCategloryCell.swift */; };
+		6259CC8F2883E169008CE761 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6259CC8E2883E169008CE761 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5628718A33008FDD47 /* HCBaseViewController.swift */; };
 		62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */; };
 		62908A5B28718A67008FDD47 /* HCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62908A5A28718A67008FDD47 /* HCTabBarController.swift */; };
@@ -125,6 +128,10 @@
 		6259CC832882F62F008CE761 /* HCNetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCNetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6259CC852882F710008CE761 /* ODBlankPageTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODBlankPageTipView.swift; sourceTree = "<group>"; };
 		6259CC87288308B9008CE761 /* UIScrollView+ODBlankPageTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ODBlankPageTipView.swift"; sourceTree = "<group>"; };
+		6259CC892883DC2B008CE761 /* HCProductPKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCProductPKView.swift; sourceTree = "<group>"; };
+		6259CC8B2883DEC6008CE761 /* HCProductPKCategloryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCProductPKCategloryCell.swift; sourceTree = "<group>"; };
+		6259CC8D2883E166008CE761 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6259CC8E2883E169008CE761 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		62908A5628718A33008FDD47 /* HCBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCBaseViewController.swift; sourceTree = "<group>"; };
 		62908A5828718A4B008FDD47 /* HCNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCNavigationViewController.swift; sourceTree = "<group>"; };
 		62908A5A28718A67008FDD47 /* HCTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCTabBarController.swift; sourceTree = "<group>"; };
@@ -292,6 +299,8 @@
 			children = (
 				62908A5E28718B2B008FDD47 /* HCMarketViewController.swift */,
 				62287AB42872AA1100FCAE6C /* HCMarketViewModel.swift */,
+				6259CC892883DC2B008CE761 /* HCProductPKView.swift */,
+				6259CC8B2883DEC6008CE761 /* HCProductPKCategloryCell.swift */,
 			);
 			path = Market;
 			sourceTree = "<group>";
@@ -334,6 +343,8 @@
 		62908A712871D2C0008FDD47 /* HCUtils */ = {
 			isa = PBXGroup;
 			children = (
+				6259CC8D2883E166008CE761 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6259CC8E2883E169008CE761 /* UINavigationController+FDFullscreenPopGesture.m */,
 				62908A722871D2F3008FDD47 /* HCKeyChainUtil.swift */,
 			);
 			path = HCUtils;
@@ -616,9 +627,11 @@
 				62908A702871CEFB008FDD47 /* HCConstant.swift in Sources */,
 				62908A5728718A33008FDD47 /* HCBaseViewController.swift in Sources */,
 				62908A8928727F98008FDD47 /* HCNavigatorMap.swift in Sources */,
+				6259CC8C2883DEC6008CE761 /* HCProductPKCategloryCell.swift in Sources */,
 				62908A6B2871CC6C008FDD47 /* HCUrlRouterConstant.swift in Sources */,
 				62287AB52872AA1100FCAE6C /* HCMarketViewModel.swift in Sources */,
 				62B283202871216300702A7C /* ViewController.swift in Sources */,
+				6259CC8A2883DC2B008CE761 /* HCProductPKView.swift in Sources */,
 				62908A8528727468008FDD47 /* HCNavigatorServices.swift in Sources */,
 				62908A5928718A4B008FDD47 /* HCNavigationViewController.swift in Sources */,
 				62908A752871D86A008FDD47 /* HCUserService.swift in Sources */,
@@ -629,6 +642,7 @@
 				6259CC7C28824C93008CE761 /* HCRefreshAuotNormalFooter.swift in Sources */,
 				6259CC65287EF754008CE761 /* HCTest.m in Sources */,
 				6259CC7728824A6A008CE761 /* UIScrollView+STLBlankPageView.m in Sources */,
+				6259CC8F2883E169008CE761 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				62908A8728727E76008FDD47 /* HCNavigatorPaths.swift in Sources */,
 				6259CC5F287EF5AF008CE761 /* HCHomeCCell.swift in Sources */,
 				6259CC682882445B008CE761 /* UIColor+Extend.m in Sources */,
