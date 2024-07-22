@@ -1,0 +1,529 @@
+PODS:
+  - Adyen3DS2 (2.1.0-rc.5)
+  - AdyenCSE (1.1.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.9.1)
+  - AppAuth (1.3.0):
+    - AppAuth/Core (= 1.3.0)
+    - AppAuth/ExternalUserAgent (= 1.3.0)
+  - AppAuth/Core (1.3.0)
+  - AppAuth/ExternalUserAgent (1.3.0)
+  - AppsFlyerFramework (4.10.4)
+  - AVOSCloud (11.6.7)
+  - Branch (0.30.1):
+    - Branch/Core (= 0.30.1)
+  - Branch/Core (0.30.1)
+  - Bugly (2.5.2)
+  - CryptoSwift (1.3.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FBSDKCoreKit (5.13.1):
+    - FBSDKCoreKit/Basics (= 5.13.1)
+    - FBSDKCoreKit/Core (= 5.13.1)
+  - FBSDKCoreKit/Basics (5.13.1)
+  - FBSDKCoreKit/Core (5.13.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.13.1):
+    - FBSDKLoginKit/Login (= 5.13.1)
+  - FBSDKLoginKit/Login (5.13.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.13.1):
+    - FBSDKShareKit/Share (= 5.13.1)
+  - FBSDKShareKit/Share (5.13.1):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Core (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.7)
+  - Firebase/CoreOnly (6.14.0):
+    - FirebaseCore (= 6.5.0)
+  - Firebase/InAppMessagingDisplay (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessagingDisplay (~> 0.15.5)
+  - Firebase/Messaging (6.14.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.10)
+  - Firebase/Performance (6.14.0):
+    - Firebase/CoreOnly
+    - FirebasePerformance (~> 3.1.8)
+  - FirebaseABTesting (3.1.2):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.1)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseAnalytics (6.1.7):
+    - FirebaseCore (~> 6.5)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.7)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseCore (6.5.0):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/Logger (~> 6.4)
+  - FirebaseCoreDiagnostics (1.1.2):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.1.0)
+  - FirebaseInAppMessaging (0.15.6):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+  - FirebaseInAppMessagingDisplay (0.15.5):
+    - FirebaseCore (~> 6.2)
+    - FirebaseInAppMessaging (>= 0.15.0)
+  - FirebaseInstanceID (4.2.8):
+    - FirebaseCore (~> 6.5)
+    - GoogleUtilities/Environment (~> 6.4)
+    - GoogleUtilities/UserDefaults (~> 6.4)
+  - FirebaseMessaging (4.1.10):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebasePerformance (3.1.8):
+    - FirebaseCore (~> 6.5)
+    - FirebaseInstanceID (~> 4.2)
+    - FirebaseRemoteConfig (~> 4.4)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.9)
+  - FirebaseRemoteConfig (4.4.6):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseAnalyticsInterop (~> 1.4)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Founq_KeychainIDFA (1.0.0)
+  - GCiOSSDK (3.14.3):
+    - AFNetworking
+  - GGAppsflyerAnalyticsSDK (1.4.1):
+    - AFNetworking
+    - FMDB
+    - Founq_KeychainIDFA
+  - GGBrainKeeper (1.0.4):
+    - AFNetworking
+    - YYModel
+  - GGPaySDK (0.27.7-release):
+    - Adyen3DS2 (~> 2.1.0-rc.4)
+    - AdyenCSE
+    - AFNetworking
+    - DZNEmptyDataSet
+    - Founq_KeychainIDFA
+    - GCiOSSDK
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - ObjectiveLuhn
+    - RSAUtil
+    - SDWebImage
+    - TTTAttributedLabel
+    - WorldpayCSE
+    - YYModel
+    - YYWebImage
+    - ZHAlertController2
+    - ZHLocalizationStringMangerObjc
+    - ZHTableViewGroupObjc (~> 3.3.1)
+  - GlobalegrowIMSDK (2.1.5):
+    - Alamofire
+    - CryptoSwift
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - SQLite.swift
+    - SwiftyJSON
+    - Toast-Swift
+  - GoogleAnalytics (3.17.0)
+  - GoogleAPIClientForREST/Core (1.3.10):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/PeopleService (1.3.10):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppMeasurement (6.1.7):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (3.2.0)
+  - GoogleDataTransportCCTSupport (1.2.3):
+    - GoogleDataTransport (~> 3.2)
+    - nanopb (~> 0.3.901)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.4.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.4.0)
+  - GoogleUtilities/ISASwizzler (6.4.0)
+  - GoogleUtilities/Logger (6.4.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.4.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.4.0)"
+  - GoogleUtilities/Reachability (6.4.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.4.0):
+    - GoogleUtilities/Logger
+  - Growing (2.8.8)
+  - GrowingAutoTrackKit (2.8.8):
+    - GrowingCoreKit (= 2.8.8)
+  - GrowingCoreKit (2.8.8):
+    - Growing (= 2.8.8)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.3.0):
+    - GTMSessionFetcher/Full (= 1.3.0)
+  - GTMSessionFetcher/Core (1.3.0)
+  - GTMSessionFetcher/Full (1.3.0):
+    - GTMSessionFetcher/Core (= 1.3.0)
+  - IQKeyboardManager (6.5.4)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - lottie-ios (2.5.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.3.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - ObjectiveLuhn (1.0.2)
+  - ObjectMapper (3.5.1)
+  - PinterestSDK (1.0.2):
+    - AFNetworking (~> 3.0)
+    - SSKeychain
+  - pop (1.0.12)
+  - Protobuf (3.11.2)
+  - Result (4.1.0)
+  - RSAUtil (1.0)
+  - SDWebImage (5.4.1):
+    - SDWebImage/Core (= 5.4.1)
+  - SDWebImage/Core (5.4.1)
+  - SnapKit (5.0.1)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SSKeychain (1.4.1)
+  - SSZipArchive (2.2.2)
+  - Starscream (3.1.1)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.1)
+  - TTTAttributedLabel (2.0.0)
+  - VK-ios-sdk (1.5.1)
+  - WebViewJavascriptBridge (6.0.3)
+  - WorldpayCSE (1.0.3):
+    - WorldpayCSE/Core (= 1.0.3)
+  - WorldpayCSE/Core (1.0.3):
+    - WorldpayCSE/OpenSSL
+  - WorldpayCSE/OpenSSL (1.0.3)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZegoLive_Debug (1.4)
+  - ZegoLive_Release (1.3)
+  - ZFNetwork (1.3.5):
+    - AFNetworking
+    - YYCache
+    - YYModel (~> 1.0.4)
+    - ZFNetwork/ZFBaseNetWork (= 1.3.5)
+    - ZFNetwork/ZFExtensionNetwork (= 1.3.5)
+  - ZFNetwork/ZFBaseNetWork (1.3.5):
+    - AFNetworking
+    - YYCache
+    - YYModel (~> 1.0.4)
+  - ZFNetwork/ZFExtensionNetwork (1.3.5):
+    - AFNetworking
+    - YYCache
+    - YYModel (~> 1.0.4)
+  - ZHAlertController2 (1.0.6)
+  - ZHLocalizationStringMangerObjc (3.1.0):
+    - ZHLocalizationStringMangerObjc/Source (= 3.1.0)
+  - ZHLocalizationStringMangerObjc/Source (3.1.0)
+  - ZHTableViewGroupObjc (3.3.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AppsFlyerFramework (= 4.10.4)
+  - AVOSCloud (= 11.6.7)
+  - Branch (= 0.30.1)
+  - Bugly
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Firebase/Core
+  - Firebase/InAppMessagingDisplay
+  - Firebase/Messaging
+  - Firebase/Performance
+  - GGAppsflyerAnalyticsSDK (= 1.4.1)
+  - GGBrainKeeper (= 1.0.4)
+  - GGPaySDK (= 0.27.7-release)
+  - GlobalegrowIMSDK (= 2.1.5)
+  - GoogleAnalytics
+  - GoogleAPIClientForREST/PeopleService
+  - GoogleSignIn
+  - GrowingAutoTrackKit
+  - GrowingCoreKit
+  - IQKeyboardManager
+  - lottie-ios (= 2.5.0)
+  - Masonry
+  - MJRefresh
+  - PinterestSDK
+  - pop
+  - SSZipArchive
+  - VK-ios-sdk
+  - WebViewJavascriptBridge
+  - YYImage/WebP
+  - YYModel (~> 1.0.4)
+  - ZegoLive_Debug
+  - ZegoLive_Release
+  - ZFNetwork
+
+SPEC REPOS:
+  http://gitlab.egomsl.com/GB-APP-iOS/GGRepos.git:
+    - GCiOSSDK
+    - GGPaySDK
+  http://gitlab.egomsl.com/learn-iOS-group/ZFNetwork.git:
+    - ZFNetwork
+  http://gitlab.egomsl.com/mobile/IOS/GFZPodspec.git:
+    - ZegoLive_Debug
+    - ZegoLive_Release
+  http://gitlab.egomsl.com/Qianhan/IM_SDK.git:
+    - GlobalegrowIMSDK
+  http://gitlab.egomsl.com/Rosegal-iOS/RGPrivatePodspec.git:
+    - GGAppsflyerAnalyticsSDK
+    - GGBrainKeeper
+  https://github.com/CocoaPods/Specs.git:
+    - Adyen3DS2
+    - AdyenCSE
+    - AFNetworking
+    - Alamofire
+    - AppAuth
+    - AppsFlyerFramework
+    - AVOSCloud
+    - Branch
+    - Bugly
+    - CryptoSwift
+    - DZNEmptyDataSet
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInAppMessaging
+    - FirebaseInAppMessagingDisplay
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FMDB
+    - Founq_KeychainIDFA
+    - GoogleAnalytics
+    - GoogleAPIClientForREST
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - Growing
+    - GrowingAutoTrackKit
+    - GrowingCoreKit
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManager
+    - Kingfisher
+    - lottie-ios
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - nanopb
+    - ObjectiveLuhn
+    - ObjectMapper
+    - PinterestSDK
+    - pop
+    - Protobuf
+    - Result
+    - RSAUtil
+    - SDWebImage
+    - SnapKit
+    - Socket.IO-Client-Swift
+    - SQLite.swift
+    - SSKeychain
+    - SSZipArchive
+    - Starscream
+    - SwiftyJSON
+    - Toast-Swift
+    - TTTAttributedLabel
+    - VK-ios-sdk
+    - WebViewJavascriptBridge
+    - WorldpayCSE
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+    - ZHAlertController2
+    - ZHLocalizationStringMangerObjc
+    - ZHTableViewGroupObjc
+
+SPEC CHECKSUMS:
+  Adyen3DS2: 7fae32b63e108bf24375c791652862c458b05c5d
+  AdyenCSE: c52eb5ef89bd98b8d0aa1214352fe026979ace1a
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
+  AppsFlyerFramework: aeb793095c1b33170ae30bef66652c0645f409be
+  AVOSCloud: 2668e39a72be5a4ede65ca0c98002f327d590dd2
+  Branch: 80c583d989d3d46a7ada15b6cc1881142c1720a1
+  Bugly: dbac48b55ad469a97cc4321045cd50df8f63d44f
+  CryptoSwift: 1283821600233bdbeb96d7b389c3288c3bf77211
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBSDKCoreKit: 8fb98209109fb684937f05d534305edb18c20207
+  FBSDKLoginKit: c7c6ffd9ca9ea45aee32361840af040ad8f6706a
+  FBSDKShareKit: 8a0e4d7172c7b706991c834cff2bf74e7b4726e3
+  Firebase: 0219bb4782eb1406f1b9b0628a2e625484ce910d
+  FirebaseABTesting: 0d10f3cdc3fa00f3f175b5b56c1003c8e888299f
+  FirebaseAnalytics: f68b9f3f1241385129ae0a83b63627fc420c05e5
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseCore: 632e05cc5e1199d9147122c16d92305eb04c34bd
+  FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
+  FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
+  FirebaseInAppMessaging: 8e1190f8d8cf6f1fcfc8f82f99e0ecce522fc02b
+  FirebaseInAppMessagingDisplay: 60a65c8277f17675a8a5b92e9a97cd914b45d4ff
+  FirebaseInstanceID: ce993a3c3670a8f5d47ce371ac5d143c560608c5
+  FirebaseMessaging: 089b7a4991425783384acc8bcefcd78c0af913bd
+  FirebasePerformance: 2e87ffeddb75169f5c86ffbcd86ea88636c532c7
+  FirebaseRemoteConfig: c11d74d8b1ff8463b587fc8899d92ee089f9a691
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Founq_KeychainIDFA: 2c2f94ac3555f95249a9ee32957614fc9540eb46
+  GCiOSSDK: 16de3d77c64e2b2815a7740a58c1ac4451fbabab
+  GGAppsflyerAnalyticsSDK: 7e6144ca2f8d1620812a6a090b56d413f3149499
+  GGBrainKeeper: f0b67d2cf370b37b93ea5a54c64568c01417f0a9
+  GGPaySDK: 06947db45e70636dcba6f5629f197c4b7dac25c3
+  GlobalegrowIMSDK: 04621d670bee9c42ceef08de13ca4182b7bf93ac
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleAPIClientForREST: 4acfffd77f1c3c8741b6be9eaed0e603278efbde
+  GoogleAppMeasurement: db118eb61a97dd8c4f7014e368d3c335cbbcf80a
+  GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
+  GoogleDataTransportCCTSupport: 202d7cdf9c4a7d81a2bb7f7e7e1ba6faa421b1f2
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: 29bd0d8f850efbd28cff6d99e8b7da1f8d236bcf
+  Growing: 30f5b2e1268936d81dfd80cddafeb94ef468f943
+  GrowingAutoTrackKit: cf6fa2fb93107d83cc0ca0cb354721240fc73390
+  GrowingCoreKit: 6ed1395ef987aeaaf2f0ffe9fc7ee3b5c80eebeb
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  ObjectiveLuhn: 7ffbe89856145a65f60ce1fa0f928ce95fdb9509
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PinterestSDK: 6c6d92cc749e6520d1b6f1e75410c6fd1d05844c
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RSAUtil: 9ee452c121696122df03529323da805ddc815156
+  SDWebImage: 29c340dbdcef342bb13125553f4e19ce056b07a7
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  VK-ios-sdk: 62a10b6571fbcda0657f455fedce7fedf55b4cd0
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WorldpayCSE: 827560d6dc72d97d79bd60fe664054edc40450fd
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZegoLive_Debug: 94363b93663152956eccd69a0ebf31068b071410
+  ZegoLive_Release: 7d8a4161119009074fd8d4ddc91d1acc5360526d
+  ZFNetwork: 8bf4d27ef828075f6417b87339631b9348d0b783
+  ZHAlertController2: 294fb8b5e25ddfebbacb7960b32f6073558bc33c
+  ZHLocalizationStringMangerObjc: 87ceb163885d5c1305c5b06ed9e203419c05e518
+  ZHTableViewGroupObjc: 6ebedffe5a9d2b5d01dbb6b9f51223244d772598
+
+PODFILE CHECKSUM: ab1f483597f13aae5a0c17cc22025646778a5d66
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,22 @@
+"OK" = "OK";
+"Back" = "Arrière";
+"Done" = "Terminé";
+"Sorry" = "Pardon";
+"Cancel" = "Annuler";
+"Setting" = "Installer";
+"Photos" = "Photos";
+"Videos" = "Vidéos";
+"Preview" = "Aperçu";
+"Full image" = "Image complète";
+"Processing..." = "En traitement...";
+"Can not use camera" = "Impossible d'utiliser la caméra";
+"Can not choose both video and photo" = "Impossible de choisir la vidéo et la photo";
+"Select the video when in multi state, we will handle the video as a photo" = "Sélectionnez la vidéo en mode multi-états, nous allons gérer la vidéo en tant que photo ";
+"Impossible de passer à la page des paramètres de confidentialité, passez à la page des paramètres par vous-même, merci" = "Impossible de passer à la page des paramètres de confidentialité, passez à la page de paramètres par vous-même, merci";
+
+"Select a maximum of %zd photos" = "Sélectionnez un maximum de %zd photos";
+"Select a minimum of %zd photos" = "Sélectionnez un minimum de %zd photos";
+"Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "Permettre %@ à accéder votre albums dans \"Réglages-Confidentialité-Photos\"";
+"Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "Veuillez autoriser %@ à accéder à votre caméra dans \ 'Paramètres -> Confidentialité -> Caméra\'";
+
+

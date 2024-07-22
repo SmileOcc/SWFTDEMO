@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <script>
+        var my_video_player;
+        var isPalying;
+        window.fbAsyncInit = function() {
+            FB.init({
+                    xfbml      : true,
+                    version    : 'v3.3'
+                    });
+            // Get Embedded Video Player API Instance
+            FB.Event.subscribe('xfbml.ready', function(msg) {
+                               if (msg.type === 'video') {
+                               my_video_player = msg.instance;
+                               
+                               my_video_player.subscribe('startedPlaying', function(e) {
+                                                         isPalying = true;
+                                                         exitFullScreen();
+                                                         });
+                               my_video_player.subscribe('paused', function (e) {
+                                                         isPalying = false;
+                                                         })
+                               }
+                               });
+        };
+    
+    (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+     
+     
+     function playerVideo() {
+         my_video_player.play();
+     }
+    
+    function stopVideo() {
+        my_video_player.pause();
+    }
+    
+    //返回视频时长，精确到秒。
+    function getDuration() {
+        let duration = my_video_player.getDuration();
+        let element = document.getElementById("PlayerDuration");
+        element.innerHTML = element.innerHTML + duration;
+        return duration;
+    }
+    
+    //返回当前的视频时间位置，精确到秒。
+    function getCurrentPosition() {
+        let currentPosition = my_video_player.getCurrentPosition();
+        let element = document.getElementById("PlayerCurrentPosition");
+        element.innerHTML = element.innerHTML + currentPosition;
+        return currentPosition;
+    }
+    
+    //播放指定时间
+    function playSeek(seconds) {
+        let num = new Number(seconds)
+        if (my_video_player) {
+            if (num.valueOf() > 0) {
+                if (!isPalying) {
+                    my_video_player.play();
+                }
+                my_video_player.seek(num);
+            }
+        }
+    }
+    
+    function setVideoWidth() {
+        let width = document.getElementById("inputVideoWidth").value;
+        document.getElementById("fbVideo").style.width = width + "px";
+    }
+    
+    function playerSeekInput() {
+        let inputElement = document.getElementById("secondInput");
+        playSeek(inputElement.value);
+    }
+    
+    function playerVideoWithURL() {
+        let inputElement = document.getElementById("videoInputUrl");
+        playerURL(inputElement.value);
+    }
+    
+    // function getUrlParam(name) {
+    //     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+    //     var r = window.location.search.substr(1).match(reg); //匹配目标参数
+    //     if (r != null) return unescape(r[2]); return null; //返回参数值
+    // }
+    //
+    // var videoid = getUrlParam('id');
+    // function createFBVideo() {
+    //     var videoHtml = "https://www.facebook.com/video.php?v=" + videoid;
+    //     var insertVideo = "\<div id=\"fbVideo\" class=\"fb-video\" data-href=\"https://www.facebook.com/video.php?v=10152795258318553\" data-allowfullscreen=\"true\"\>
+    //         \</div\>";
+    //     document.getElementById("insert").innerHTML(insertVideo);
+    // }
+    // createFBVideo();
+    
+    function exitFullScreen() {
+        // let video = document.getElementById("fbVideo");
+        // alert(video);
+        //var videoElement = document.createElement("video");
+        //alert(videoElement);
+        //videoElement.setAttribute("webkit-playsinline","playsinline");
+        //videoElement.setAttribute("autoplay","false");
+    }
+    </script>
+    
+    <style type="text/css">
+    </style>
+    <body>
+    <!--<div id="insert"></div>-->
+    <div
+        class="fb-video"
+        data-href="ZF_VideoURL"
+        data-allowfullscreen="true">
+    </div>
+<!--    <figure>-->
+<!--        <video>-->
+<!--            <source src="https://www.facebook.com/video/embed?video_id=1553357191382851"/>-->
+<!--        </video>-->
+<!--    </figure>-->
+
+<!--    <div><button onclick="playerVideo()">player Video</button></div>-->
+<!--    <div><button onclick="stopVideo()">stop Video</button></div>-->
+<!--    <div><button onclick="getDuration()">get Duration</button></div>-->
+<!--    <div>-->
+<!--        <input id="secondInput" type="number">-->
+<!--            <button onclick="playerSeekInput()">播放输入时间</button>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <input id="inputVideoWidth" type="number">-->
+<!--            <button onclick="setVideoWidth()">输入视频宽度</button>-->
+<!--    </div>-->
+<!--    -->
+<!--    <h1 id="PlayerDuration">视频播放时间</h1>-->
+<!--    <ha id="PlayerCurrentPosition">当前播放时间</ha>-->
+    </body>
+</html>

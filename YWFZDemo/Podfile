@@ -1,0 +1,98 @@
+source 'http://gitlab.egomsl.com/learn-iOS-group/ZFNetwork.git'
+source 'http://gitlab.egomsl.com/Qianhan/IM_SDK.git'
+source 'http://gitlab.egomsl.com/GB-APP-iOS/GGRepos.git'
+source 'http://gitlab.egomsl.com/Rosegal-iOS/RGPrivatePodspec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://cdn.cocoapods.org/'
+source 'http://gitlab.egomsl.com/mobile/IOS/GFZPodspec.git'
+
+inhibit_all_warnings! #屏蔽所有warning
+platform :ios, '10.0'
+
+target :'YWZFDemo' do
+  
+    use_modular_headers!
+#    use_frameworks!
+
+    pod 'GoogleAnalytics'
+
+    pod 'GoogleSignIn'
+
+    pod 'AppsFlyerFramework', '4.10.4'
+
+    pod 'FBSDKCoreKit'
+
+    pod 'FBSDKLoginKit'
+
+    pod 'FBSDKShareKit'
+
+    pod 'Firebase/Core'
+
+    pod 'Firebase/InAppMessagingDisplay'
+    
+    pod 'Firebase/Performance'
+    
+    # FCM 推送
+    pod 'Firebase/Messaging'
+    
+    # LeandCloud推送
+    pod 'AVOSCloud' , '11.6.7'
+
+    # 如果后续需要,只需要把代码里面把代码中 相关的地方打开即可
+    # pod 'GoogleMaps', '~> 2.7.0'
+
+    pod 'pop'
+
+    pod 'AFNetworking'
+
+    pod 'Masonry'
+
+    pod 'lottie-ios', '2.5.0'
+
+    pod 'MJRefresh'
+
+    pod 'WebViewJavascriptBridge'
+    
+    pod 'PinterestSDK'
+    
+#    pod 'GrowingIO'
+    pod 'GrowingCoreKit'
+    pod 'GrowingAutoTrackKit'
+    
+    pod 'YYModel', '~> 1.0.4'
+    
+    pod 'Bugly'
+    
+#    pod 'IQKeyboardManager', '6.2.0'
+    pod 'IQKeyboardManager'
+
+    pod 'GoogleAPIClientForREST/PeopleService'
+    
+    pod 'YYImage/WebP'
+    
+    pod 'Branch', '0.30.1'
+    
+    pod 'SSZipArchive'
+    
+    pod 'GGBrainKeeper', '1.0.4'
+    
+    # ZZZZZ 私有网络库
+    pod 'ZFNetwork'
+    
+    pod 'GGAppsflyerAnalyticsSDK', '1.4.1'
+    
+
+    pod 'GlobalegrowIMSDK', '2.1.5'
+    
+    pod 'GGPaySDK', '0.27.7-release'
+    
+    pod 'ZegoLive_Debug', :configurations => ['Debug']
+    
+    pod 'ZegoLive_Release', :configurations => ['Release']
+    
+    # 俄罗斯VK: 第三方登录/分享
+    pod 'VK-ios-sdk'
+    
+end
+
+

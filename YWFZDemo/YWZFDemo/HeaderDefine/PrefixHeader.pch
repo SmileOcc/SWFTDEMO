@@ -1,0 +1,115 @@
+//
+//  PrefixHeader.pch
+//  ZZZZZ
+//
+//  Created by YW on 18/9/13.
+//  Copyright © 2018年 YW. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+//#import <UIKit/UIKit.h>
+//#import "ZFStatisticsKey.h"
+//#import "YWLocalHostManager.h"
+//#import "ZFEnumDefiner.h"
+//#import "ZFStatisticsKey.h"
+//#import "ZFPubilcKeyDefiner.h"
+//#import "ZFNotificationDefiner.h"
+//#import "ZFColorDefiner.h"
+//#import "ZFThemeManager.h"
+//#import "Constants.h"
+//#import "Configuration.h"
+//#import "ZFGAAnalyticsKeyDefiner.h"
+
+//#import "ZFNavigationController.h"
+//#import "ZFTabBarController.h"
+//#import "AppDelegate.h"
+//#import <ImageIO/ImageIO.h>
+//#import "Masonry.h"
+//#import "AFNetworking.h"
+//#import "MJRefresh.h"
+//#import "FMDB.h"
+//#import "IQKeyboardManager.h"
+
+//#import "ZFRefreshHeader.h"
+//#import "ZFRefreshFooter.h"
+
+//#import "YYText.h"
+//#import "YYModel.h"
+//#import "YYCache.h"
+//#import <YYWebImage/YYWebImage.h>
+
+//#import "SYNetwork.h"
+//#import "BCDB.h"//数据库
+
+//#import "MF_Base64Additions.h"
+//#import "RegexKitLite.h"
+//#import "NSArrayUtils.h"
+//#import "NSArray+SafeAccess.h"
+//#import "NSStringUtils.h"
+//#import "ZFProgressHUD.h"
+//字符串分类
+//#import "NSString+Extended.h"
+//#import "UITableView+FDTemplateLayoutCell.h"
+//#import "UIView+SDExtension.h"
+//#import "UIView+ZFViewCategorySet.h"
+//#import "UIViewController+ZFViewControllerCategorySet.h"
+//#import "UIButton+ZFButtonCategorySet.h"
+//用于scrollView及其子类请求为空时
+//#import "UIScrollView+ZFBlankPageView.h"
+
+//UIView辅助工具
+//#import "UIView+LayoutMethods.h"
+//#import "UIColor+ExTypeChange.h"
+
+//多语言辅助
+//#import "ZFLocalizationString.h"
+
+//崩溃修复
+//#import "NSObject+Swizzling.h"
+//#import "NSDictionary+SafeAccess.h"
+//#import "NSUserDefaults+SafeAccess.h"
+
+//统计
+//#import "ZFFireBaseAnalytics.h"
+//#import "ZFAnalytics.h"
+//#import "ZFAnalyticsTimeManager.h"
+//#import "ZFStatistics.h"
+//#import "ZFGrowingIOAnalytics.h"
+
+//阿拉伯语反向控件
+//#import "SystemConfigUtils.h"
+//购物车管理类
+//#import "CartOperationManager.h"
+//货币管理
+//#import "ExchangeManager.h"
+//#import "CategoryDataManager.h"
+//#import "AccountManager.h"
+//#import "CustomTextField.h"
+//#import "BannerManager.h"
+//#import "PostGoodsManager.h"
+//#import "BigClickAreaButton.h"
+//#import "CommunityImageLayoutView.h"
+//#import "RadioButton.h"
+//#import "ZFButton.h"
+//#import "ZF3DTouchHeader.h"
+//#import "YWCFunctionTool.h"
+//#import "ZFFrameDefiner.h"
+//#import "YSAlertView.h"
+
+//所有请求URL类
+//#import "ZFCommonRequestManager.h"
+//#import "ZFApiDefiner.h"
+//#import "ZFNetworkManager.h"
+//#import "ZFRequestModel.h"
+//#import "ZFNetwork.h"
+//#import "ZFRefreshHeader.h"
+//#import "ZFRefreshFooter.h"
+
+//#import "UINavigationItem+ZFChangeSkin.h"
+

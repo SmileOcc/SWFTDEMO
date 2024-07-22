@@ -1,0 +1,46 @@
+/* 
+  InfoPlist.strings
+  ZZZZZ
+
+  Created by zhaowei on 2017/4/5.
+  Copyright © 2018年 YW. All rights reserved.
+*/
+
+
+/**
+ * 项目中使用到的所有权限, 权限描述一定需要写明使用作用不能为空,否则审核会被拒 modify by YW
+ * 参考苹果开发文档: https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW73
+ */
+
+
+//==================================阿语文案==============================================
+
+// 通讯录权限描述
+'NSContactsUsageDescription' = 'لسماح لجهات الاتصال بالوصول لمشاركة التطبيق من خلال جهات الاتصال الخاصة بك
+';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationAlwaysUsageDescription' = 'السماح بالوصول إلى الموقع لتلقي معلومات ملء عنوان التسليم تلقائيًا (البلد والمدينة)';
+
+// 位置权限描述 (iOS 6.0 and later)
+'NSLocationUsageDescription' = 'السماح بالوصول إلى الموقع لتلقي معلومات ملء عنوان التسليم تلقائيًا (البلد والمدينة)';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationWhenInUseUsageDescription' = 'السماح بالوصول إلى الموقع لتلقي معلومات ملء عنوان التسليم تلقائيًا (البلد والمدينة)';
+
+// 相机权限描述
+'NSCameraUsageDescription' = 'السماح للكاميرا بالتقاط ملفات الصور الشخصية';
+
+// 相册权限 (iOS 11 and later)
+'NSPhotoLibraryAddUsageDescription' = 'السماح بالوصول إلى مكتبة الصور لتحميل الصور في تطبيق زافول';
+
+// 相册权限 (iOS 6.0 and later)
+'NSPhotoLibraryUsageDescription' = 'السماح بالوصول إلى مكتبة الصور لتحميل الصور في تطبيق زافول';
+
+// 麦克风权限 (LiveChat SDK 拍视频需要麦克风权限)
+'NSMicrophoneUsageDescription' = 'السماح باستخدام الميكروفون';
+
+
+// 下面的是第三方SDK内部用到的权限描述
+// 访问日历权限
+'NSCalendarsUsageDescription' = 'السماح بالوصول إلى معلومات التقويم الخاصة بك';

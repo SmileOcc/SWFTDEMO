@@ -1,0 +1,44 @@
+/* 
+  InfoPlist.strings
+  ZZZZZ
+
+  Created by zhaowei on 2017/4/5.
+  Copyright © 2018年 YW. All rights reserved.
+*/
+
+/**
+ * 项目中使用到的所有权限, 权限描述一定需要写明使用作用不能为空,否则审核会被拒 modify by YW
+ * 参考苹果开发文档: https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW73
+ */
+
+
+//==================================英语文案==============================================
+
+// 通讯录权限描述
+'NSContactsUsageDescription' = 'Allow contacts access to share app through your contacts';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationAlwaysUsageDescription' = 'Allow location access to auto-fill delivery address informations (Country, city) ';
+
+// 位置权限描述 (iOS 6.0 and later)
+'NSLocationUsageDescription' = 'Allow location access to auto-fill delivery address informations (Country, city) ';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationWhenInUseUsageDescription' = 'Allow location access to auto-fill delivery address informations (Country, city) ';
+
+// 相机权限描述
+'NSCameraUsageDescription' = 'Allow camera access to take profil photos';
+
+// 相册权限 (iOS 11 and later)
+'NSPhotoLibraryAddUsageDescription' = 'Allow photo library access to  Upload photos in ZZZZZ app';
+
+// 相册权限 (iOS 6.0 and later)
+'NSPhotoLibraryUsageDescription' = 'Allow photo library access to  Upload photos  in ZZZZZ app';
+
+// 麦克风权限 (LiveChat SDK 拍视频需要麦克风权限)
+'NSMicrophoneUsageDescription' = 'You need access to the camera permissions';
+
+
+// 下面的是第三方SDK内部用到的权限描述
+// 访问日历权限
+'NSCalendarsUsageDescription' = 'Allow to access your calendar information';

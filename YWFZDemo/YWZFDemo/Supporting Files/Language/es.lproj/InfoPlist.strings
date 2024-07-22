@@ -1,0 +1,44 @@
+/* 
+  InfoPlist.strings
+  ZZZZZ
+
+  Created by zhaowei on 2017/4/5.
+  Copyright © 2018年 YW. All rights reserved.
+*/
+
+/**
+ * 项目中使用到的所有权限, 权限描述一定需要写明使用作用不能为空,否则审核会被拒 modify by YW
+ * 参考苹果开发文档: https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW73
+ */
+
+//==================================西语文案==============================================
+
+// 通讯录权限描述
+'NSContactsUsageDescription' = 'Permitir el acceso de los contactos para compartir la app a través de contactos';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationAlwaysUsageDescription' = 'Permitir el acceso a la ubicación para autocompletar la información de la dirección de entrega (País, ciudad) ';
+
+// 位置权限描述 (iOS 6.0 and later)
+'NSLocationUsageDescription' = 'Permitir el acceso a la ubicación para autocompletar la información de la dirección de entrega (País, ciudad) ';
+
+// 位置权限描述 (iOS 8.0 and later)
+'NSLocationWhenInUseUsageDescription' = 'Permitir el acceso a la ubicación para autocompletar la información de la dirección de entrega (País, ciudad) ';
+
+// 相机权限描述
+'NSCameraUsageDescription' = 'Permitir el acceso a la cámara para tomar fotos de perfil';
+
+// 相册权限 (iOS 11 and later)
+'NSPhotoLibraryAddUsageDescription' = 'Permitir acceso a la biblioteca de fotos para Cargar fotos en la app de ZZZZZ';
+
+// 相册权限 (iOS 6.0 and later)
+'NSPhotoLibraryUsageDescription' = 'Permitir acceso a la biblioteca de fotos para Cargar fotos en la app de ZZZZZ';
+
+// 麦克风权限
+'NSMicrophoneUsageDescription' = 'Necesita acceso a los permisos de la cámara.';
+
+
+
+// 下面的是第三方SDK内部用到的权限描述
+// 访问日历权限
+'NSCalendarsUsageDescription' = 'Permitir el acceso a su información de calendario.';

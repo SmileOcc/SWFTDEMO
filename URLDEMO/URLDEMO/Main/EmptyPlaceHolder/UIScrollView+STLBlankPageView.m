@@ -301,40 +301,40 @@ static char const * const kNetworkErrorBtnTitleKey      = "kNetworkErrorBtnTitle
  @param footerBlock 上拉刷新需要调用的函数
  @param startRefreshing 是否需要立即刷新
  */
-//- (void)addCommunityHeaderRefreshBlock:(STLRefreshingBlock)headerBlock
-//           footerRefreshBlock:(STLRefreshingBlock)footerBlock
-//              startRefreshing:(BOOL)startRefreshing
-//{
-//    if (headerBlock) {
-//        @weakify(self)
-//        HCRefreshHeader *header = [HCRefreshHeader headerWithRefreshingBlock:^{
-//            @strongify(self)
-//
-//            //1.先移除页面上已有的提示视图
-//            [self removeOldTipBgView];
-//
-//            //2.每次下拉刷新时先结束上啦
-//            [self.mj_footer endRefreshing];
-//
-//            headerBlock();
-//        }];
-//        self.mj_header = header;
-//
-//        //是否需要立即刷新
-//        if (startRefreshing) {
-//            [self.mj_header beginRefreshing];
-//        }
-//    }
-//
-//    if (footerBlock) {
-//        HCRefreshAuotNormalFooter *footer = [HCRefreshAuotNormalFooter footerWithRefreshingBlock:^{
-//            footerBlock();
-//        }];
-//        self.mj_footer = footer;
-//        //这里需要先隐藏,否则已进入页面没有数据也会显示上拉View
-//        self.mj_footer.hidden = YES;
-//    }
-//}
+- (void)addCommunityHeaderRefreshBlock:(STLRefreshingBlock)headerBlock
+           footerRefreshBlock:(STLRefreshingBlock)footerBlock
+              startRefreshing:(BOOL)startRefreshing
+{
+    if (headerBlock) {
+        @weakify(self)
+        HCRefreshHeader *header = [HCRefreshHeader headerWithRefreshingBlock:^{
+            @strongify(self)
+
+            //1.先移除页面上已有的提示视图
+            [self removeOldTipBgView];
+
+            //2.每次下拉刷新时先结束上啦
+            [self.mj_footer endRefreshing];
+
+            headerBlock();
+        }];
+        self.mj_header = header;
+
+        //是否需要立即刷新
+        if (startRefreshing) {
+            [self.mj_header beginRefreshing];
+        }
+    }
+
+    if (footerBlock) {
+        HCRefreshAuotNormalFooter *footer = [HCRefreshAuotNormalFooter footerWithRefreshingBlock:^{
+            footerBlock();
+        }];
+        self.mj_footer = footer;
+        //这里需要先隐藏,否则已进入页面没有数据也会显示上拉View
+        self.mj_footer.hidden = YES;
+    }
+}
 
 /**
  社区页面初始化表格的上下拉刷新控件

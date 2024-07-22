@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:zaful.onelink.me</string>
+		<string>applinks:ZZZZZ.app.link</string>
+		<string>applinks:zaful-alternate.app.link</string>
+		<string>applinks:goto.zaful.com</string>
+		<string>applinks:gotoaws.zaful.com</string>
+	</array>
+	<key>com.apple.developer.in-app-payments</key>
+	<array>
+		<string>merchant.ZAFUL.TEST</string>
+		<string>merchant.ZAFUL</string>
+	</array>
+	<key>com.apple.developer.networking.multipath</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.zaful.Zaful</string>
+	</array>
+</dict>
+</plist>
